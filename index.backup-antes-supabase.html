@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalyst</title>
+</head> 
+<link rel="stylesheet" href="style.css">
+
+<body>
+<div class="logo-loja">
+    <img
+        src="assets/logo/logo-cantinho-bom.jpg"
+        alt="Cantinho Bom — Empório de Produtos Naturais e Café"
+    >
+</div>
+    
+
+    <main>
+
+        <section class="busca">
+            <input 
+                type="search" 
+                id="campoBusca" 
+                placeholder="Pesquisar produtos..."
+            >
+        </section>
+
+        <section class="categorias">
+            <h2>Categorias</h2>
+
+            <div id="listaCategorias">
+                <!-- As categorias aparecerão aqui -->
+            </div>
+        </section>
+
+        <section class="produtos">
+            <h2>Produtos</h2>
+
+            <div id="listaProdutos">
+                <!-- Os produtos aparecerão aqui -->
+            </div>
+        </section>
+
+
+        </main>
+
+    <button
+        id="abrirCarrinho"
+        aria-label="Abrir carrinho"
+    >
+        🛒
+        <span id="contador-flutuante">0</span>
+    </button>
+
+
+
+    <aside id="carrinho">
+
+    <div class="cabecalho-carrinho">
+
+        <h2>Seu carrinho</h2>
+
+        <button
+            id="fecharCarrinho"
+            aria-label="Fechar carrinho"
+        >
+            ×
+        </button>
+
+    </div>
+
+    <div class="contador-carrinho">
+        <span id="contador-carrinho">0</span>
+        <span>itens</span>
+    </div>
+
+    <div id="itensCarrinho">
+        <!-- Os produtos escolhidos aparecerão aqui -->
+    </div>
+
+    <div class="rodape-carrinho">
+
+        <p>
+            Total
+            <strong id="totalCarrinho">
+                R$ 0,00
+            </strong>
+        </p>
+
+        <button id="finalizarWhatsApp">
+            Finalizar pelo WhatsApp
+        </button>
+
+    </div>
+
+</aside>
+
+    <footer>
+        <p>Catalyst — Catálogo Inteligente</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

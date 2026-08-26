@@ -1,0 +1,82 @@
+[
+    {
+        "produto": "Havanna Dulce de Leche ZERO",
+        "url": "https://images.tcdn.com.br/img/img_prod/1305881/nutrata_whey_grego_havanna_zero_40g_display_c_12_b_1_20260518103907_f99c2a72e9b3.jpg",
+        "motivo": "Imagem é da versão ZERO; não atribuir ao Havanna Legítimo Dulce de Leche sem confirmação."
+    },
+    {
+        "produto": "Imagem não identificada",
+        "url": "https://acdn-us.mitiendanube.com/stores/005/697/238/products/01-claim_proteina-yk11jp4dw2-76b8f8a4e4e4f80ab817455294026936-1024-1024.webp",
+        "motivo": "URL sem identificação suficiente para atribuição segura."
+    },
+    {
+        "produto": "Imagem não identificada",
+        "url": "https://acdn-us.mitiendanube.com/stores/005/697/238/products/01-claim_proteina-1-68u52zgtrr-c2865b714263b24b6a17455293640168-1024-1024.webp",
+        "motivo": "URL sem identificação suficiente para atribuição segura."
+    },
+    {
+        "produto": "Imagem não identificada",
+        "url": "https://storetheme.vtexassets.com/unsafe/800x800/center/middle/https%3A%2F%2Fsantaluzia.vtexassets.com%2Farquivos%2Fids%2F1005943%2F3030490.png%3Fv%3D639066075750130000",
+        "motivo": "URL sem identificação suficiente para atribuição segura."
+    },
+    {
+        "produto": "Mel & Alho — 160g",
+        "url": null,
+        "motivo": "Usuário decidiu buscar diretamente com o fornecedor."
+    },
+    {
+        "produto": "Bisco Light — Coco Branco com Pistache — 150g",
+        "url": null,
+        "motivo": "Nenhuma imagem comercial localizada."
+    },
+    {
+        "produto": "Bisco Light — Churros — 150g",
+        "url": null,
+        "motivo": "Nenhuma imagem comercial localizada."
+    },
+    {
+        "produto": "Imagem de banana não identificada",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_980633-MLU74856669935_032024-F.webp",
+        "motivo": "URL sem identificação suficiente."
+    },
+    {
+        "produto": "Imagem de banana não identificada",
+        "url": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/lojalatamfit/media/uploads/produtos/foto/wazeqaef/pk-banana-com-choco.png",
+        "motivo": "Possível produto de banana/chocolate; não atribuir sem confirmação."
+    },
+    {
+        "produto": "Imagem não identificada",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_960211-MLB82080120847_012025-F.webp",
+        "motivo": "URL sem identificação suficiente."
+    },
+    {
+        "produto": "Imagem de banana/chocolate não identificada",
+        "url": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/lojalatamfit/media/uploads/produtos/foto/ubzekved/pk-banana-com-choco.png",
+        "motivo": "Possível duplicata/variação; não atribuir automaticamente."
+    },
+    {
+        "produto": "Imagem não identificada",
+        "url": "https://http2.mlstatic.com/D_Q_NP_2X_879214-MLA97929548148_112025-F.webp",
+        "motivo": "URL sem identificação suficiente."
+    },
+    {
+        "produto": "Óleo de Linhaça — 1000mg — 100 cápsulas",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_647596-MLB46783522215_072021-F-oleo-de-linhaca-1000-mg-100-capsulas--chamed.webp",
+        "motivo": "Produto não encontrado no produtos.json"
+    },
+    {
+        "produto": "Chlorella — 500mg — 100 cápsulas",
+        "url": "https://images.tcdn.com.br/img/img_prod/745295/clorella_500mg_100_capsulas_chamel_1471_1_d5dba0cf7602694eb87997256f2f7d93.jpg",
+        "motivo": "Produto não encontrado no produtos.json"
+    },
+    {
+        "produto": "Amora — 600mg — 100 cápsulas",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_700267-MLB113423757163_062026-F-amora-100-capsulas-600mg-chamel.webp",
+        "motivo": "Produto não encontrado no produtos.json"
+    },
+    {
+        "produto": "Mulungu — 500mg — 60 cápsulas",
+        "url": "https://images.tcdn.com.br/img/img_prod/971897/mulungu_em_cpsula_500mg_60caps_ninho_verde_1_20260303153558_b71506d145d1.jpg",
+        "motivo": "Produto não encontrado no produtos.json"
+    }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "nome_normalizado": "cafe bossa nova",
+    "quantidade": 2,
+    "produtos": [
+      {
+        "indice": 159,
+        "id": 160,
+        "nome": "Café Bossa Nova",
+        "categoria": "Cafés",
+        "preco": 59.9,
+        "peso": "500 g",
+        "unidade": "1 unidade",
+        "codigo": "",
+        "imagem": "https://zingrao.com.br/collections/cafes"
+      },
+      {
+        "indice": 160,
+        "id": 161,
+        "nome": "Café Bossa Nova",
+        "categoria": "Cafés",
+        "preco": 30,
+        "peso": "250 g",
+        "unidade": "1 unidade",
+        "codigo": "",
+        "imagem": ""
+      }
+    ]
+  },
+  {
+    "nome_normalizado": "oleo de coco copra extravirgem",
+    "quantidade": 2,
+    "produtos": [
+      {
+        "indice": 167,
+        "id": 168,
+        "nome": "Óleo de Coco Copra Extravirgem",
+        "categoria": "Óleos",
+        "preco": 64.9,
+        "peso": "500 ml",
+        "unidade": "1 unidade",
+        "codigo": "",
+        "imagem": "https://copra.com.br/wp-content/uploads/2020/05/copra_banner_oleoextravirgem_proteste__X_X_X_XX_X.jpg"
+      },
+      {
+        "indice": 168,
+        "id": 169,
+        "nome": "Óleo de Coco Copra Extravirgem",
+        "categoria": "Óleos",
+        "preco": 29.9,
+        "peso": "200 ml",
+        "unidade": "1 unidade",
+        "codigo": "",
+        "imagem": "https://copra.com.br/wp-content/uploads/2020/05/copra_banner_oleoextravirgem_proteste__X_X_X_XX_X.jpg"
+      }
+    ]
+  },
+  {
+    "nome_normalizado": "oleo de coco copra sem sabor e sem cheiro",
+    "quantidade": 2,
+    "produtos": [
+      {
+        "indice": 169,
+        "id": 170,
+        "nome": "Óleo de Coco Copra sem Sabor e sem Cheiro",
+        "categoria": "Óleos",
+        "preco": 25,
+        "peso": "200 ml",
+        "unidade": "1 unidade",
+        "codigo": "",
+        "imagem": "https://atacadaomaromba.fbitsstatic.net/img/p/oleo-de-coco-sem-sabor-500ml-copra-152027/343788.jpg?w=710&h=710&v=202604101603"
+      },
+      {
+        "indice": 170,
+        "id": 171,
+        "nome": "Óleo de Coco Copra sem Sabor e sem Cheiro",
+        "categoria": "Óleos",
+        "preco": 51.9,
+        "peso": "500 ml",
+        "unidade": "1 unidade",
+        "codigo": "",
+        "imagem": "https://copra.com.br/wp-content/uploads/2025/02/copra_AguaDeCoco1L.png"
+      }
+    ]
+  },
+  {
+    "nome_normalizado": "oleo de coco santo oleo extravirgem",
+    "quantidade": 2,
+    "produtos": [
+      {
+        "indice": 171,
+        "id": 172,
+        "nome": "Óleo de Coco Santo Óleo Extravirgem",
+        "categoria": "Óleos",
+        "preco": 28,
+        "peso": "200 ml",
+        "unidade": "1 unidade",
+        "codigo": "",
+        "imagem": "https://loja.santooleo.com.br/cdn/shop/files/oleo-de-coco-extravirgem-da-pelicula-500ml.png"
+      },
+      {
+        "indice": 172,
+        "id": 173,
+        "nome": "Óleo de Coco Santo Óleo Extravirgem",
+        "categoria": "Óleos",
+        "preco": 54.9,
+        "peso": "500 ml",
+        "unidade": "1 unidade",
+        "codigo": "",
+        "imagem": "https://loja.santooleo.com.br/cdn/shop/files/oleo-de-coco-extravirgem-da-pelicula-500ml.png"
+      }
+    ]
+  },
+  {
+    "nome_normalizado": "sal marinho integral de mossoro",
+    "quantidade": 2,
+    "produtos": [
+      {
+        "indice": 182,
+        "id": 183,
+        "nome": "Sal Marinho Integral de Mossoró",
+        "categoria": "Sais",
+        "preco": 12,
+        "peso": "500 g",
+        "unidade": "1 unidade",
+        "codigo": "",
+        "imagem": "https://www.loja.brspices.com.br/media/catalog/product/s/a/sal_marinho_integral_mossoro_500g.jpg"
+      },
+      {
+        "indice": 183,
+        "id": 184,
+        "nome": "Sal Marinho Integral de Mossoró",
+        "categoria": "Sais",
+        "preco": 20,
+        "peso": "1 kg",
+        "unidade": "1 unidade",
+        "codigo": "",
+        "imagem": "https://www.loja.brspices.com.br/media/catalog/product/s/a/sal_marinho_integral_mossoro_500g.jpg"
+      }
+    ]
+  },
+  {
+    "nome_normalizado": "cebola alho e salsa",
+    "quantidade": 2,
+    "produtos": [
+      {
+        "indice": 320,
+        "id": 281,
+        "nome": "Cebola, Alho e Salsa",
+        "categoria": "Temperos e Especiarias",
+        "preco": 7.9,
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "309",
+        "imagem": "https://images.tcdn.com.br/img/img_prod/758670/cebola_salsa_alho_100g.jpg"
+      },
+      {
+        "indice": 330,
+        "id": 321,
+        "nome": "Cebola, Alho e Salsa",
+        "categoria": "Temperos Naturais",
+        "preco": 7.9,
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "309",
+        "imagem": "https://cdn.awsli.com.br/2500x2500/1445/1445920844/produto/222982148/tempero-cebola-alho-e-salsa-1kg.jpg"
+      }
+    ]
+  },
+  {
+    "nome_normalizado": "cebola granulada",
+    "quantidade": 2,
+    "produtos": [
+      {
+        "indice": 321,
+        "id": 282,
+        "nome": "Cebola Granulada",
+        "categoria": "Temperos e Especiarias",
+        "preco": 7.9,
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "387",
+        "imagem": "https://cdnhuawei.lojavirtuolpro.com/sscondimentos/produto/multifotos/hd/20250214111420_6115993885_DZ.webp"
+      },
+      {
+        "indice": 331,
+        "id": 322,
+        "nome": "Cebola Granulada",
+        "categoria": "Temperos Naturais",
+        "preco": 7.9,
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "387",
+        "imagem": "https://cdn.awsli.com.br/2500x2500/2600/2600061/produto/217497456/cebola-granulada.jpg"
+      }
+    ]
+  },
+  {
+    "nome_normalizado": "tempero edu guedes",
+    "quantidade": 2,
+    "produtos": [
+      {
+        "indice": 322,
+        "id": 283,
+        "nome": "Tempero Edu Guedes",
+        "categoria": "Temperos e Especiarias",
+        "preco": 7.9,
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "147",
+        "imagem": ""
+      },
+      {
+        "indice": 332,
+        "id": 323,
+        "nome": "Tempero Edu Guedes",
+        "categoria": "Temperos Naturais",
+        "preco": 7.9,
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "147",
+        "imagem": "https://static.wixstatic.com/media/068dc8_337467b9bd8f47319543c793407d39f4~mv2.png/v1/fill/w_544%2Ch_544%2Cal_c%2Clg_1%2Cq_85%2Cenc_avif%2Cquality_auto/068dc8_337467b9bd8f47319543c793407d39f4~mv2.png"
+      }
+    ]
+  },
+  {
+    "nome_normalizado": "oregano",
+    "quantidade": 2,
+    "produtos": [
+      {
+        "indice": 324,
+        "id": 285,
+        "nome": "Orégano",
+        "categoria": "Temperos e Especiarias",
+        "preco": 7.9,
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "28",
+        "imagem": "https://www.bernardoalimentos.com.br/produtos/c560e2eb4580913c542025272286f1e1.png"
+      },
+      {
+        "indice": 334,
+        "id": 325,
+        "nome": "Orégano",
+        "categoria": "Temperos Naturais",
+        "preco": 7.9,
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "28",
+        "imagem": "https://www.mika.com.br/wp-content/uploads/2024/01/oregano-100g.jpg"
+      }
+    ]
+  },
+  {
+    "nome_normalizado": "tempero gaucho",
+    "quantidade": 2,
+    "produtos": [
+      {
+        "indice": 325,
+        "id": 286,
+        "nome": "Tempero Gaúcho",
+        "categoria": "Temperos e Especiarias",
+        "preco": 7,
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "310",
+        "imagem": "https://images.tcdn.com.br/img/img_prod/764158/tempero_gaucho_150g_793_1_962087a94bbd1f11e179547d9e0e8daf.png"
+      },
+      {
+        "indice": 335,
+        "id": 326,
+        "nome": "Tempero Gaúcho",
+        "categoria": "Temperos Naturais",
+        "preco": 7,
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "310",
+        "imagem": "https://cdn.awsli.com.br/2500x2500/2600/2600061/produto/217497456d2c462ef8c.jpg"
+      }
+    ]
+  }
+]

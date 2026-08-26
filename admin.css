@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+header small {
+    color: #aaa;
+}
+
+header button {
+    background: white;
+    border: 0;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1400px;
+    margin: auto;
+    padding: 25px;
+}
+
+.resumo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.resumo div {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.resumo span {
+    display: block;
+    color: #777;
+}
+
+.resumo strong {
+    font-size: 30px;
+}
+
+.barra {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.barra input {
+    flex: 1;
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.barra button {
+    background: #111;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.tabela {
+    background: white;
+    border-radius: 12px;
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 13px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+    white-space: nowrap;
+}
+
+th {
+    color: #666;
+    font-size: 13px;
+}
+
+.editar {
+    background: #eee;
+}
+
+.excluir {
+    background: #f3dddd;
+    color: #922;
+}
+
+.status {
+    padding: 5px 9px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.ok {
+    background: #e4f5e9;
+    color: #18743a;
+}
+
+.off {
+    background: #f5e1e1;
+    color: #922;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: #0008;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+#modal.aberto {
+    display: flex;
+}
+
+.modal-box {
+    background: white;
+    width: min(650px, 100%);
+    max-height: 95vh;
+    overflow: auto;
+    border-radius: 14px;
+    padding: 25px;
+    position: relative;
+}
+
+.modal-box > button {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    background: none;
+    border: 0;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    margin: 12px 0;
+    font-weight: bold;
+}
+
+label input,
+label textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+}
+
+label textarea {
+    min-height: 80px;
+}
+
+.dupla {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.check {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.check input {
+    width: auto;
+}
+
+.acoes {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.acoes button {
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.acoes button:last-child {
+    background: #111;
+    color: white;
+}
+
+@media (max-width: 700px) {
+
+    .resumo {
+        grid-template-columns: 1fr;
+    }
+
+    .dupla {
+        grid-template-columns: 1fr;
+    }
+}

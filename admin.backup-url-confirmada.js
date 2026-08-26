@@ -1,0 +1,412 @@
+const SUPABASE_URL =
+    "https://dgmayntwsxietmmaxx.supabase.co";
+
+const SUPABASE_KEY =
+    "sb_publishable_93yBqwhbdT45ac0ib2pvpg_g05EJGla";
+
+const db =
+    window.supabase.createClient(
+        SUPABASE_URL,
+        SUPABASE_KEY
+    );
+
+let produtos = [];
+
+const $ = id =>
+    document.getElementById(id);
+
+
+async function iniciar() {
+
+    const {
+        data: { session }
+    } = await db.auth.getSession();
+
+    if (!session) {
+        location.href = "admin.html";
+        return;
+    }
+
+    carregar();
+}
+
+
+async function carregar() {
+
+    $("mensagem").textContent =
+        "Carregando produtos...";
+
+    const { data, error } =
+        await db
+            .from("produtos")
+            .select("*")
+            .order("id");
+
+    if (error) {
+
+        $("mensagem").textContent =
+            "Erro: " + error.message;
+
+        console.error(error);
+
+        return;
+    }
+
+    produtos = data || [];
+
+    $("total").textContent =
+        produtos.length;
+
+    $("ativos").textContent =
+        produtos.filter(p => p.ativo).length;
+
+    $("inativos").textContent =
+        produtos.filter(p => !p.ativo).length;
+
+    render();
+
+    $("mensagem").textContent =
+        produtos.length +
+        " produtos carregados.";
+}
+
+
+function render() {
+
+    const termo =
+        $("busca").value
+            .toLowerCase()
+            .trim();
+
+    const lista =
+        produtos.filter(p => {
+
+            const texto = [
+                p.nome,
+                p.categoria,
+                p.marca,
+                p.codigo
+            ]
+                .filter(Boolean)
+                .join(" ")
+                .toLowerCase();
+
+            return texto.includes(termo);
+        });
+
+    $("lista").innerHTML =
+        lista.map(p => {
+
+            const preco =
+                Number(p.preco || 0)
+                    .toLocaleString(
+                        "pt-BR",
+                        {
+                            style: "currency",
+                            currency: "BRL"
+                        }
+                    );
+
+            return `
+                <tr>
+
+                    <td>${p.id}</td>
+
+                    <td>
+                        <b>${esc(p.nome)}</b>
+                    </td>
+
+                    <td>
+                        ${esc(p.categoria || "—")}
+                    </td>
+
+                    <td>
+                        ${preco}
+                    </td>
+
+                    <td>
+                        <span class="status ${p.ativo ? "ok" : "off"}">
+                            ${p.ativo ? "Ativo" : "Inativo"}
+                        </span>
+                    </td>
+
+                    <td>
+
+                        <button
+                            class="editar"
+                            onclick="editar(${p.id})"
+                        >
+                            Editar
+                        </button>
+
+                        <button
+                            class="excluir"
+                            onclick="excluir(${p.id})"
+                        >
+                            Excluir
+                        </button>
+
+                    </td>
+
+                </tr>
+            `;
+
+        }).join("")
+        ||
+        "<tr><td colspan='6'>Nenhum produto encontrado.</td></tr>";
+}
+
+
+function esc(valor) {
+
+    return String(valor)
+        .replace(/[&<>"']/g, caractere => {
+
+            const mapa = {
+                "&": "&amp;",
+                "<": "&lt;",
+                ">": "&gt;",
+                '"': "&quot;",
+                "'": "&#039;"
+            };
+
+            return mapa[caractere];
+
+        });
+}
+
+
+function abrir(produto) {
+
+    $("id").value =
+        produto?.id || "";
+
+    $("nome").value =
+        produto?.nome || "";
+
+    $("descricao").value =
+        produto?.descricao || "";
+
+    $("preco").value =
+        produto?.preco ?? "";
+
+    $("preco_anterior").value =
+        produto?.preco_anterior ?? "";
+
+    $("marca").value =
+        produto?.marca || "";
+
+    $("categoria").value =
+        produto?.categoria || "";
+
+    $("peso").value =
+        produto?.peso || "";
+
+    $("unidade").value =
+        produto?.unidade || "";
+
+    $("codigo").value =
+        produto?.codigo || "";
+
+    $("imagem").value =
+        produto?.imagem || "";
+
+    $("ativo").checked =
+        produto
+            ? produto.ativo !== false
+            : true;
+
+    $("destaque").checked =
+        produto?.destaque === true;
+
+    $("titulo").textContent =
+        produto
+            ? "Editar produto"
+            : "Novo produto";
+
+    $("modal")
+        .classList
+        .add("aberto");
+}
+
+
+window.editar = id => {
+
+    const produto =
+        produtos.find(
+            p => Number(p.id) === Number(id)
+        );
+
+    if (produto) {
+        abrir(produto);
+    }
+};
+
+
+window.excluir = async id => {
+
+    const produto =
+        produtos.find(
+            p => Number(p.id) === Number(id)
+        );
+
+    if (
+        !produto ||
+        !confirm(
+            "Excluir " +
+            produto.nome +
+            "?"
+        )
+    ) {
+        return;
+    }
+
+    const { error } =
+        await db
+            .from("produtos")
+            .delete()
+            .eq("id", id);
+
+    if (error) {
+
+        alert(error.message);
+
+        return;
+    }
+
+    carregar();
+};
+
+
+$("form").onsubmit =
+    async evento => {
+
+        evento.preventDefault();
+
+        const id =
+            $("id").value;
+
+        const dados = {
+
+            nome:
+                $("nome")
+                    .value
+                    .trim(),
+
+            descricao:
+                $("descricao")
+                    .value
+                    .trim(),
+
+            preco:
+                Number(
+                    $("preco").value
+                ),
+
+            preco_anterior:
+                $("preco_anterior").value
+                    ? Number(
+                        $("preco_anterior").value
+                    )
+                    : null,
+
+            marca:
+                $("marca")
+                    .value
+                    .trim()
+                    || null,
+
+            categoria:
+                $("categoria")
+                    .value
+                    .trim(),
+
+            peso:
+                $("peso")
+                    .value
+                    .trim()
+                    || null,
+
+            unidade:
+                $("unidade")
+                    .value
+                    .trim()
+                    || null,
+
+            codigo:
+                $("codigo")
+                    .value
+                    .trim()
+                    || null,
+
+            imagem:
+                $("imagem")
+                    .value
+                    .trim()
+                    || null,
+
+            ativo:
+                $("ativo").checked,
+
+            destaque:
+                $("destaque").checked
+        };
+
+        const resultado = id
+
+            ? await db
+                .from("produtos")
+                .update(dados)
+                .eq("id", id)
+
+            : await db
+                .from("produtos")
+                .insert(dados);
+
+        if (resultado.error) {
+
+            alert(
+                resultado.error.message
+            );
+
+            return;
+        }
+
+        fechar();
+
+        carregar();
+    };
+
+
+function fechar() {
+
+    $("modal")
+        .classList
+        .remove("aberto");
+}
+
+
+$("fechar").onclick =
+    fechar;
+
+$("cancelar").onclick =
+    fechar;
+
+$("novo").onclick =
+    () => abrir();
+
+$("busca").oninput =
+    render;
+
+
+$("sair").onclick =
+    async () => {
+
+        await db.auth.signOut();
+
+        location.href =
+            "admin.html";
+    };
+
+
+iniciar();

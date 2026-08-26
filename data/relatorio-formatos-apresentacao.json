@@ -1,0 +1,574 @@
+{
+  "resumo": {
+    "registros_analisados": 419,
+    "formatos_peso": 44,
+    "formatos_unidade": 25,
+    "combinacoes_apresentacao": 71
+  },
+  "pesos": [
+    {
+      "valor": "100 g",
+      "quantidade": 164
+    },
+    {
+      "valor": "(vazio)",
+      "quantidade": 64
+    },
+    {
+      "valor": "100",
+      "quantidade": 56
+    },
+    {
+      "valor": "100g",
+      "quantidade": 37
+    },
+    {
+      "valor": "200 g",
+      "quantidade": 10
+    },
+    {
+      "valor": "500 g",
+      "quantidade": 8
+    },
+    {
+      "valor": "35 g",
+      "quantidade": 7
+    },
+    {
+      "valor": "25 g",
+      "quantidade": 6
+    },
+    {
+      "valor": "160 g",
+      "quantidade": 5
+    },
+    {
+      "valor": "150 g",
+      "quantidade": 5
+    },
+    {
+      "valor": "50 g",
+      "quantidade": 4
+    },
+    {
+      "valor": "30 ml",
+      "quantidade": 4
+    },
+    {
+      "valor": "320 g",
+      "quantidade": 4
+    },
+    {
+      "valor": "45 g",
+      "quantidade": 3
+    },
+    {
+      "valor": "500 ml",
+      "quantidade": 3
+    },
+    {
+      "valor": "200 ml",
+      "quantidade": 3
+    },
+    {
+      "valor": "1 kg",
+      "quantidade": 3
+    },
+    {
+      "valor": "125 g",
+      "quantidade": 2
+    },
+    {
+      "valor": "30 g",
+      "quantidade": 2
+    },
+    {
+      "valor": "500 mg",
+      "quantidade": 2
+    },
+    {
+      "valor": "65 g",
+      "quantidade": 2
+    },
+    {
+      "valor": "250 ml",
+      "quantidade": 2
+    },
+    {
+      "valor": "260 g",
+      "quantidade": 2
+    },
+    {
+      "valor": "140 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "350 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "300 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "220 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "40 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "67 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "17 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "22 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "49 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "324 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "1000 mg",
+      "quantidade": 1
+    },
+    {
+      "valor": "600 mg",
+      "quantidade": 1
+    },
+    {
+      "valor": "230 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "60 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "5 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "80 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "250 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "340 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "170 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "330 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "1 unidade",
+      "quantidade": 1
+    }
+  ],
+  "unidades": [
+    {
+      "valor": "1 unidade",
+      "quantidade": 141
+    },
+    {
+      "valor": "(vazio)",
+      "quantidade": 79
+    },
+    {
+      "valor": "g",
+      "quantidade": 66
+    },
+    {
+      "valor": "100 g",
+      "quantidade": 63
+    },
+    {
+      "valor": "1 embalagem",
+      "quantidade": 19
+    },
+    {
+      "valor": "30 g",
+      "quantidade": 17
+    },
+    {
+      "valor": "1 sachê",
+      "quantidade": 5
+    },
+    {
+      "valor": "1 frasco",
+      "quantidade": 4
+    },
+    {
+      "valor": "60 unidades",
+      "quantidade": 4
+    },
+    {
+      "valor": "100 cápsulas",
+      "quantidade": 3
+    },
+    {
+      "valor": "5 unidades",
+      "quantidade": 2
+    },
+    {
+      "valor": "2 unidades",
+      "quantidade": 2
+    },
+    {
+      "valor": "12 unidades",
+      "quantidade": 2
+    },
+    {
+      "valor": "aprox. 9 unidades",
+      "quantidade": 1
+    },
+    {
+      "valor": "aprox. 8 unidades",
+      "quantidade": 1
+    },
+    {
+      "valor": "4 unidades",
+      "quantidade": 1
+    },
+    {
+      "valor": "6 unidades",
+      "quantidade": 1
+    },
+    {
+      "valor": "10 sachês",
+      "quantidade": 1
+    },
+    {
+      "valor": "1 pote",
+      "quantidade": 1
+    },
+    {
+      "valor": "60 cápsulas",
+      "quantidade": 1
+    },
+    {
+      "valor": "caixa com 12 unidades",
+      "quantidade": 1
+    },
+    {
+      "valor": "13 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "15 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "50 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "70 g",
+      "quantidade": 1
+    }
+  ],
+  "combinacoes": [
+    {
+      "valor": "100 g | 1 unidade",
+      "quantidade": 75
+    },
+    {
+      "valor": "100 | g",
+      "quantidade": 56
+    },
+    {
+      "valor": "100 g | (vazio)",
+      "quantidade": 39
+    },
+    {
+      "valor": "100 g | 100 g",
+      "quantidade": 37
+    },
+    {
+      "valor": "100g | (vazio)",
+      "quantidade": 27
+    },
+    {
+      "valor": "(vazio) | 100 g",
+      "quantidade": 26
+    },
+    {
+      "valor": "(vazio) | 30 g",
+      "quantidade": 17
+    },
+    {
+      "valor": "100 g | 1 embalagem",
+      "quantidade": 13
+    },
+    {
+      "valor": "(vazio) | 1 unidade",
+      "quantidade": 11
+    },
+    {
+      "valor": "100g | g",
+      "quantidade": 10
+    },
+    {
+      "valor": "500 g | 1 unidade",
+      "quantidade": 8
+    },
+    {
+      "valor": "200 g | 1 unidade",
+      "quantidade": 5
+    },
+    {
+      "valor": "25 g | 1 unidade",
+      "quantidade": 5
+    },
+    {
+      "valor": "35 g | 1 sachê",
+      "quantidade": 5
+    },
+    {
+      "valor": "50 g | (vazio)",
+      "quantidade": 4
+    },
+    {
+      "valor": "(vazio) | 60 unidades",
+      "quantidade": 4
+    },
+    {
+      "valor": "320 g | 1 unidade",
+      "quantidade": 4
+    },
+    {
+      "valor": "160 g | 1 embalagem",
+      "quantidade": 3
+    },
+    {
+      "valor": "30 ml | 1 frasco",
+      "quantidade": 3
+    },
+    {
+      "valor": "500 ml | 1 unidade",
+      "quantidade": 3
+    },
+    {
+      "valor": "200 ml | 1 unidade",
+      "quantidade": 3
+    },
+    {
+      "valor": "1 kg | 1 unidade",
+      "quantidade": 3
+    },
+    {
+      "valor": "200 g | 1 embalagem",
+      "quantidade": 2
+    },
+    {
+      "valor": "125 g | 2 unidades",
+      "quantidade": 2
+    },
+    {
+      "valor": "150 g | (vazio)",
+      "quantidade": 2
+    },
+    {
+      "valor": "30 g | (vazio)",
+      "quantidade": 2
+    },
+    {
+      "valor": "45 g | 1 unidade",
+      "quantidade": 2
+    },
+    {
+      "valor": "150 g | 1 unidade",
+      "quantidade": 2
+    },
+    {
+      "valor": "65 g | 1 unidade",
+      "quantidade": 2
+    },
+    {
+      "valor": "250 ml | 1 unidade",
+      "quantidade": 2
+    },
+    {
+      "valor": "260 g | 1 unidade",
+      "quantidade": 2
+    },
+    {
+      "valor": "140 g | 1 embalagem",
+      "quantidade": 1
+    },
+    {
+      "valor": "350 g | 5 unidades",
+      "quantidade": 1
+    },
+    {
+      "valor": "300 g | (vazio)",
+      "quantidade": 1
+    },
+    {
+      "valor": "200 g | aprox. 9 unidades",
+      "quantidade": 1
+    },
+    {
+      "valor": "200 g | aprox. 8 unidades",
+      "quantidade": 1
+    },
+    {
+      "valor": "200 g | 4 unidades",
+      "quantidade": 1
+    },
+    {
+      "valor": "220 g | 6 unidades",
+      "quantidade": 1
+    },
+    {
+      "valor": "150 g | 5 unidades",
+      "quantidade": 1
+    },
+    {
+      "valor": "45 g | (vazio)",
+      "quantidade": 1
+    },
+    {
+      "valor": "40 g | (vazio)",
+      "quantidade": 1
+    },
+    {
+      "valor": "25 g | (vazio)",
+      "quantidade": 1
+    },
+    {
+      "valor": "67 g | (vazio)",
+      "quantidade": 1
+    },
+    {
+      "valor": "17 g | 1 unidade",
+      "quantidade": 1
+    },
+    {
+      "valor": "22 g | 1 unidade",
+      "quantidade": 1
+    },
+    {
+      "valor": "49 g | 1 unidade",
+      "quantidade": 1
+    },
+    {
+      "valor": "324 g | 12 unidades",
+      "quantidade": 1
+    },
+    {
+      "valor": "35 g | 10 sachês",
+      "quantidade": 1
+    },
+    {
+      "valor": "160 g | 1 pote",
+      "quantidade": 1
+    },
+    {
+      "valor": "(vazio) | 1 frasco",
+      "quantidade": 1
+    },
+    {
+      "valor": "1000 mg | 100 cápsulas",
+      "quantidade": 1
+    },
+    {
+      "valor": "500 mg | 100 cápsulas",
+      "quantidade": 1
+    },
+    {
+      "valor": "(vazio) | 12 unidades",
+      "quantidade": 1
+    },
+    {
+      "valor": "500 mg | 60 cápsulas",
+      "quantidade": 1
+    },
+    {
+      "valor": "600 mg | 100 cápsulas",
+      "quantidade": 1
+    },
+    {
+      "valor": "35 g | caixa com 12 unidades",
+      "quantidade": 1
+    },
+    {
+      "valor": "230 g | 1 unidade",
+      "quantidade": 1
+    },
+    {
+      "valor": "60 g | 1 unidade",
+      "quantidade": 1
+    },
+    {
+      "valor": "5 g | 1 unidade",
+      "quantidade": 1
+    },
+    {
+      "valor": "80 g | 1 unidade",
+      "quantidade": 1
+    },
+    {
+      "valor": "250 g | 1 unidade",
+      "quantidade": 1
+    },
+    {
+      "valor": "340 g | 1 unidade",
+      "quantidade": 1
+    },
+    {
+      "valor": "160 g | 1 unidade",
+      "quantidade": 1
+    },
+    {
+      "valor": "170 g | 1 unidade",
+      "quantidade": 1
+    },
+    {
+      "valor": "330 g | 1 unidade",
+      "quantidade": 1
+    },
+    {
+      "valor": "30 ml | 1 unidade",
+      "quantidade": 1
+    },
+    {
+      "valor": "(vazio) | 13 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "(vazio) | 15 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "(vazio) | 50 g",
+      "quantidade": 1
+    },
+    {
+      "valor": "1 unidade | 1 unidade",
+      "quantidade": 1
+    },
+    {
+      "valor": "(vazio) | 70 g",
+      "quantidade": 1
+    }
+  ]
+}
