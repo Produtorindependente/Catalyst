@@ -7,7 +7,14 @@ const SUPABASE_KEY =
 const db =
     window.supabase.createClient(
         SUPABASE_URL,
-        SUPABASE_KEY
+        SUPABASE_KEY,
+        {
+            auth: {
+                persistSession: true,
+                autoRefreshToken: true,
+                detectSessionInUrl: false
+            }
+        }
     );
 
 let produtos = [];
@@ -16,33 +23,9 @@ const $ = id =>
     document.getElementById(id);
 
 
-async function iniciar() {
-
-    mostrarLogin();
-
-    try {
-
-        const {
-            data,
-            error
-        } = await db.auth.getSession();
-
-        if (error) {
-            console.error("Erro ao verificar sessão:", error);
-            return;
-        }
-
-        if (data.session) {
-            mostrarPainel();
-            await carregar();
-        }
-
-    } catch (erro) {
-
-        console.error("Erro ao iniciar Admin:", erro);
-
-    }
-}
+/* ========================================
+   TELAS
+======================================== */
 
 function mostrarLogin() {
 
@@ -50,6 +33,7 @@ function mostrarLogin() {
     $("painelTela").style.display = "none";
 
 }
+
 
 function mostrarPainel() {
 
@@ -59,45 +43,137 @@ function mostrarPainel() {
 }
 
 
+/* ========================================
+   INICIALIZAÇÃO
+======================================== */
+
+async function iniciar() {
+
+    // Começa sempre mostrando o login.
+    // Assim o painel nunca fica aparecendo
+    // enquanto a sessão está sendo verificada.
+
+    mostrarLogin();
+
+    try {
+
+        const resultado =
+            await db.auth.getSession();
+
+        if (resultado.error) {
+
+            console.error(
+                "Erro ao verificar sessão:",
+                resultado.error
+            );
+
+            $("loginMensagem").textContent =
+                "Não foi possível verificar a sessão.";
+
+            return;
+        }
+
+        const session =
+            resultado.data?.session;
+
+        if (!session) {
+            return;
+        }
+
+        mostrarPainel();
+
+        await carregar();
+
+    } catch (erro) {
+
+        console.error(
+            "Erro ao iniciar Admin:",
+            erro
+        );
+
+        mostrarLogin();
+
+        $("loginMensagem").textContent =
+            "Erro ao iniciar o administrador.";
+
+    }
+
+}
+
+
+/* ========================================
+   PRODUTOS
+======================================== */
+
 async function carregar() {
 
     $("mensagem").textContent =
         "Carregando produtos...";
 
-    const { data, error } =
-        await db
-            .from("produtos")
-            .select("*")
-            .order("id");
+    try {
 
-    if (error) {
+        const resultado =
+            await db
+                .from("produtos")
+                .select("*")
+                .order("id");
+
+        const data =
+            resultado.data;
+
+        const error =
+            resultado.error;
+
+        if (error) {
+
+            $("mensagem").textContent =
+                "Erro: " + error.message;
+
+            console.error(error);
+
+            return;
+        }
+
+        produtos =
+            data || [];
+
+        $("total").textContent =
+            produtos.length;
+
+        $("ativos").textContent =
+            produtos.filter(
+                p => p.ativo !== false
+            ).length;
+
+        $("inativos").textContent =
+            produtos.filter(
+                p => p.ativo === false
+            ).length;
+
+        render();
 
         $("mensagem").textContent =
-            "Erro: " + error.message;
+            produtos.length +
+            " produtos carregados.";
 
-        console.error(error);
+    } catch (erro) {
 
-        return;
+        console.error(
+            "Erro ao carregar produtos:",
+            erro
+        );
+
+        $("mensagem").textContent =
+            "Erro ao carregar produtos.";
+
     }
 
-    produtos = data || [];
-
-    $("total").textContent =
-        produtos.length;
-
-    $("ativos").textContent =
-        produtos.filter(p => p.ativo !== false).length;
-
-    $("inativos").textContent =
-        produtos.filter(p => p.ativo === false).length;
-
-    render();
-
-    $("mensagem").textContent =
-        produtos.length +
-        " produtos carregados.";
 }
 
+
+/* ========================================
+   RENDER
+======================================== */
 
 function render() {
 
@@ -110,19 +186,24 @@ function render() {
         produtos.filter(p => {
 
             const texto = [
+
                 p.nome,
                 p.categoria,
                 p.marca,
                 p.codigo
+
             ]
                 .filter(Boolean)
                 .join(" ")
                 .toLowerCase();
 
             return texto.includes(termo);
+
         });
 
+
     $("lista").innerHTML =
+
         lista.map(p => {
 
             const preco =
@@ -134,6 +215,7 @@ function render() {
                             currency: "BRL"
                         }
                     );
+
 
             return `
                 <tr>
@@ -153,9 +235,15 @@ function render() {
                     </td>
 
                     <td>
-                        <span class="status ${p.ativo !== false ? "ok" : "off"}">
-                            ${p.ativo !== false ? "Ativo" : "Inativo"}
+
+                        <span
+                            class="status ${p.ativo !== false ? "ok" : "off"}"
+                        >
+                            ${p.ativo !== false
+                                ? "Ativo"
+                                : "Inativo"}
                         </span>
+
                     </td>
 
                     <td>
@@ -180,29 +268,46 @@ function render() {
             `;
 
         }).join("")
+
         ||
+
         "<tr><td colspan='6'>Nenhum produto encontrado.</td></tr>";
+
 }
 
+
+/* ========================================
+   ESCAPE HTML
+======================================== */
 
 function esc(valor) {
 
     return String(valor)
-        .replace(/[&<>"']/g, caractere => {
+        .replace(
+            /[&<>"']/g,
+            caractere => {
 
-            const mapa = {
-                "&": "&amp;",
-                "<": "&lt;",
-                ">": "&gt;",
-                '"': "&quot;",
-                "'": "&#039;"
-            };
+                const mapa = {
 
-            return mapa[caractere];
+                    "&": "&amp;",
+                    "<": "&lt;",
+                    ">": "&gt;",
+                    '"': "&quot;",
+                    "'": "&#039;"
 
-        });
+                };
+
+                return mapa[caractere];
+
+            }
+        );
+
 }
 
+
+/* ========================================
+   FORMULÁRIO PRODUTO
+======================================== */
 
 function abrir(produto) {
 
@@ -255,28 +360,45 @@ function abrir(produto) {
     $("modal")
         .classList
         .add("aberto");
+
 }
 
+
+/* ========================================
+   EDITAR
+======================================== */
 
 window.editar = id => {
 
     const produto =
         produtos.find(
-            p => Number(p.id) === Number(id)
+            p =>
+                Number(p.id) ===
+                Number(id)
         );
 
     if (produto) {
+
         abrir(produto);
+
     }
+
 };
 
+
+/* ========================================
+   EXCLUIR
+======================================== */
 
 window.excluir = async id => {
 
     const produto =
         produtos.find(
-            p => Number(p.id) === Number(id)
+            p =>
+                Number(p.id) ===
+                Number(id)
         );
+
 
     if (
         !produto ||
@@ -286,33 +408,48 @@ window.excluir = async id => {
             "?"
         )
     ) {
+
         return;
+
     }
 
-    const { error } =
+
+    const resultado =
         await db
             .from("produtos")
             .delete()
             .eq("id", id);
 
-    if (error) {
 
-        alert(error.message);
+    if (resultado.error) {
+
+        alert(
+            resultado.error.message
+        );
 
         return;
+
     }
 
-    carregar();
+
+    await carregar();
+
 };
 
+
+/* ========================================
+   SALVAR PRODUTO
+======================================== */
 
 $("form").onsubmit =
     async evento => {
 
         evento.preventDefault();
 
+
         const id =
             $("id").value;
+
 
         const dados = {
 
@@ -378,7 +515,9 @@ $("form").onsubmit =
 
             destaque:
                 $("destaque").checked
+
         };
+
 
         const resultado = id
 
@@ -391,6 +530,7 @@ $("form").onsubmit =
                 .from("produtos")
                 .insert(dados);
 
+
         if (resultado.error) {
 
             alert(
@@ -398,19 +538,27 @@ $("form").onsubmit =
             );
 
             return;
+
         }
+
 
         fechar();
 
-        carregar();
+        await carregar();
+
     };
 
+
+/* ========================================
+   MODAL
+======================================== */
 
 function fechar() {
 
     $("modal")
         .classList
         .remove("aberto");
+
 }
 
 
@@ -427,15 +575,28 @@ $("busca").oninput =
     render;
 
 
+/* ========================================
+   LOGOUT
+======================================== */
+
 $("sair").onclick =
     async () => {
 
         await db.auth.signOut();
 
+        produtos = [];
+
+        $("lista").innerHTML = "";
+
+        $("total").textContent = "0";
+        $("ativos").textContent = "0";
+        $("inativos").textContent = "0";
+
         mostrarLogin();
 
         $("loginMensagem").textContent =
             "Sessão encerrada.";
+
     };
 
 
@@ -443,45 +604,63 @@ $("sair").onclick =
    LOGIN
 ======================================== */
 
-$("loginForm").onsubmit = async (evento) => {
+$("loginForm").onsubmit =
+    async evento => {
 
-    evento.preventDefault();
+        evento.preventDefault();
 
-    const email =
-        $("loginEmail").value.trim();
 
-    const senha =
-        $("loginSenha").value;
+        const email =
+            $("loginEmail")
+                .value
+                .trim();
 
-    $("loginMensagem").textContent =
-        "Entrando...";
+        const senha =
+            $("loginSenha")
+                .value;
 
-    const {
-        error
-    } = await db.auth.signInWithPassword({
-        email,
-        password: senha
-    });
-
-    if (error) {
-
-        console.error(error);
 
         $("loginMensagem").textContent =
-            "Erro: " + error.message;
-
-        return;
-    }
-
-    $("loginMensagem").textContent =
-        "Login realizado!";
-
-    mostrarPainel();
-
-    await carregar();
-};
+            "Entrando...";
 
 
+        const resultado =
+            await db.auth.signInWithPassword({
 
+                email,
+                password: senha
+
+            });
+
+
+        if (resultado.error) {
+
+            console.error(
+                resultado.error
+            );
+
+            $("loginMensagem").textContent =
+                "Erro: " +
+                resultado.error.message;
+
+            return;
+
+        }
+
+
+        $("loginMensagem").textContent =
+            "Login realizado!";
+
+
+        mostrarPainel();
+
+        await carregar();
+
+    };
+
+
+/* ========================================
+   INICIAR
+======================================== */
 
 iniciar();
