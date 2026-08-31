@@ -4,6 +4,7 @@ const SUPABASE_URL =
 const SUPABASE_KEY =
     "sb_publishable_93yBqwhbdT45ac0ib2pvpg_g05EJGla";
 
+
 const db =
     window.supabase.createClient(
         SUPABASE_URL,
@@ -17,30 +18,12 @@ const db =
         }
     );
 
+
 let produtos = [];
+
 
 const $ = id =>
     document.getElementById(id);
-
-
-/* ========================================
-   TELAS
-======================================== */
-
-function mostrarLogin() {
-
-    $("loginTela").style.display = "flex";
-    $("painelTela").style.display = "none";
-
-}
-
-
-function mostrarPainel() {
-
-    $("loginTela").style.display = "none";
-    $("painelTela").style.display = "block";
-
-}
 
 
 /* ========================================
@@ -49,40 +32,34 @@ function mostrarPainel() {
 
 async function iniciar() {
 
-    // Começa sempre mostrando o login.
-    // Assim o painel nunca fica aparecendo
-    // enquanto a sessão está sendo verificada.
-
     mostrarLogin();
 
     try {
 
-        const resultado =
-            await db.auth.getSession();
+        const {
+            data,
+            error
+        } = await db.auth.getSession();
 
-        if (resultado.error) {
+
+        if (error) {
 
             console.error(
                 "Erro ao verificar sessão:",
-                resultado.error
+                error
             );
 
-            $("loginMensagem").textContent =
-                "Não foi possível verificar a sessão.";
-
             return;
         }
 
-        const session =
-            resultado.data?.session;
 
-        if (!session) {
-            return;
+        if (data.session) {
+
+            mostrarPainel();
+
+            await carregar();
         }
 
-        mostrarPainel();
-
-        await carregar();
 
     } catch (erro) {
 
@@ -90,97 +67,162 @@ async function iniciar() {
             "Erro ao iniciar Admin:",
             erro
         );
-
-        mostrarLogin();
-
-        $("loginMensagem").textContent =
-            "Erro ao iniciar o administrador.";
-
     }
-
 }
 
 
 /* ========================================
-   PRODUTOS
+   TELAS
+======================================== */
+
+function mostrarLogin() {
+
+    const login =
+        $("loginTela");
+
+    const painel =
+        $("painelTela");
+
+
+    if (login) {
+
+        login.style.display =
+            "flex";
+    }
+
+
+    if (painel) {
+
+        painel.style.display =
+            "none";
+    }
+}
+
+
+function mostrarPainel() {
+
+    const login =
+        $("loginTela");
+
+    const painel =
+        $("painelTela");
+
+
+    if (login) {
+
+        login.style.display =
+            "none";
+    }
+
+
+    if (painel) {
+
+        painel.style.display =
+            "block";
+    }
+}
+
+
+/* ========================================
+   CARREGAR PRODUTOS
 ======================================== */
 
 async function carregar() {
 
-    $("mensagem").textContent =
-        "Carregando produtos...";
+    const mensagem =
+        $("mensagem");
 
-    try {
 
-        const resultado =
-            await db
-                .from("produtos")
-                .select("*")
-                .order("id");
+    if (mensagem) {
 
-        const data =
-            resultado.data;
-
-        const error =
-            resultado.error;
-
-        if (error) {
-
-            $("mensagem").textContent =
-                "Erro: " + error.message;
-
-            console.error(error);
-
-            return;
-        }
-
-        produtos =
-            data || [];
-
-        $("total").textContent =
-            produtos.length;
-
-        $("ativos").textContent =
-            produtos.filter(
-                p => p.ativo !== false
-            ).length;
-
-        $("inativos").textContent =
-            produtos.filter(
-                p => p.ativo === false
-            ).length;
-
-        render();
-
-        $("mensagem").textContent =
-            produtos.length +
-            " produtos carregados.";
-
-    } catch (erro) {
-
-        console.error(
-            "Erro ao carregar produtos:",
-            erro
-        );
-
-        $("mensagem").textContent =
-            "Erro ao carregar produtos.";
-
+        mensagem.textContent =
+            "Carregando produtos...";
     }
 
+
+    const {
+        data,
+        error
+    } =
+        await db
+            .from("produtos")
+            .select("*")
+            .order("id");
+
+
+    if (error) {
+
+        if (mensagem) {
+
+            mensagem.textContent =
+                "Erro: " +
+                error.message;
+        }
+
+
+        console.error(error);
+
+        return;
+    }
+
+
+    produtos =
+        data || [];
+
+
+    $("total").textContent =
+        produtos.length;
+
+
+    $("ativos").textContent =
+        produtos.filter(
+            p => p.ativo !== false
+        ).length;
+
+
+    $("inativos").textContent =
+        produtos.filter(
+            p => p.ativo === false
+        ).length;
+
+
+    render();
+
+
+    if (mensagem) {
+
+        mensagem.textContent =
+            produtos.length +
+            " produtos carregados.";
+    }
 }
 
 
 /* ========================================
-   RENDER
+   RENDERIZAR PRODUTOS
 ======================================== */
 
 function render() {
 
+    const busca =
+        $("busca");
+
+
+    const listaElement =
+        $("lista");
+
+
+    if (!busca || !listaElement) {
+
+        return;
+    }
+
+
     const termo =
-        $("busca").value
+        busca.value
             .toLowerCase()
             .trim();
+
 
     const lista =
         produtos.filter(p => {
@@ -197,54 +239,75 @@ function render() {
                 .join(" ")
                 .toLowerCase();
 
-            return texto.includes(termo);
 
+            return texto.includes(termo);
         });
 
 
-    $("lista").innerHTML =
+    listaElement.innerHTML =
 
         lista.map(p => {
 
             const preco =
-                Number(p.preco || 0)
-                    .toLocaleString(
-                        "pt-BR",
-                        {
-                            style: "currency",
-                            currency: "BRL"
-                        }
-                    );
+                Number(
+                    p.preco || 0
+                ).toLocaleString(
+                    "pt-BR",
+                    {
+                        style: "currency",
+                        currency: "BRL"
+                    }
+                );
 
 
             return `
+
                 <tr>
 
-                    <td>${p.id}</td>
-
                     <td>
-                        <b>${esc(p.nome)}</b>
+                        ${p.id}
                     </td>
 
+
                     <td>
-                        ${esc(p.categoria || "—")}
+                        <b>
+                            ${esc(p.nome)}
+                        </b>
                     </td>
+
+
+                    <td>
+                        ${esc(
+                            p.categoria || "—"
+                        )}
+                    </td>
+
 
                     <td>
                         ${preco}
                     </td>
 
+
                     <td>
 
                         <span
-                            class="status ${p.ativo !== false ? "ok" : "off"}"
+                            class="status ${
+                                p.ativo !== false
+                                    ? "ok"
+                                    : "off"
+                            }"
                         >
-                            ${p.ativo !== false
-                                ? "Ativo"
-                                : "Inativo"}
+
+                            ${
+                                p.ativo !== false
+                                    ? "Ativo"
+                                    : "Inativo"
+                            }
+
                         </span>
 
                     </td>
+
 
                     <td>
 
@@ -254,6 +317,7 @@ function render() {
                         >
                             Editar
                         </button>
+
 
                         <button
                             class="excluir"
@@ -265,19 +329,26 @@ function render() {
                     </td>
 
                 </tr>
+
             `;
 
         }).join("")
 
+
         ||
 
-        "<tr><td colspan='6'>Nenhum produto encontrado.</td></tr>";
-
+        `
+            <tr>
+                <td colspan="6">
+                    Nenhum produto encontrado.
+                </td>
+            </tr>
+        `;
 }
 
 
 /* ========================================
-   ESCAPE HTML
+   ESCAPAR TEXTO
 ======================================== */
 
 function esc(valor) {
@@ -294,19 +365,19 @@ function esc(valor) {
                     ">": "&gt;",
                     '"': "&quot;",
                     "'": "&#039;"
-
                 };
 
-                return mapa[caractere];
 
+                return mapa[
+                    caractere
+                ];
             }
         );
-
 }
 
 
 /* ========================================
-   FORMULÁRIO PRODUTO
+   ABRIR PRODUTO
 ======================================== */
 
 function abrir(produto) {
@@ -314,53 +385,66 @@ function abrir(produto) {
     $("id").value =
         produto?.id || "";
 
+
     $("nome").value =
         produto?.nome || "";
+
 
     $("descricao").value =
         produto?.descricao || "";
 
+
     $("preco").value =
         produto?.preco ?? "";
+
 
     $("preco_anterior").value =
         produto?.preco_anterior ?? "";
 
+
     $("marca").value =
         produto?.marca || "";
+
 
     $("categoria").value =
         produto?.categoria || "";
 
+
     $("peso").value =
         produto?.peso || "";
+
 
     $("unidade").value =
         produto?.unidade || "";
 
+
     $("codigo").value =
         produto?.codigo || "";
 
+
     $("imagem").value =
         produto?.imagem || "";
+
 
     $("ativo").checked =
         produto
             ? produto.ativo !== false
             : true;
 
+
     $("destaque").checked =
         produto?.destaque === true;
+
 
     $("titulo").textContent =
         produto
             ? "Editar produto"
             : "Novo produto";
 
+
     $("modal")
         .classList
         .add("aberto");
-
 }
 
 
@@ -377,12 +461,11 @@ window.editar = id => {
                 Number(id)
         );
 
+
     if (produto) {
 
         abrir(produto);
-
     }
-
 };
 
 
@@ -400,8 +483,13 @@ window.excluir = async id => {
         );
 
 
+    if (!produto) {
+
+        return;
+    }
+
+
     if (
-        !produto ||
         !confirm(
             "Excluir " +
             produto.nome +
@@ -410,30 +498,29 @@ window.excluir = async id => {
     ) {
 
         return;
-
     }
 
 
-    const resultado =
+    const {
+        error
+    } =
         await db
             .from("produtos")
             .delete()
             .eq("id", id);
 
 
-    if (resultado.error) {
+    if (error) {
 
         alert(
-            resultado.error.message
+            error.message
         );
 
         return;
-
     }
 
 
     await carregar();
-
 };
 
 
@@ -458,22 +545,36 @@ $("form").onsubmit =
                     .value
                     .trim(),
 
+
             descricao:
                 $("descricao")
                     .value
                     .trim(),
 
+
             preco:
                 Number(
-                    $("preco").value
+                    $("preco")
+                        .value
                 ),
 
+
             preco_anterior:
-                $("preco_anterior").value
-                    ? Number(
-                        $("preco_anterior").value
+
+                $("preco_anterior")
+                    .value
+
+                    ?
+
+                    Number(
+                        $("preco_anterior")
+                            .value
                     )
-                    : null,
+
+                    :
+
+                    null,
+
 
             marca:
                 $("marca")
@@ -481,10 +582,12 @@ $("form").onsubmit =
                     .trim()
                     || null,
 
+
             categoria:
                 $("categoria")
                     .value
                     .trim(),
+
 
             peso:
                 $("peso")
@@ -492,11 +595,13 @@ $("form").onsubmit =
                     .trim()
                     || null,
 
+
             unidade:
                 $("unidade")
                     .value
                     .trim()
                     || null,
+
 
             codigo:
                 $("codigo")
@@ -504,31 +609,41 @@ $("form").onsubmit =
                     .trim()
                     || null,
 
+
             imagem:
                 $("imagem")
                     .value
                     .trim()
                     || null,
 
+
             ativo:
                 $("ativo").checked,
 
+
             destaque:
                 $("destaque").checked
-
         };
 
 
-        const resultado = id
+        let resultado;
 
-            ? await db
-                .from("produtos")
-                .update(dados)
-                .eq("id", id)
 
-            : await db
-                .from("produtos")
-                .insert(dados);
+        if (id) {
+
+            resultado =
+                await db
+                    .from("produtos")
+                    .update(dados)
+                    .eq("id", id);
+
+        } else {
+
+            resultado =
+                await db
+                    .from("produtos")
+                    .insert(dados);
+        }
 
 
         if (resultado.error) {
@@ -538,14 +653,13 @@ $("form").onsubmit =
             );
 
             return;
-
         }
 
 
         fechar();
 
-        await carregar();
 
+        await carregar();
     };
 
 
@@ -558,25 +672,27 @@ function fechar() {
     $("modal")
         .classList
         .remove("aberto");
-
 }
 
 
 $("fechar").onclick =
     fechar;
 
+
 $("cancelar").onclick =
     fechar;
 
+
 $("novo").onclick =
     () => abrir();
+
 
 $("busca").oninput =
     render;
 
 
 /* ========================================
-   LOGOUT
+   SAIR
 ======================================== */
 
 $("sair").onclick =
@@ -584,19 +700,31 @@ $("sair").onclick =
 
         await db.auth.signOut();
 
+
         produtos = [];
 
-        $("lista").innerHTML = "";
 
-        $("total").textContent = "0";
-        $("ativos").textContent = "0";
-        $("inativos").textContent = "0";
+        $("lista").innerHTML =
+            "";
+
+
+        $("total").textContent =
+            "0";
+
+
+        $("ativos").textContent =
+            "0";
+
+
+        $("inativos").textContent =
+            "0";
+
 
         mostrarLogin();
 
+
         $("loginMensagem").textContent =
             "Sessão encerrada.";
-
     };
 
 
@@ -615,6 +743,7 @@ $("loginForm").onsubmit =
                 .value
                 .trim();
 
+
         const senha =
             $("loginSenha")
                 .value;
@@ -624,38 +753,42 @@ $("loginForm").onsubmit =
             "Entrando...";
 
 
-        const resultado =
-            await db.auth.signInWithPassword({
+        const {
+            error
+        } =
+            await db.auth
+                .signInWithPassword({
 
-                email,
-                password: senha
+                    email,
+                    password: senha
 
-            });
+                });
 
 
-        if (resultado.error) {
+        if (error) {
 
-            console.error(
-                resultado.error
-            );
+            console.error(error);
 
-            $("loginMensagem").textContent =
-                "Erro: " +
-                resultado.error.message;
+
+            $("loginMensagem")
+                .textContent =
+                    "Erro: " +
+                    error.message;
+
 
             return;
-
         }
 
 
-        $("loginMensagem").textContent =
-            "Login realizado!";
+        $("loginMensagem")
+            .textContent =
+                "Login realizado!";
 
 
         mostrarPainel();
 
-        await carregar();
 
+        await carregar();
     };
 
 
