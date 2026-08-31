@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cantinho Bom — Catálogo</title>
+
+  <link rel="stylesheet" href="compacta.css">
+</head>
+
+<body>
+
+  <header class="topo">
+
+    <div class="topo-inner">
+
+      <div class="marca">
+        <div class="logo-texto">CANTINHO BOM</div>
+        <div class="subtitulo">Produtos Naturais</div>
+      </div>
+
+      <div class="acoes-topo">
+        <button id="btnLista" class="modo ativo" title="Visualização compacta">
+          ▦
+        </button>
+
+        <a href="index.html" class="modo" title="Voltar para versão original">
+          ▣
+        </a>
+      </div>
+
+    </div>
+
+    <div class="busca-area">
+
+      <div class="busca">
+
+        <span class="icone-busca">⌕</span>
+
+        <input
+          id="campoBusca"
+          type="search"
+          placeholder="Buscar produto..."
+          autocomplete="off"
+        >
+
+        <button id="limparBusca" class="limpar" aria-label="Limpar busca">
+          ×
+        </button>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <section class="navegacao">
+
+      <div class="linha-categorias">
+
+        <button
+          class="categoria-btn ativo"
+          data-categoria="Todos"
+        >
+          Todos
+        </button>
+
+        <div id="categorias"></div>
+
+      </div>
+
+    </section>
+
+
+    <section class="barra-resultados">
+
+      <div>
+        <strong id="contador">0</strong>
+        <span> produtos</span>
+      </div>
+
+      <select id="ordenacao">
+        <option value="padrao">Mais relevantes</option>
+        <option value="az">A → Z</option>
+        <option value="za">Z → A</option>
+        <option value="menor">Menor preço</option>
+        <option value="maior">Maior preço</option>
+      </select>
+
+    </section>
+
+
+    <section id="produtos" class="grade-produtos"></section>
+
+
+    <div id="semResultados" class="sem-resultados">
+      <div class="sem-icone">⌕</div>
+      <h2>Nenhum produto encontrado</h2>
+      <p>Tente outro nome ou escolha outra categoria.</p>
+    </div>
+
+  </main>
+
+
+  <div id="modal" class="modal">
+
+    <div class="modal-fundo" id="fecharModal"></div>
+
+    <div class="modal-conteudo">
+
+      <button id="fecharModalBtn" class="modal-fechar">
+        ×
+      </button>
+
+      <div id="modalImagem" class="modal-imagem"></div>
+
+      <div class="modal-info">
+
+        <div id="modalCategoria" class="modal-categoria"></div>
+
+        <h2 id="modalNome"></h2>
+
+        <p id="modalDescricao"></p>
+
+        <div class="modal-preco" id="modalPreco"></div>
+
+        <div id="modalApresentacao" class="modal-apresentacao"></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="compacta.js"></script>
+
+</body>
+</html>

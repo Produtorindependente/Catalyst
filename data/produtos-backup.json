@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "nome": "Chá Verde",
+        "descricao": "Chá verde em folhas, ideal para o dia a dia.",
+        "preco": 19.90,
+        "precoAnterior": null,
+        "destaque": false,
+        "marca": "",
+        "peso": "",
+        "unidade": "",
+        "categoria": "Chás",
+        "imagem": "assets/img/cha-verde.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "Spirulina em Pó",
+        "descricao": "Spirulina em pó para complementar sua alimentação.",
+        "preco": 29.90,
+        "precoAnterior": null,
+        "destaque": false,
+        "marca": "",
+        "peso": "",
+        "unidade": "",
+        "categoria": "Suplementos",
+        "imagem": "assets/img/spirulina.jpg"
+    },
+    {
+        "id": 3,
+        "nome": "Castanha-do-Pará",
+        "descricao": "Castanha-do-Pará selecionada.",
+        "preco": 24.90,
+        "precoAnterior": null,
+        "destaque": false,
+        "marca": "",
+        "peso": "",
+        "unidade": "",
+        "categoria": "Oleaginosas",
+        "imagem": "assets/img/castanha-para.jpg"
+    },
+    {
+        "id": 4,
+        "nome": "Cúrcuma em Pó",
+        "descricao": "Cúrcuma em pó de alta qualidade.",
+        "preco": 14.90,
+        "precoAnterior": null,
+        "destaque": false,
+        "marca": "",
+        "peso": "",
+        "unidade": "",
+        "categoria": "Temperos Naturais",
+        "imagem": "assets/img/curcuma.jpg"
+    },
+    {
+        "id": 5,
+        "nome": "Colágeno Hidrolisado",
+        "descricao": "Colágeno hidrolisado em pó.",
+        "preco": 39.90,
+        "precoAnterior": null,
+        "destaque": false,
+        "marca": "",
+        "peso": "",
+        "unidade": "",
+        "categoria": "Suplementos",
+        "imagem": "assets/img/colageno.jpg"
+    },
+    {
+        "id": 6,
+        "nome": "Mix de Castanhas",
+        "descricao": "Mix selecionado de castanhas e frutas secas.",
+        "preco": 32.90,
+        "precoAnterior": null,
+        "destaque": false,
+        "marca": "",
+        "peso": "",
+        "unidade": "",
+        "categoria": "Oleaginosas",
+        "imagem": "assets/img/mix-castanhas.jpg"
+    }
+]

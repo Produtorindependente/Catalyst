@@ -1,0 +1,3499 @@
+{
+  "resumo": {
+    "APRESENTACAO_COMERCIAL": 190,
+    "MEDIDA_COMPLETA": 79,
+    "APRESENTACAO_PREENCHIDA": 37,
+    "PRECISA_REVISAO": 47,
+    "NUMERO_MAIS_MEDIDA_COMPATIVEL": 56,
+    "MEDIDA_JA_CONTIDA_NO_PESO": 10
+  },
+  "produtos": {
+    "APRESENTACAO_COMERCIAL": [
+      {
+        "indice": 0,
+        "id": 1,
+        "nome": "Pão Tradicional com Gergelim",
+        "categoria": "Pães",
+        "peso": "500 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 1,
+        "id": 2,
+        "nome": "Pão de Limão Siciliano",
+        "categoria": "Pães",
+        "peso": "500 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 2,
+        "id": 3,
+        "nome": "Pão de Nozes com Castanha-do-Pará",
+        "categoria": "Pães",
+        "peso": "500 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 3,
+        "id": 4,
+        "nome": "Pão de Alecrim",
+        "categoria": "Pães",
+        "peso": "500 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 4,
+        "id": 5,
+        "nome": "Pão de Linhaça com Chia",
+        "categoria": "Pães",
+        "peso": "500 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 5,
+        "id": 6,
+        "nome": "Muffin de Cacau Vegano",
+        "categoria": "Muffins",
+        "peso": "160 g",
+        "unidade": "1 embalagem"
+      },
+      {
+        "indice": 6,
+        "id": 7,
+        "nome": "Muffin de Frango, Milho e Cenoura",
+        "categoria": "Muffins",
+        "peso": "200 g",
+        "unidade": "1 embalagem"
+      },
+      {
+        "indice": 7,
+        "id": 8,
+        "nome": "Muffin de Chocolate",
+        "categoria": "Muffins",
+        "peso": "140 g",
+        "unidade": "1 embalagem"
+      },
+      {
+        "indice": 8,
+        "id": 9,
+        "nome": "Muffin de Banana",
+        "categoria": "Muffins",
+        "peso": "160 g",
+        "unidade": "1 embalagem"
+      },
+      {
+        "indice": 9,
+        "id": 10,
+        "nome": "Muffin de Coco com Chocolate Branco Low Carb",
+        "categoria": "Muffins",
+        "peso": "160 g",
+        "unidade": "1 embalagem"
+      },
+      {
+        "indice": 10,
+        "id": 11,
+        "nome": "Torta de Maçã",
+        "categoria": "Tortas",
+        "peso": "200 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 11,
+        "id": 12,
+        "nome": "Torta de Palmito",
+        "categoria": "Tortas",
+        "peso": "200 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 12,
+        "id": 13,
+        "nome": "Pão Francês com Sementes",
+        "categoria": "Pães",
+        "peso": "350 g",
+        "unidade": "5 unidades"
+      },
+      {
+        "indice": 14,
+        "id": 15,
+        "nome": "Pão de Hot Dog sem Glúten",
+        "categoria": "Pães",
+        "peso": "125 g",
+        "unidade": "2 unidades"
+      },
+      {
+        "indice": 16,
+        "id": 17,
+        "nome": "Pão de Hambúrguer",
+        "categoria": "Pães",
+        "peso": "125 g",
+        "unidade": "2 unidades"
+      },
+      {
+        "indice": 17,
+        "id": 18,
+        "nome": "Pãozinho de Cebola",
+        "categoria": "Pães",
+        "peso": "200 g",
+        "unidade": "aprox. 9 unidades"
+      },
+      {
+        "indice": 18,
+        "id": 19,
+        "nome": "Pãozinho de Cenoura",
+        "categoria": "Pães",
+        "peso": "200 g",
+        "unidade": "aprox. 8 unidades"
+      },
+      {
+        "indice": 19,
+        "id": 20,
+        "nome": "Pão Sírio Tipo Pita",
+        "categoria": "Pães",
+        "peso": "200 g",
+        "unidade": "4 unidades"
+      },
+      {
+        "indice": 20,
+        "id": 21,
+        "nome": "Wrap sem Glúten",
+        "categoria": "Wraps e Massas",
+        "peso": "220 g",
+        "unidade": "6 unidades"
+      },
+      {
+        "indice": 21,
+        "id": 22,
+        "nome": "Wrap de Tapioca Original",
+        "categoria": "Wraps e Massas",
+        "peso": "150 g",
+        "unidade": "5 unidades"
+      },
+      {
+        "indice": 32,
+        "id": 33,
+        "nome": "Wafer Cappuccino",
+        "categoria": "Proteicos",
+        "peso": "25 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 33,
+        "id": 34,
+        "nome": "Wafer Creme de Avelã",
+        "categoria": "Proteicos",
+        "peso": "25 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 34,
+        "id": 35,
+        "nome": "Bacio di Latte Pistacchio",
+        "categoria": "Proteicos",
+        "peso": "",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 35,
+        "id": 36,
+        "nome": "Bacio di Latte Caramello Salgado",
+        "categoria": "Proteicos",
+        "peso": "",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 36,
+        "id": 37,
+        "nome": "Havanna Legítimo Dulce de Leche",
+        "categoria": "Proteicos",
+        "peso": "",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 37,
+        "id": 38,
+        "nome": "Havanna Brownie de Chocolate e Dulce de Leche",
+        "categoria": "Proteicos",
+        "peso": "",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 38,
+        "id": 39,
+        "nome": "Protein Crisp Ovomaltine",
+        "categoria": "Proteicos",
+        "peso": "45 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 39,
+        "id": 40,
+        "nome": "Protein Max Chocolate & Nibs",
+        "categoria": "Proteicos",
+        "peso": "",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 40,
+        "id": 41,
+        "nome": "Choco Wheyfer Chocolate com Avelã",
+        "categoria": "Proteicos",
+        "peso": "25 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 41,
+        "id": 42,
+        "nome": "Choco Wheyfer Cookies'n Cream",
+        "categoria": "Proteicos",
+        "peso": "25 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 42,
+        "id": 43,
+        "nome": "100% Whey Cookies",
+        "categoria": "Proteínas",
+        "peso": "35 g",
+        "unidade": "1 sachê"
+      },
+      {
+        "indice": 43,
+        "id": 44,
+        "nome": "100% Whey Coco com Baunilha",
+        "categoria": "Proteínas",
+        "peso": "35 g",
+        "unidade": "1 sachê"
+      },
+      {
+        "indice": 44,
+        "id": 45,
+        "nome": "100% Whey Torta de Limão",
+        "categoria": "Proteínas",
+        "peso": "35 g",
+        "unidade": "1 sachê"
+      },
+      {
+        "indice": 45,
+        "id": 46,
+        "nome": "100% Whey Banoffee",
+        "categoria": "Proteínas",
+        "peso": "35 g",
+        "unidade": "1 sachê"
+      },
+      {
+        "indice": 46,
+        "id": 47,
+        "nome": "100% Whey Chocolate com Avelã",
+        "categoria": "Proteínas",
+        "peso": "35 g",
+        "unidade": "1 sachê"
+      },
+      {
+        "indice": 47,
+        "id": 48,
+        "nome": "Paçoquinha Zero Adição de Açúcares",
+        "categoria": "Doces",
+        "peso": "17 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 48,
+        "id": 49,
+        "nome": "Cocada com Abacaxi",
+        "categoria": "Doces",
+        "peso": "",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 49,
+        "id": 50,
+        "nome": "Nuts & Fruits Cranberry",
+        "categoria": "Snacks",
+        "peso": "25 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 50,
+        "id": 51,
+        "nome": "Goiabinha Cremosa Zero",
+        "categoria": "Doces",
+        "peso": "22 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 51,
+        "id": 52,
+        "nome": "Protein Pão de Mel",
+        "categoria": "Proteicos",
+        "peso": "45 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 52,
+        "id": 53,
+        "nome": "Best Whey Cookies & Cream",
+        "categoria": "Proteicos",
+        "peso": "49 g",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 53,
+        "id": 54,
+        "nome": "Water Timber's Zero Pistache",
+        "categoria": "Bebidas",
+        "peso": "324 g",
+        "unidade": "12 unidades"
+      },
+      {
+        "indice": 54,
+        "id": 55,
+        "nome": "Mel Flores Silvestres",
+        "categoria": "Mel e Própolis",
+        "peso": "35 g",
+        "unidade": "10 sachês"
+      },
+      {
+        "indice": 55,
+        "id": 56,
+        "nome": "Mel & Alho",
+        "categoria": "Mel e Própolis",
+        "peso": "160 g",
+        "unidade": "1 pote"
+      },
+      {
+        "indice": 56,
+        "id": 57,
+        "nome": "Verdprópolis — Extrato de Própolis Verde",
+        "categoria": "Mel e Própolis",
+        "peso": "30 ml",
+        "unidade": "1 frasco"
+      },
+      {
+        "indice": 57,
+        "id": 58,
+        "nome": "Redprópolis — Extrato de Própolis Vermelho",
+        "categoria": "Mel e Própolis",
+        "peso": "30 ml",
+        "unidade": "1 frasco"
+      },
+      {
+        "indice": 58,
+        "id": 59,
+        "nome": "Extrato de Própolis Glicólico",
+        "categoria": "Mel e Própolis",
+        "peso": "30 ml",
+        "unidade": "1 frasco"
+      },
+      {
+        "indice": 59,
+        "id": 60,
+        "nome": "Spray de Mel com Própolis, Romã e Gengibre",
+        "categoria": "Mel e Própolis",
+        "peso": "",
+        "unidade": "1 frasco"
+      },
+      {
+        "indice": 60,
+        "id": 61,
+        "nome": "Óleo de Linhaça",
+        "categoria": "Suplementos",
+        "peso": "1000 mg",
+        "unidade": "100 cápsulas"
+      },
+      {
+        "indice": 61,
+        "id": 62,
+        "nome": "Chlorella",
+        "categoria": "Suplementos",
+        "peso": "500 mg",
+        "unidade": "100 cápsulas"
+      },
+      {
+        "indice": 62,
+        "id": 63,
+        "nome": "Tâmara com Colágeno",
+        "categoria": "Funcionais",
+        "peso": "",
+        "unidade": "12 unidades"
+      },
+      {
+        "indice": 63,
+        "id": 64,
+        "nome": "Mulungu",
+        "categoria": "Suplementos",
+        "peso": "500 mg",
+        "unidade": "60 cápsulas"
+      },
+      {
+        "indice": 64,
+        "id": 65,
+        "nome": "Gummy Original AIR Zero",
+        "categoria": "Gummies",
+        "peso": "",
+        "unidade": "60 unidades"
+      },
+      {
+        "indice": 65,
+        "id": 66,
+        "nome": "Gummy Original AIR Maçã Verde",
+        "categoria": "Gummies",
+        "peso": "",
+        "unidade": "60 unidades"
+      },
+      {
+        "indice": 66,
+        "id": 67,
+        "nome": "Gummy Original Apple Vinegar",
+        "categoria": "Gummies",
+        "peso": "",
+        "unidade": "60 unidades"
+      },
+      {
+        "indice": 67,
+        "id": 68,
+        "nome": "Gummy Original Hair One",
+        "categoria": "Gummies",
+        "peso": "",
+        "unidade": "60 unidades"
+      },
+      {
+        "indice": 68,
+        "id": 69,
+        "nome": "Gengibre Cristalizado",
+        "categoria": "Naturais",
+        "peso": "200 g",
+        "unidade": "1 embalagem"
+      },
+      {
+        "indice": 69,
+        "id": 70,
+        "nome": "Amora",
+        "categoria": "Suplementos",
+        "peso": "600 mg",
+        "unidade": "100 cápsulas"
+      },
+      {
+        "indice": 70,
+        "id": 71,
+        "nome": "Bananinha sem Adição de Açúcar",
+        "categoria": "Doces",
+        "peso": "",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 71,
+        "id": 72,
+        "nome": "Doce de Banana sem Adição de Açúcares",
+        "categoria": "Doces",
+        "peso": "",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 72,
+        "id": 73,
+        "nome": "Bananinha Coberta com Chocolate",
+        "categoria": "Doces",
+        "peso": "",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 73,
+        "id": 74,
+        "nome": "Bananinha com Canela",
+        "categoria": "Doces",
+        "peso": "",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 74,
+        "id": 75,
+        "nome": "Doce de Banana com Açúcar e Canela",
+        "categoria": "Doces",
+        "peso": "",
+        "unidade": "1 unidade"
+      },
+      {
+        "indice": 75,
+        "id": 76,
+        "nome": "Bisco Light Coco Branco com Pistache",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "150 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 76,
+        "id": 77,
+        "nome": "Bisco Light Churros",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "150 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 77,
+        "id": 78,
+        "nome": "Crush Bar Morango",
+        "categoria": "Barras de Proteína",
+        "peso": "35 g",
+        "unidade": "caixa com 12 unidades",
+        "codigo": ""
+      },
+      {
+        "indice": 78,
+        "id": 79,
+        "nome": "Stroopwafel Wafel Holandês",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "230 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 79,
+        "id": 80,
+        "nome": "Muma Biscoito de Arroz Chocolate Zero",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "60 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 80,
+        "id": 81,
+        "nome": "Muma Biscoito de Milho Mediterrâneo",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "65 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 81,
+        "id": 82,
+        "nome": "Muma Biscoito de Milho Ervas Finas e Azeite",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "65 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 82,
+        "id": 83,
+        "nome": "Repeat Snack Alga Marinha Original",
+        "categoria": "Snacks",
+        "peso": "5 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 83,
+        "id": 84,
+        "nome": "Biscoito Sembei",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "160"
+      },
+      {
+        "indice": 84,
+        "id": 85,
+        "nome": "Biscoito Beliscão",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "187"
+      },
+      {
+        "indice": 85,
+        "id": 86,
+        "nome": "Biscoito Banana e Canela",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "137"
+      },
+      {
+        "indice": 86,
+        "id": 87,
+        "nome": "Biscoito de Maracujá Vegano",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "653"
+      },
+      {
+        "indice": 87,
+        "id": 88,
+        "nome": "Biscoito de Castanha de Pecã",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "3084"
+      },
+      {
+        "indice": 88,
+        "id": 89,
+        "nome": "Biscoito com Gotas de Chocolate 52%",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "3039"
+      },
+      {
+        "indice": 89,
+        "id": 90,
+        "nome": "Biscoito Parmesão com Páprica e Cúrcuma",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "84"
+      },
+      {
+        "indice": 90,
+        "id": 91,
+        "nome": "Polvilho com Provolone",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 91,
+        "id": 92,
+        "nome": "Polvilho com Chia",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 92,
+        "id": 93,
+        "nome": "Polvilho com Cebola",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 93,
+        "id": 94,
+        "nome": "Biscoito Polvilho Perfeito Pimenta e Limão",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "80 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 94,
+        "id": 95,
+        "nome": "Provolone com Goiabada",
+        "categoria": "Biscoitos e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 95,
+        "id": 96,
+        "nome": "Snack de Queijo Coalho",
+        "categoria": "Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 96,
+        "id": 97,
+        "nome": "Banana Chips Doce",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 97,
+        "id": 98,
+        "nome": "Amendoim Japonês",
+        "categoria": "Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 98,
+        "id": 99,
+        "nome": "Amendoim Olhinho",
+        "categoria": "Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 99,
+        "id": 100,
+        "nome": "Mix Crocante",
+        "categoria": "Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 100,
+        "id": 101,
+        "nome": "Mix de Frutas Tropicais",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "80"
+      },
+      {
+        "indice": 101,
+        "id": 102,
+        "nome": "Mix de Frutas Vermelhas",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "645"
+      },
+      {
+        "indice": 102,
+        "id": 103,
+        "nome": "Damasco",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "48"
+      },
+      {
+        "indice": 103,
+        "id": 104,
+        "nome": "Manga Desidratada",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "62"
+      },
+      {
+        "indice": 104,
+        "id": 105,
+        "nome": "Kiwi Desidratado",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "58"
+      },
+      {
+        "indice": 105,
+        "id": 106,
+        "nome": "Goji Berry",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "56"
+      },
+      {
+        "indice": 106,
+        "id": 107,
+        "nome": "Blueberry",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "35"
+      },
+      {
+        "indice": 107,
+        "id": 108,
+        "nome": "Morango Glaceado",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "171"
+      },
+      {
+        "indice": 108,
+        "id": 109,
+        "nome": "Cereja Desidratada",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "975"
+      },
+      {
+        "indice": 109,
+        "id": 110,
+        "nome": "Abacaxi Desidratado",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "3"
+      },
+      {
+        "indice": 110,
+        "id": 111,
+        "nome": "Mamão Cristalizado",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "61"
+      },
+      {
+        "indice": 111,
+        "id": 112,
+        "nome": "Frutas Cristalizadas",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "53"
+      },
+      {
+        "indice": 112,
+        "id": 113,
+        "nome": "Tâmara sem Caroço",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "976"
+      },
+      {
+        "indice": 113,
+        "id": 114,
+        "nome": "Tâmara Jumbo",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "95"
+      },
+      {
+        "indice": 114,
+        "id": 115,
+        "nome": "Banana Passa",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "27"
+      },
+      {
+        "indice": 115,
+        "id": 116,
+        "nome": "Mini Figo Turco",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "169"
+      },
+      {
+        "indice": 116,
+        "id": 117,
+        "nome": "Figo Turco",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "51"
+      },
+      {
+        "indice": 117,
+        "id": 118,
+        "nome": "Banana Chips Salgada",
+        "categoria": "Chips e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "26"
+      },
+      {
+        "indice": 118,
+        "id": 119,
+        "nome": "Chips de Mandioca Premium",
+        "categoria": "Chips e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "45"
+      },
+      {
+        "indice": 119,
+        "id": 120,
+        "nome": "Chips de Kiwi",
+        "categoria": "Chips e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "674"
+      },
+      {
+        "indice": 120,
+        "id": 121,
+        "nome": "Chips de Coco sem Açúcar",
+        "categoria": "Chips e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "195"
+      },
+      {
+        "indice": 121,
+        "id": 122,
+        "nome": "Chips de Coco com Bordo",
+        "categoria": "Chips e Snacks",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "06"
+      },
+      {
+        "indice": 122,
+        "id": 123,
+        "nome": "Mix de Castanhas",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "73"
+      },
+      {
+        "indice": 123,
+        "id": 124,
+        "nome": "Amêndoa Laminada",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "11"
+      },
+      {
+        "indice": 124,
+        "id": 125,
+        "nome": "Macadâmia sem Sal",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "63"
+      },
+      {
+        "indice": 125,
+        "id": 126,
+        "nome": "Pistache com Casca",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "85"
+      },
+      {
+        "indice": 126,
+        "id": 127,
+        "nome": "Pistache Inteiro sem Casca",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "86"
+      },
+      {
+        "indice": 127,
+        "id": 128,
+        "nome": "Castanha do Pará Inteira",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "43"
+      },
+      {
+        "indice": 128,
+        "id": 129,
+        "nome": "Castanha do Pará Quebrada",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "44"
+      },
+      {
+        "indice": 129,
+        "id": 130,
+        "nome": "Castanha de Caju Crua W1",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "37"
+      },
+      {
+        "indice": 130,
+        "id": 131,
+        "nome": "Castanha de Caju Quebrada sem Sal",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "230"
+      },
+      {
+        "indice": 131,
+        "id": 132,
+        "nome": "Castanha de Caju Assada sem Sal",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "625"
+      },
+      {
+        "indice": 132,
+        "id": 133,
+        "nome": "Castanha de Caju Torrada com Sal",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "38"
+      },
+      {
+        "indice": 133,
+        "id": 134,
+        "nome": "Castanha de Caju Torrada sem Sal",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "40"
+      },
+      {
+        "indice": 134,
+        "id": 135,
+        "nome": "Noz Pecan",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "81"
+      },
+      {
+        "indice": 135,
+        "id": 136,
+        "nome": "Noz Quartilho",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "620"
+      },
+      {
+        "indice": 136,
+        "id": 137,
+        "nome": "Noz Quartz",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "82"
+      },
+      {
+        "indice": 137,
+        "id": 138,
+        "nome": "Noz Mariposa",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "119"
+      },
+      {
+        "indice": 138,
+        "id": 139,
+        "nome": "Xerém de Amendoim",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "951"
+      },
+      {
+        "indice": 139,
+        "id": 140,
+        "nome": "Amendoim Doce",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "16"
+      },
+      {
+        "indice": 140,
+        "id": 141,
+        "nome": "Amendoim Natural",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "19"
+      },
+      {
+        "indice": 141,
+        "id": 142,
+        "nome": "Amendoim sem Casca",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "15"
+      },
+      {
+        "indice": 142,
+        "id": 143,
+        "nome": "Cacau 100% Alcalino",
+        "categoria": "Ingredientes Naturais",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "639"
+      },
+      {
+        "indice": 143,
+        "id": 144,
+        "nome": "Cacau 70%",
+        "categoria": "Ingredientes Naturais",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "316"
+      },
+      {
+        "indice": 144,
+        "id": 145,
+        "nome": "Cacau 50%",
+        "categoria": "Ingredientes Naturais",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "353"
+      },
+      {
+        "indice": 145,
+        "id": 146,
+        "nome": "Nibs de Cacau",
+        "categoria": "Ingredientes Naturais",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "716"
+      },
+      {
+        "indice": 146,
+        "id": 147,
+        "nome": "Eritritol",
+        "categoria": "Adoçantes",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "315"
+      },
+      {
+        "indice": 147,
+        "id": 148,
+        "nome": "Stevia em Pó",
+        "categoria": "Adoçantes",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "940"
+      },
+      {
+        "indice": 148,
+        "id": 149,
+        "nome": "Cravo em Pó",
+        "categoria": "Temperos",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "196"
+      },
+      {
+        "indice": 149,
+        "id": 150,
+        "nome": "Bicarbonato de Sódio",
+        "categoria": "Ingredientes Naturais",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "314"
+      },
+      {
+        "indice": 150,
+        "id": 151,
+        "nome": "Farinha Panko",
+        "categoria": "Farinhas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "346"
+      },
+      {
+        "indice": 151,
+        "id": 152,
+        "nome": "Farinha Mineira",
+        "categoria": "Farinhas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "439"
+      },
+      {
+        "indice": 152,
+        "id": 153,
+        "nome": "Polvilho Doce",
+        "categoria": "Farinhas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "373"
+      },
+      {
+        "indice": 153,
+        "id": 154,
+        "nome": "Polvilho Azedo",
+        "categoria": "Farinhas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "372"
+      },
+      {
+        "indice": 154,
+        "id": 155,
+        "nome": "Flocos de Arroz",
+        "categoria": "Cereais",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "262"
+      },
+      {
+        "indice": 155,
+        "id": 156,
+        "nome": "Fubá Italiano",
+        "categoria": "Farinhas",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "156"
+      },
+      {
+        "indice": 156,
+        "id": 157,
+        "nome": "Açúcar Mascavo",
+        "categoria": "Açúcares Naturais",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "303"
+      },
+      {
+        "indice": 157,
+        "id": 158,
+        "nome": "Açúcar de Coco",
+        "categoria": "Açúcares Naturais",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "301"
+      },
+      {
+        "indice": 158,
+        "id": 159,
+        "nome": "Açúcar Demerara",
+        "categoria": "Açúcares Naturais",
+        "peso": "100 g",
+        "unidade": "1 unidade",
+        "codigo": "302"
+      },
+      {
+        "indice": 159,
+        "id": 160,
+        "nome": "Café Bossa Nova",
+        "categoria": "Cafés",
+        "peso": "500 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 160,
+        "id": 161,
+        "nome": "Café Bossa Nova",
+        "categoria": "Cafés",
+        "peso": "250 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 161,
+        "id": 162,
+        "nome": "Cebola em Conserva Temperada",
+        "categoria": "Conservas",
+        "peso": "340 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 162,
+        "id": 163,
+        "nome": "Homus",
+        "categoria": "Pastas e Patês",
+        "peso": "320 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 163,
+        "id": 164,
+        "nome": "Pasta de Truta Defumada Tradicional",
+        "categoria": "Pastas e Patês",
+        "peso": "160 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 164,
+        "id": 165,
+        "nome": "Geleia de Abacaxi com Hortelã Diet",
+        "categoria": "Geleias",
+        "peso": "200 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 165,
+        "id": 166,
+        "nome": "Geleia de Frutos Vermelhos Diet",
+        "categoria": "Geleias",
+        "peso": "200 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 166,
+        "id": 167,
+        "nome": "Geleia de Pimenta Diet",
+        "categoria": "Geleias",
+        "peso": "200 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 167,
+        "id": 168,
+        "nome": "Óleo de Coco Copra Extravirgem",
+        "categoria": "Óleos",
+        "peso": "500 ml",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 168,
+        "id": 169,
+        "nome": "Óleo de Coco Copra Extravirgem",
+        "categoria": "Óleos",
+        "peso": "200 ml",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 169,
+        "id": 170,
+        "nome": "Óleo de Coco Copra sem Sabor e sem Cheiro",
+        "categoria": "Óleos",
+        "peso": "200 ml",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 170,
+        "id": 171,
+        "nome": "Óleo de Coco Copra sem Sabor e sem Cheiro",
+        "categoria": "Óleos",
+        "peso": "500 ml",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 171,
+        "id": 172,
+        "nome": "Óleo de Coco Santo Óleo Extravirgem",
+        "categoria": "Óleos",
+        "peso": "200 ml",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 172,
+        "id": 173,
+        "nome": "Óleo de Coco Santo Óleo Extravirgem",
+        "categoria": "Óleos",
+        "peso": "500 ml",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 173,
+        "id": 174,
+        "nome": "Azeite de Abacate Extravirgem",
+        "categoria": "Óleos",
+        "peso": "250 ml",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 174,
+        "id": 175,
+        "nome": "Tahine Integral",
+        "categoria": "Pastas e Patês",
+        "peso": "320 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 175,
+        "id": 176,
+        "nome": "Tahine Tradicional",
+        "categoria": "Pastas e Patês",
+        "peso": "320 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 176,
+        "id": 177,
+        "nome": "Gergelim Mix",
+        "categoria": "Sementes",
+        "peso": "170 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 177,
+        "id": 178,
+        "nome": "Sriracha Hot Chili Sauce",
+        "categoria": "Molhos",
+        "peso": "330 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 178,
+        "id": 179,
+        "nome": "Molho Mrs Chicken",
+        "categoria": "Molhos",
+        "peso": "320 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 179,
+        "id": 180,
+        "nome": "Geleia de Pimenta com Frutas Vermelhas",
+        "categoria": "Geleias",
+        "peso": "260 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 180,
+        "id": 181,
+        "nome": "Molho Agridoce Defumado",
+        "categoria": "Molhos",
+        "peso": "260 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 181,
+        "id": 182,
+        "nome": "Sal Sertão Integral",
+        "categoria": "Sais",
+        "peso": "1 kg",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 182,
+        "id": 183,
+        "nome": "Sal Marinho Integral de Mossoró",
+        "categoria": "Sais",
+        "peso": "500 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 183,
+        "id": 184,
+        "nome": "Sal Marinho Integral de Mossoró",
+        "categoria": "Sais",
+        "peso": "1 kg",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 184,
+        "id": 185,
+        "nome": "Sal Marinho Integral",
+        "categoria": "Sais",
+        "peso": "1 kg",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 185,
+        "id": 186,
+        "nome": "Flocos de Milho Livre",
+        "categoria": "Cereais",
+        "peso": "500 g",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 186,
+        "id": 187,
+        "nome": "Extrato Natural de Baunilha",
+        "categoria": "Ingredientes Naturais",
+        "peso": "30 ml",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 187,
+        "id": 188,
+        "nome": "Shoyu de Coco Copra",
+        "categoria": "Molhos",
+        "peso": "250 ml",
+        "unidade": "1 unidade",
+        "codigo": ""
+      },
+      {
+        "indice": 265,
+        "id": 226,
+        "nome": "Boldo do Chile — Embalagem 100 g",
+        "categoria": "Chás",
+        "peso": "100 g",
+        "unidade": "1 embalagem",
+        "codigo": "232"
+      },
+      {
+        "indice": 266,
+        "id": 227,
+        "nome": "Urtiga Folha — Embalagem 100 g",
+        "categoria": "Chás",
+        "peso": "100 g",
+        "unidade": "1 embalagem",
+        "codigo": ""
+      },
+      {
+        "indice": 267,
+        "id": 228,
+        "nome": "Albumina — Clara de Ovo",
+        "categoria": "Suplementos",
+        "peso": "100 g",
+        "unidade": "1 embalagem",
+        "codigo": "127"
+      },
+      {
+        "indice": 268,
+        "id": 229,
+        "nome": "Quinua em Flocos",
+        "categoria": "Grãos e Cereais",
+        "peso": "100 g",
+        "unidade": "1 embalagem",
+        "codigo": "279"
+      },
+      {
+        "indice": 269,
+        "id": 230,
+        "nome": "Ovo-Albumina em Pó",
+        "categoria": "Suplementos",
+        "peso": "100 g",
+        "unidade": "1 embalagem",
+        "codigo": "479"
+      },
+      {
+        "indice": 270,
+        "id": 231,
+        "nome": "Gérmen de Trigo",
+        "categoria": "Grãos e Cereais",
+        "peso": "100 g",
+        "unidade": "1 embalagem",
+        "codigo": "356"
+      },
+      {
+        "indice": 271,
+        "id": 232,
+        "nome": "Feno Grego — Grãos",
+        "categoria": "Grãos e Sementes",
+        "peso": "100 g",
+        "unidade": "1 embalagem",
+        "codigo": "605"
+      },
+      {
+        "indice": 272,
+        "id": 233,
+        "nome": "Glutamina",
+        "categoria": "Suplementos",
+        "peso": "100 g",
+        "unidade": "1 embalagem",
+        "codigo": "407"
+      },
+      {
+        "indice": 273,
+        "id": 234,
+        "nome": "Farinha de Semente de Abóbora — Sem Casca",
+        "categoria": "Farinhas e Pós",
+        "peso": "100 g",
+        "unidade": "1 embalagem",
+        "codigo": "802"
+      },
+      {
+        "indice": 274,
+        "id": 235,
+        "nome": "Semente de Abóbora em Pó",
+        "categoria": "Farinhas e Pós",
+        "peso": "100 g",
+        "unidade": "1 embalagem",
+        "codigo": "801"
+      },
+      {
+        "indice": 275,
+        "id": 236,
+        "nome": "Farinha de Batata-Doce",
+        "categoria": "Farinhas",
+        "peso": "100 g",
+        "unidade": "1 embalagem",
+        "codigo": "333"
+      },
+      {
+        "indice": 276,
+        "id": 237,
+        "nome": "Farinha de Arroz Integral",
+        "categoria": "Farinhas",
+        "peso": "100 g",
+        "unidade": "1 embalagem",
+        "codigo": "768"
+      },
+      {
+        "indice": 277,
+        "id": 238,
+        "nome": "Fécula de Mandioca",
+        "categoria": "Farinhas",
+        "peso": "100 g",
+        "unidade": "1 embalagem",
+        "codigo": "184"
+      },
+      {
+        "indice": 292,
+        "id": 253,
+        "nome": "Buchinha do Norte",
+        "categoria": "Chás",
+        "peso": "1 unidade",
+        "unidade": "1 unidade",
+        "codigo": "792"
+      }
+    ],
+    "MEDIDA_COMPLETA": [
+      {
+        "indice": 13,
+        "id": 14,
+        "nome": "Pão de Queijo com Goiabada",
+        "categoria": "Pães",
+        "peso": "300 g",
+        "unidade": ""
+      },
+      {
+        "indice": 15,
+        "id": 16,
+        "nome": "Bisnaguinha",
+        "categoria": "Pães",
+        "peso": "150 g",
+        "unidade": ""
+      },
+      {
+        "indice": 22,
+        "id": 23,
+        "nome": "Chips de Batata-Doce com Sal Rosa do Himalaia",
+        "categoria": "Snacks",
+        "peso": "50 g",
+        "unidade": ""
+      },
+      {
+        "indice": 23,
+        "id": 24,
+        "nome": "Chips de Mandioca com Chimi Churri",
+        "categoria": "Snacks",
+        "peso": "50 g",
+        "unidade": ""
+      },
+      {
+        "indice": 24,
+        "id": 25,
+        "nome": "Chips de Mandioca com Lemon Pepper",
+        "categoria": "Snacks",
+        "peso": "50 g",
+        "unidade": ""
+      },
+      {
+        "indice": 25,
+        "id": 26,
+        "nome": "Chips de Batata-Doce Sweet Chilli",
+        "categoria": "Snacks",
+        "peso": "50 g",
+        "unidade": ""
+      },
+      {
+        "indice": 26,
+        "id": 27,
+        "nome": "Chips de Batata-Doce com Azeite e Manjericão",
+        "categoria": "Snacks",
+        "peso": "45 g",
+        "unidade": ""
+      },
+      {
+        "indice": 27,
+        "id": 28,
+        "nome": "Chips de Batata Roxa com Gergelim Branco",
+        "categoria": "Snacks",
+        "peso": "30 g",
+        "unidade": ""
+      },
+      {
+        "indice": 28,
+        "id": 29,
+        "nome": "Chips de Batata-Doce",
+        "categoria": "Snacks",
+        "peso": "30 g",
+        "unidade": ""
+      },
+      {
+        "indice": 29,
+        "id": 30,
+        "nome": "Canjica de Milho com Sal Marinho",
+        "categoria": "Snacks",
+        "peso": "40 g",
+        "unidade": ""
+      },
+      {
+        "indice": 30,
+        "id": 31,
+        "nome": "Salgadinho de Requeijão com Milho e Quinoa",
+        "categoria": "Snacks",
+        "peso": "25 g",
+        "unidade": ""
+      },
+      {
+        "indice": 31,
+        "id": 32,
+        "nome": "Cookies Baunilha & Chocolate Zero Açúcar",
+        "categoria": "Cookies e Doces",
+        "peso": "67 g",
+        "unidade": ""
+      },
+      {
+        "indice": 188,
+        "nome": "Black Maca Peruana Premium",
+        "categoria": "Suplementos",
+        "peso": "150 g"
+      },
+      {
+        "indice": 189,
+        "nome": "Beterraba em Pó",
+        "categoria": "Granel",
+        "peso": "100 g"
+      },
+      {
+        "indice": 190,
+        "nome": "Feno Grego em Pó",
+        "categoria": "Granel",
+        "peso": "100 g"
+      },
+      {
+        "indice": 191,
+        "nome": "Energético em Pó (Tribulus)",
+        "categoria": "Suplementos",
+        "peso": "100 g"
+      },
+      {
+        "indice": 192,
+        "nome": "Farinha de Berinjela",
+        "categoria": "Granel",
+        "peso": "100 g"
+      },
+      {
+        "indice": 193,
+        "nome": "Farinha de Inhame",
+        "categoria": "Granel",
+        "peso": "100 g"
+      },
+      {
+        "indice": 194,
+        "nome": "Goma Xantana",
+        "categoria": "Granel",
+        "peso": "100 g"
+      },
+      {
+        "indice": 195,
+        "nome": "Semolina",
+        "categoria": "Granel",
+        "peso": "100 g"
+      },
+      {
+        "indice": 196,
+        "nome": "Farinha de Centeio",
+        "categoria": "Granel",
+        "peso": "100 g"
+      },
+      {
+        "indice": 197,
+        "nome": "Farinha de Maracujá",
+        "categoria": "Granel",
+        "peso": "100 g"
+      },
+      {
+        "indice": 198,
+        "nome": "Ágar-Ágar em Pó",
+        "categoria": "Farinhas e Pós",
+        "peso": "100 g"
+      },
+      {
+        "indice": 199,
+        "nome": "Dolomita",
+        "categoria": "Suplementos",
+        "peso": "100 g"
+      },
+      {
+        "indice": 200,
+        "nome": "Argila Branca",
+        "categoria": "Cosméticos Naturais",
+        "peso": "100 g"
+      },
+      {
+        "indice": 201,
+        "nome": "Argila Verde",
+        "categoria": "Cosméticos Naturais",
+        "peso": "100 g"
+      },
+      {
+        "indice": 202,
+        "nome": "Alcachofra",
+        "categoria": "Chás",
+        "peso": "100 g"
+      },
+      {
+        "indice": 203,
+        "nome": "Amora Branca",
+        "categoria": "Chás",
+        "peso": "100 g"
+      },
+      {
+        "indice": 204,
+        "nome": "Funcho",
+        "categoria": "Chás",
+        "peso": "100 g"
+      },
+      {
+        "indice": 205,
+        "nome": "Alfazema Azul",
+        "categoria": "Chás",
+        "peso": "100 g"
+      },
+      {
+        "indice": 206,
+        "nome": "Oliveira - Folha",
+        "categoria": "Chás",
+        "peso": "100 g"
+      },
+      {
+        "indice": 207,
+        "nome": "Macela - Flor",
+        "categoria": "Chás",
+        "peso": "100 g"
+      },
+      {
+        "indice": 208,
+        "nome": "Maçã para Chá",
+        "categoria": "Chás",
+        "peso": "100 g"
+      },
+      {
+        "indice": 209,
+        "nome": "Limão Desidratado",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g"
+      },
+      {
+        "indice": 210,
+        "nome": "Laranja para Chá",
+        "categoria": "Chás",
+        "peso": "100 g"
+      },
+      {
+        "indice": 211,
+        "nome": "Cravo da Índia",
+        "categoria": "Temperos Naturais",
+        "peso": "100 g"
+      },
+      {
+        "indice": 212,
+        "nome": "Anis Estrelado",
+        "categoria": "Temperos Naturais",
+        "peso": "100 g"
+      },
+      {
+        "indice": 213,
+        "nome": "Glucomannan",
+        "categoria": "Suplementos",
+        "peso": "100 g"
+      },
+      {
+        "indice": 214,
+        "nome": "Amaranto em Flocos",
+        "categoria": "Cereais",
+        "peso": "100 g"
+      },
+      {
+        "indice": 215,
+        "nome": "Açaí em Pó",
+        "categoria": "Suplementos",
+        "peso": "100 g"
+      },
+      {
+        "indice": 216,
+        "nome": "Levedura de Cerveja em Pó",
+        "categoria": "Suplementos",
+        "peso": "100 g"
+      },
+      {
+        "indice": 217,
+        "nome": "Mucuna Nutricional",
+        "categoria": "Suplementos",
+        "peso": "100 g"
+      },
+      {
+        "indice": 218,
+        "nome": "Quirera de Milho",
+        "categoria": "Cereais",
+        "peso": "100 g"
+      },
+      {
+        "indice": 219,
+        "nome": "Farinha de Milho",
+        "categoria": "Cereais",
+        "peso": "100 g"
+      },
+      {
+        "indice": 220,
+        "nome": "Farinha de Mandioca Fina",
+        "categoria": "Farinhas",
+        "peso": "100 g"
+      },
+      {
+        "indice": 221,
+        "nome": "Tapioca Granulada",
+        "categoria": "Farinhas",
+        "peso": "100 g"
+      },
+      {
+        "indice": 222,
+        "nome": "Maca Peruana",
+        "categoria": "Suplementos",
+        "peso": "100 g"
+      },
+      {
+        "indice": 223,
+        "nome": "Farinha de Linhaça Marrom",
+        "categoria": "Farinhas",
+        "peso": "100 g"
+      },
+      {
+        "indice": 224,
+        "nome": "Farinha de Linhaça",
+        "categoria": "Farinhas",
+        "peso": "100 g"
+      },
+      {
+        "indice": 225,
+        "nome": "Gengibre em Pó",
+        "categoria": "Temperos Naturais",
+        "peso": "100 g"
+      },
+      {
+        "indice": 226,
+        "nome": "Chia Premium",
+        "categoria": "Sementes",
+        "peso": "100 g"
+      },
+      {
+        "indice": 227,
+        "nome": "Farinha de Chia",
+        "categoria": "Farinhas",
+        "peso": "100 g"
+      },
+      {
+        "indice": 346,
+        "id": 347,
+        "nome": "Colorau",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "112"
+      },
+      {
+        "indice": 347,
+        "id": 348,
+        "nome": "Tempero Pega Marido",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "332"
+      },
+      {
+        "indice": 348,
+        "id": 349,
+        "nome": "Chimichurri c/ Pimenta",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "1122"
+      },
+      {
+        "indice": 349,
+        "id": 350,
+        "nome": "Cebola, Salsa e Tomate",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "815"
+      },
+      {
+        "indice": 350,
+        "id": 351,
+        "nome": "Tempero Ana Maria",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "145"
+      },
+      {
+        "indice": 351,
+        "id": 352,
+        "nome": "Vinagrete",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "149"
+      },
+      {
+        "indice": 352,
+        "id": 353,
+        "nome": "Açafrão Premium",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "201"
+      },
+      {
+        "indice": 353,
+        "id": 354,
+        "nome": "Cebola em Pó",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "64"
+      },
+      {
+        "indice": 354,
+        "id": 355,
+        "nome": "Farinha de Cebola",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "133"
+      },
+      {
+        "indice": 355,
+        "id": 356,
+        "nome": "Cúrcuma Pura",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "114"
+      },
+      {
+        "indice": 356,
+        "id": 357,
+        "nome": "Curry",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "511"
+      },
+      {
+        "indice": 357,
+        "id": 358,
+        "nome": "Caldo de Carne",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "070"
+      },
+      {
+        "indice": 358,
+        "id": 359,
+        "nome": "Lemon Pepper",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "120"
+      },
+      {
+        "indice": 359,
+        "id": 360,
+        "nome": "Fumaça em Pó",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "626"
+      },
+      {
+        "indice": 360,
+        "id": 361,
+        "nome": "Limão com Ervas Finas",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "749"
+      },
+      {
+        "indice": 361,
+        "id": 363,
+        "nome": "Zattar",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "150"
+      },
+      {
+        "indice": 362,
+        "id": 364,
+        "nome": "Pimenta Calabresa",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "712"
+      },
+      {
+        "indice": 363,
+        "id": 365,
+        "nome": "Pimenta Chili",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "1121"
+      },
+      {
+        "indice": 364,
+        "id": 366,
+        "nome": "Pimenta Rosa Grãos",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "136"
+      },
+      {
+        "indice": 365,
+        "id": 367,
+        "nome": "Coentro em Grão",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": null
+      },
+      {
+        "indice": 366,
+        "id": 368,
+        "nome": "Pimenta Jamaica em Grão",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "909"
+      },
+      {
+        "indice": 367,
+        "id": 369,
+        "nome": "Pimenta Jamaica",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "981"
+      },
+      {
+        "indice": 368,
+        "id": 370,
+        "nome": "Pimenta Branca em Grão",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "132"
+      },
+      {
+        "indice": 369,
+        "id": 372,
+        "nome": "Pimenta do Reino em Pó",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "134"
+      },
+      {
+        "indice": 370,
+        "id": 373,
+        "nome": "Pimenta Malagueta",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "12902"
+      },
+      {
+        "indice": 371,
+        "id": 374,
+        "nome": "Pimenta Caiena",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "931"
+      },
+      {
+        "indice": 372,
+        "id": 375,
+        "nome": "Pimenta Preta em Grão",
+        "categoria": "Temperos Naturais",
+        "peso": "100g",
+        "codigo": "159"
+      }
+    ],
+    "APRESENTACAO_PREENCHIDA": [
+      {
+        "indice": 228,
+        "id": 189,
+        "nome": "Psyllium Husk 90%",
+        "categoria": "Suplementos",
+        "peso": "100 g",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 229,
+        "id": 190,
+        "nome": "Farinha de Aveia Integral",
+        "categoria": "Farinhas",
+        "peso": "100 g",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 230,
+        "id": 191,
+        "nome": "Farinha de Aveia",
+        "categoria": "Farinhas",
+        "peso": "100 g",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 231,
+        "id": 192,
+        "nome": "Farinha de Amêndoa",
+        "categoria": "Farinhas",
+        "peso": "100 g",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 232,
+        "id": 193,
+        "nome": "Farinha de Coco",
+        "categoria": "Farinhas",
+        "peso": "100 g",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 233,
+        "id": 194,
+        "nome": "Leite de Coco em Pó",
+        "categoria": "Ingredientes Naturais",
+        "peso": "100 g",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 234,
+        "id": 195,
+        "nome": "Colágeno Hidrolisado",
+        "categoria": "Suplementos",
+        "peso": "100 g",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 235,
+        "id": 196,
+        "nome": "Fibra de Maçã",
+        "categoria": "Suplementos",
+        "peso": "100 g",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 236,
+        "id": 197,
+        "nome": "Gelatina Natural",
+        "categoria": "Ingredientes Naturais",
+        "peso": "100 g",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 237,
+        "id": 198,
+        "nome": "Matcha",
+        "categoria": "Chás",
+        "peso": "100 g",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 238,
+        "id": 199,
+        "nome": "Proteína Isolada",
+        "categoria": "Proteínas",
+        "peso": "100 g",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 239,
+        "id": 200,
+        "nome": "Cardamomo em Pó",
+        "categoria": "Temperos Naturais",
+        "peso": "100 g",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 240,
+        "id": 201,
+        "nome": "Cardamomo em Grãos",
+        "categoria": "Temperos Naturais",
+        "peso": "100 g",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 288,
+        "id": 249,
+        "nome": "Manjerona em Pó",
+        "categoria": "Temperos Naturais",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "99"
+      },
+      {
+        "indice": 289,
+        "id": 250,
+        "nome": "Sucupira Miúda",
+        "categoria": "Chás",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "485"
+      },
+      {
+        "indice": 290,
+        "id": 251,
+        "nome": "Erva-do-Bicho",
+        "categoria": "Chás",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "578"
+      },
+      {
+        "indice": 291,
+        "id": 252,
+        "nome": "Verbena",
+        "categoria": "Chás",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "382"
+      },
+      {
+        "indice": 293,
+        "id": 254,
+        "nome": "Losna",
+        "categoria": "Chás",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "2031"
+      },
+      {
+        "indice": 294,
+        "id": 255,
+        "nome": "Jambolão",
+        "categoria": "Chás",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "33"
+      },
+      {
+        "indice": 295,
+        "id": 256,
+        "nome": "Tanchagem",
+        "categoria": "Chás",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "498"
+      },
+      {
+        "indice": 296,
+        "id": 257,
+        "nome": "Drageado de Castanha de Caju 70%",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "777"
+      },
+      {
+        "indice": 297,
+        "id": 258,
+        "nome": "Castanha do Pará 70%",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "466"
+      },
+      {
+        "indice": 298,
+        "id": 259,
+        "nome": "Drageado de Castanha do Pará 70%",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "466"
+      },
+      {
+        "indice": 299,
+        "id": 260,
+        "nome": "Drageado de Amêndoas 70%",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "777"
+      },
+      {
+        "indice": 300,
+        "id": 261,
+        "nome": "Drageado de Banana Passa com Whey 70%",
+        "categoria": "Frutas Desidratadas",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "777"
+      },
+      {
+        "indice": 301,
+        "id": 262,
+        "nome": "Drageado de Avelã ao Leite",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "777"
+      },
+      {
+        "indice": 302,
+        "id": 263,
+        "nome": "Drageado de Castanha de Caju ao Leite",
+        "categoria": "Oleaginosas",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "777"
+      },
+      {
+        "indice": 316,
+        "id": 277,
+        "nome": "Castanha do Pará c/ Chocolate ao Leite",
+        "categoria": "Drageados e Chocolates",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "466"
+      },
+      {
+        "indice": 317,
+        "id": 278,
+        "nome": "Drageado de Amendoim c/ Chocolate ao Leite",
+        "categoria": "Drageados e Chocolates",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "777"
+      },
+      {
+        "indice": 318,
+        "id": 279,
+        "nome": "Drageado de Uva Passa c/ Chocolate ao Leite",
+        "categoria": "Drageados e Chocolates",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "777"
+      },
+      {
+        "indice": 319,
+        "id": 280,
+        "nome": "Drageado de Castanha do Pará",
+        "categoria": "Drageados e Chocolates",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "777"
+      },
+      {
+        "indice": 320,
+        "id": 281,
+        "nome": "Cebola, Alho e Salsa",
+        "categoria": "Temperos e Especiarias",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "309"
+      },
+      {
+        "indice": 321,
+        "id": 282,
+        "nome": "Cebola Granulada",
+        "categoria": "Temperos e Especiarias",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "387"
+      },
+      {
+        "indice": 322,
+        "id": 283,
+        "nome": "Tempero Edu Guedes",
+        "categoria": "Temperos e Especiarias",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "147"
+      },
+      {
+        "indice": 323,
+        "id": 284,
+        "nome": "Chimichurri s/ Pimenta",
+        "categoria": "Temperos e Especiarias",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "1123"
+      },
+      {
+        "indice": 324,
+        "id": 285,
+        "nome": "Orégano",
+        "categoria": "Temperos e Especiarias",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "28"
+      },
+      {
+        "indice": 325,
+        "id": 286,
+        "nome": "Tempero Gaúcho",
+        "categoria": "Temperos e Especiarias",
+        "peso": "100 g",
+        "unidade": "100 g",
+        "codigo": "310"
+      }
+    ],
+    "PRECISA_REVISAO": [
+      {
+        "indice": 241,
+        "id": 202,
+        "nome": "Cardo Mariano",
+        "categoria": "Chás",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 242,
+        "id": 203,
+        "nome": "Uxi Amarelo",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 243,
+        "id": 204,
+        "nome": "Zimbro",
+        "categoria": "Temperos Naturais",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 244,
+        "id": 205,
+        "nome": "Maçã com Canela",
+        "categoria": "Chás",
+        "unidade": "13 g"
+      },
+      {
+        "indice": 245,
+        "id": 206,
+        "nome": "Chá Verde com Hibiscus",
+        "categoria": "Chás",
+        "unidade": "15 g"
+      },
+      {
+        "indice": 246,
+        "id": 207,
+        "nome": "Picão",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 247,
+        "id": 208,
+        "nome": "Quebra-Pedra",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 248,
+        "id": 209,
+        "nome": "Sálvia",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 249,
+        "id": 210,
+        "nome": "Arruda",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 250,
+        "id": 211,
+        "nome": "Artemísia",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 251,
+        "id": 212,
+        "nome": "Barbatimão",
+        "categoria": "Chás",
+        "unidade": "50 g"
+      },
+      {
+        "indice": 252,
+        "id": 213,
+        "nome": "Boldo do Chile",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 253,
+        "id": 214,
+        "nome": "Cavalinha",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 254,
+        "id": 215,
+        "nome": "Carqueja",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 255,
+        "id": 216,
+        "nome": "Dente-de-Leão",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 256,
+        "id": 217,
+        "nome": "Erva-de-Bicho",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 257,
+        "id": 218,
+        "nome": "Erva-Baleeira",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 258,
+        "id": 219,
+        "nome": "Erva-de-Bugre",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 259,
+        "id": 220,
+        "nome": "Graviola",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 260,
+        "id": 221,
+        "nome": "Guiné",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 261,
+        "id": 222,
+        "nome": "Goiabeira",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 262,
+        "id": 223,
+        "nome": "Louro",
+        "categoria": "Chás",
+        "unidade": "30 g"
+      },
+      {
+        "indice": 263,
+        "id": 224,
+        "nome": "Urtiga Folha",
+        "categoria": "Chás",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 264,
+        "id": 225,
+        "nome": "Manacá",
+        "categoria": "Chás",
+        "unidade": "100 g"
+      },
+      {
+        "indice": 278,
+        "id": 239,
+        "nome": "Fécula de Batata",
+        "categoria": "Farinhas",
+        "peso": "",
+        "unidade": "100 g",
+        "codigo": "350"
+      },
+      {
+        "indice": 279,
+        "id": 240,
+        "nome": "Guaraná em Pó",
+        "categoria": "Suplementos",
+        "peso": "",
+        "unidade": "100 g",
+        "codigo": "408"
+      },
+      {
+        "indice": 280,
+        "id": 241,
+        "nome": "Farinha de Uva",
+        "categoria": "Farinhas",
+        "peso": "",
+        "unidade": "100 g",
+        "codigo": "430"
+      },
+      {
+        "indice": 281,
+        "id": 242,
+        "nome": "Catuaba em Pó",
+        "categoria": "Suplementos",
+        "peso": "",
+        "unidade": "100 g",
+        "codigo": "219"
+      },
+      {
+        "indice": 282,
+        "id": 243,
+        "nome": "Ginseng em Pó",
+        "categoria": "Suplementos",
+        "peso": "",
+        "unidade": "100 g",
+        "codigo": "357"
+      },
+      {
+        "indice": 283,
+        "id": 244,
+        "nome": "Spirulina em Pó",
+        "categoria": "Suplementos",
+        "peso": "",
+        "unidade": "100 g",
+        "codigo": "380"
+      },
+      {
+        "indice": 284,
+        "id": 245,
+        "nome": "Farinha de Grão-de-Bico",
+        "categoria": "Farinhas",
+        "peso": "",
+        "unidade": "100 g",
+        "codigo": "340"
+      },
+      {
+        "indice": 285,
+        "id": 246,
+        "nome": "Farinha de Banana Verde",
+        "categoria": "Farinhas",
+        "peso": "",
+        "unidade": "100 g",
+        "codigo": "332"
+      },
+      {
+        "indice": 286,
+        "id": 247,
+        "nome": "Trigo para Kibe",
+        "categoria": "Grãos e Cereais",
+        "peso": "",
+        "unidade": "100 g",
+        "codigo": "274"
+      },
+      {
+        "indice": 287,
+        "id": 248,
+        "nome": "Extrato de Soja",
+        "categoria": "Farinhas e Pós",
+        "peso": "",
+        "unidade": "100 g",
+        "codigo": "323"
+      },
+      {
+        "indice": 303,
+        "id": 264,
+        "nome": "Drageado de Banana c/ Chocolate 70% Dietético",
+        "categoria": "Frutas Desidratadas",
+        "unidade": "100 g",
+        "codigo": "773"
+      },
+      {
+        "indice": 304,
+        "id": 265,
+        "nome": "Castanhinha de Banana c/ Chocolate 70%",
+        "categoria": "Frutas Desidratadas",
+        "unidade": "100 g",
+        "codigo": "597"
+      },
+      {
+        "indice": 305,
+        "id": 266,
+        "nome": "Amendoim c/ Chocolate 70%",
+        "categoria": "Oleaginosas",
+        "unidade": "100 g",
+        "codigo": "776"
+      },
+      {
+        "indice": 306,
+        "id": 267,
+        "nome": "Gotas Branca 0 Açúcar",
+        "categoria": "Chocolates",
+        "unidade": "100 g",
+        "codigo": "774"
+      },
+      {
+        "indice": 307,
+        "id": 268,
+        "nome": "Gotas de Chocolate ao Leite 0 Açúcar",
+        "categoria": "Chocolates",
+        "unidade": "100 g",
+        "codigo": "774"
+      },
+      {
+        "indice": 308,
+        "id": 269,
+        "nome": "Drageado de Uva c/ Chocolate 70%",
+        "categoria": "Frutas Desidratadas",
+        "unidade": "100 g",
+        "codigo": "773"
+      },
+      {
+        "indice": 309,
+        "id": 270,
+        "nome": "Drageado de Amendoim c/ Chocolate 70%",
+        "categoria": "Oleaginosas",
+        "unidade": "100 g",
+        "codigo": "773"
+      },
+      {
+        "indice": 310,
+        "id": 271,
+        "nome": "Drageado de Cranberry c/ Chocolate 70%",
+        "categoria": "Frutas Desidratadas",
+        "unidade": "100 g",
+        "codigo": "773"
+      },
+      {
+        "indice": 311,
+        "id": 272,
+        "nome": "Drageado de Cranberry Zero Açúcar",
+        "categoria": "Frutas Desidratadas",
+        "unidade": "100 g",
+        "codigo": "773"
+      },
+      {
+        "indice": 312,
+        "id": 273,
+        "nome": "Only4 Chocolate + Cranberry 70%",
+        "categoria": "Chocolates",
+        "unidade": "70 g",
+        "codigo": ""
+      },
+      {
+        "indice": 313,
+        "id": 274,
+        "nome": "Bala de Alcaçuz",
+        "categoria": "Guloseimas",
+        "unidade": "100 g",
+        "codigo": "265"
+      },
+      {
+        "indice": 314,
+        "id": 275,
+        "nome": "Damasco c/ Chocolate 70%",
+        "categoria": "Frutas Desidratadas",
+        "unidade": "100 g",
+        "codigo": "776"
+      },
+      {
+        "indice": 315,
+        "id": 276,
+        "nome": "Drageado de Limão Siciliano",
+        "categoria": "Frutas Desidratadas",
+        "unidade": "100 g",
+        "codigo": "777"
+      }
+    ],
+    "NUMERO_MAIS_MEDIDA_COMPATIVEL": [
+      {
+        "indice": 326,
+        "id": 317,
+        "nome": "Castanha do Pará",
+        "categoria": "Oleaginosas",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "466"
+      },
+      {
+        "indice": 327,
+        "id": 318,
+        "nome": "Drageado de Morango",
+        "categoria": "Drageados",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "777"
+      },
+      {
+        "indice": 328,
+        "id": 319,
+        "nome": "Drageado de Licor de Morango",
+        "categoria": "Drageados",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "777"
+      },
+      {
+        "indice": 329,
+        "id": 320,
+        "nome": "Drageado de Licor de Conhaque",
+        "categoria": "Drageados",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "777"
+      },
+      {
+        "indice": 330,
+        "id": 321,
+        "nome": "Cebola, Alho e Salsa",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "309"
+      },
+      {
+        "indice": 331,
+        "id": 322,
+        "nome": "Cebola Granulada",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "387"
+      },
+      {
+        "indice": 332,
+        "id": 323,
+        "nome": "Tempero Edu Guedes",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "147"
+      },
+      {
+        "indice": 333,
+        "id": 324,
+        "nome": "Chimichurri sem Pimenta",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "1123"
+      },
+      {
+        "indice": 334,
+        "id": 325,
+        "nome": "Orégano",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "28"
+      },
+      {
+        "indice": 335,
+        "id": 326,
+        "nome": "Tempero Gaúcho",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "310"
+      },
+      {
+        "indice": 336,
+        "id": 327,
+        "nome": "Páprica Defumada",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "266"
+      },
+      {
+        "indice": 337,
+        "id": 328,
+        "nome": "Páprica Doce",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "258"
+      },
+      {
+        "indice": 338,
+        "id": 329,
+        "nome": "Tempero Baiano com Pimenta",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "253"
+      },
+      {
+        "indice": 339,
+        "id": 330,
+        "nome": "Mix Mexicano Bela",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "616"
+      },
+      {
+        "indice": 340,
+        "id": 331,
+        "nome": "Sal Rosa Fino",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "121"
+      },
+      {
+        "indice": 341,
+        "id": 332,
+        "nome": "Sal Rosa Grosso",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "142"
+      },
+      {
+        "indice": 342,
+        "id": 333,
+        "nome": "Mix Mexicano em Pó",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "227"
+      },
+      {
+        "indice": 343,
+        "id": 334,
+        "nome": "Tempero Baiano sem Pimenta",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "153"
+      },
+      {
+        "indice": 344,
+        "id": 335,
+        "nome": "Louro em Pó",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "121"
+      },
+      {
+        "indice": 345,
+        "id": 336,
+        "nome": "Páprica Picante",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "330"
+      },
+      {
+        "indice": 373,
+        "id": 376,
+        "nome": "Funghi Seco",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "230"
+      },
+      {
+        "indice": 374,
+        "id": 377,
+        "nome": "Sal Negro Fino",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "140"
+      },
+      {
+        "indice": 375,
+        "id": 378,
+        "nome": "Mostarda em Grão",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "748"
+      },
+      {
+        "indice": 376,
+        "id": 379,
+        "nome": "Tempero Ana Maria Light",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "769"
+      },
+      {
+        "indice": 377,
+        "id": 380,
+        "nome": "Cominho em Grão",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "612"
+      },
+      {
+        "indice": 378,
+        "id": 381,
+        "nome": "Tomilho",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "143"
+      },
+      {
+        "indice": 379,
+        "id": 382,
+        "nome": "Alho em Pó",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "659"
+      },
+      {
+        "indice": 380,
+        "id": 383,
+        "nome": "Alho em Flocos",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "901"
+      },
+      {
+        "indice": 381,
+        "id": 384,
+        "nome": "Ervas Finas",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "116"
+      },
+      {
+        "indice": 382,
+        "id": 385,
+        "nome": "Alho Granulado",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "104"
+      },
+      {
+        "indice": 383,
+        "id": 387,
+        "nome": "Manjericão",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "NÃO LEGÍVEL"
+      },
+      {
+        "indice": 384,
+        "id": 388,
+        "nome": "Alecrim Desidratado",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "204"
+      },
+      {
+        "indice": 385,
+        "id": 390,
+        "nome": "Flor de Sal",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "162"
+      },
+      {
+        "indice": 386,
+        "id": 391,
+        "nome": "Trigo Sarraceno",
+        "categoria": "Grãos",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "190"
+      },
+      {
+        "indice": 387,
+        "id": 392,
+        "nome": "Canela em Pau",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "246"
+      },
+      {
+        "indice": 388,
+        "id": 393,
+        "nome": "Ginkgo Biloba",
+        "categoria": "Chás",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "232"
+      },
+      {
+        "indice": 389,
+        "id": 394,
+        "nome": "Guaco",
+        "categoria": "Chás",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "234"
+      },
+      {
+        "indice": 390,
+        "id": 395,
+        "nome": "Chá Verde",
+        "categoria": "Chás",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "221"
+      },
+      {
+        "indice": 391,
+        "id": 396,
+        "nome": "Alho Frito Granulado",
+        "categoria": "Temperos Naturais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "103"
+      },
+      {
+        "indice": 392,
+        "id": 397,
+        "nome": "Hortelã",
+        "categoria": "Chás",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "447"
+      },
+      {
+        "indice": 393,
+        "id": 398,
+        "nome": "Erva Doce",
+        "categoria": "Chás",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "226"
+      },
+      {
+        "indice": 394,
+        "id": 399,
+        "nome": "Hibisco",
+        "categoria": "Chás",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "236"
+      },
+      {
+        "indice": 395,
+        "id": 400,
+        "nome": "Capim Limão",
+        "categoria": "Chás",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "113"
+      },
+      {
+        "indice": 396,
+        "id": 401,
+        "nome": "Camomila Flor",
+        "categoria": "Chás",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "214"
+      },
+      {
+        "indice": 397,
+        "id": 402,
+        "nome": "Folha de Maracujá",
+        "categoria": "Chás",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "603"
+      },
+      {
+        "indice": 398,
+        "id": 403,
+        "nome": "Melissa",
+        "categoria": "Chás",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "240"
+      },
+      {
+        "indice": 399,
+        "id": 404,
+        "nome": "Chá Sene",
+        "categoria": "Chás",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "146"
+      },
+      {
+        "indice": 400,
+        "id": 405,
+        "nome": "Espinheira Santa",
+        "categoria": "Chás",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "327"
+      },
+      {
+        "indice": 401,
+        "id": 406,
+        "nome": "Ervilha Verde Partida",
+        "categoria": "Grãos e Leguminosas",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "163"
+      },
+      {
+        "indice": 402,
+        "id": 407,
+        "nome": "Lentilha Canadense",
+        "categoria": "Grãos e Leguminosas",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "363"
+      },
+      {
+        "indice": 403,
+        "id": 408,
+        "nome": "Grão de Bico",
+        "categoria": "Grãos e Leguminosas",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "361"
+      },
+      {
+        "indice": 404,
+        "id": 409,
+        "nome": "Proteína de Soja Clara",
+        "categoria": "Proteínas Vegetais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "252"
+      },
+      {
+        "indice": 405,
+        "id": 410,
+        "nome": "Proteína de Soja Escura",
+        "categoria": "Proteínas Vegetais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "254"
+      },
+      {
+        "indice": 406,
+        "id": 411,
+        "nome": "Bacon de Soja",
+        "categoria": "Proteínas Vegetais",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "145"
+      },
+      {
+        "indice": 407,
+        "id": 412,
+        "nome": "Feijão Preto",
+        "categoria": "Grãos e Leguminosas",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "512"
+      },
+      {
+        "indice": 408,
+        "id": 413,
+        "nome": "Feijão Branco",
+        "categoria": "Grãos e Leguminosas",
+        "peso": 100,
+        "unidade": "g",
+        "codigo": "104"
+      }
+    ],
+    "MEDIDA_JA_CONTIDA_NO_PESO": [
+      {
+        "indice": 409,
+        "id": 414,
+        "nome": "Feijão Fradinho",
+        "categoria": "Grãos e Oleaginosas",
+        "peso": "100g",
+        "unidade": "g",
+        "codigo": "110"
+      },
+      {
+        "indice": 410,
+        "id": 415,
+        "nome": "Milho Mostarda e Mel",
+        "categoria": "Grãos e Oleaginosas",
+        "peso": "100g",
+        "unidade": "g",
+        "codigo": "157"
+      },
+      {
+        "indice": 411,
+        "id": 416,
+        "nome": "Ervilha c/ Wasabi",
+        "categoria": "Grãos e Oleaginosas",
+        "peso": "100g",
+        "unidade": "g",
+        "codigo": "793"
+      },
+      {
+        "indice": 412,
+        "id": 417,
+        "nome": "Amendoim com Sal e com Pele",
+        "categoria": "Grãos e Oleaginosas",
+        "peso": "100g",
+        "unidade": "g",
+        "codigo": "22"
+      },
+      {
+        "indice": 413,
+        "id": 418,
+        "nome": "Amendoim Cru c/ Pele",
+        "categoria": "Grãos e Oleaginosas",
+        "peso": "100g",
+        "unidade": "g",
+        "codigo": "1091"
+      },
+      {
+        "indice": 414,
+        "id": 419,
+        "nome": "Amendoim com Sal",
+        "categoria": "Grãos e Oleaginosas",
+        "peso": "100g",
+        "unidade": "g",
+        "codigo": "23"
+      },
+      {
+        "indice": 415,
+        "id": 420,
+        "nome": "Amendoim Sem Sal",
+        "categoria": "Grãos e Oleaginosas",
+        "peso": "100g",
+        "unidade": "g",
+        "codigo": "21"
+      },
+      {
+        "indice": 416,
+        "id": 421,
+        "nome": "Amêndoa Defumada",
+        "categoria": "Grãos e Oleaginosas",
+        "peso": "100g",
+        "unidade": "g",
+        "codigo": "10"
+      },
+      {
+        "indice": 417,
+        "id": 422,
+        "nome": "Amêndoa Torrada c/ Sal",
+        "categoria": "Grãos e Oleaginosas",
+        "peso": "100g",
+        "unidade": "g",
+        "codigo": "15"
+      },
+      {
+        "indice": 418,
+        "id": 423,
+        "nome": "Amêndoa Torrada s/ Sal",
+        "categoria": "Grãos e Oleaginosas",
+        "peso": "100g",
+        "unidade": "g",
+        "codigo": "112"
+      }
+    ]
+  }
+}

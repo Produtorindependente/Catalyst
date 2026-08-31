@@ -1,0 +1,689 @@
+/* ================================
+   CATALYST
+   Estilo principal
+================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fundo: #eef3ef;
+    --branco: #ffffff;
+    --texto: #1d1d1f;
+    --texto-secundario: #6e6e73;
+    --verde: #1f7a4d;
+    --verde-escuro: #145c38;
+    --borda: #e5e5e5;
+    --sombra: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+        "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+
+    background:
+    radial-gradient(
+        circle at 10% 10%,
+        rgba(31, 122, 77, 0.10),
+        transparent 28%
+    ),
+    radial-gradient(
+        circle at 90% 30%,
+        rgba(31, 122, 77, 0.07),
+        transparent 25%
+    ),
+    radial-gradient(
+        circle at 50% 100%,
+        rgba(31, 122, 77, 0.06),
+        transparent 30%
+    ),
+    var(--fundo);
+    color: var(--texto);
+    line-height: 1.5;
+}
+
+/* ================================
+   CABEÇALHO
+================================ */
+
+header {
+    background: rgba(255, 255, 255, 0.72);
+    padding: 28px 20px;
+    text-align: center;
+    border-bottom: 1px solid var(--borda);
+   backdrop-filter: blur(14px);
+-webkit-backdrop-filter: blur(14px); 
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+header p {
+    margin-top: 4px;
+    color: var(--texto-secundario);
+    font-size: 15px;
+}
+
+/* ================================
+   CONTEÚDO
+================================ */
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px 100px;
+}
+
+/* ================================
+   BUSCA
+================================ */
+
+.busca {
+    margin-bottom: 30px;
+}
+
+.busca input {
+    width: 100%;
+    padding: 16px 18px;
+
+    border: 1px solid var(--borda);
+    border-radius: 14px;
+
+    background: var(--branco);
+
+    font-size: 16px;
+    outline: none;
+
+    transition: 0.2s;
+}
+
+.busca input:focus {
+    border-color: var(--verde);
+    box-shadow: 0 0 0 3px rgba(31, 122, 77, 0.10);
+}
+
+/* ================================
+   GRID DE PRODUTOS
+================================ */
+
+.produtos {
+    display: grid;
+
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(220px, 1fr)
+    );
+
+    gap: 20px;
+}
+
+/* ================================
+   CARD
+================================ */
+
+.produto {
+    background: var(--branco);
+
+    border: 1px solid var(--borda);
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow: var(--sombra);
+
+    display: flex;
+    flex-direction: column;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.produto:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 14px 40px rgba(0, 0, 0, 0.10);
+}
+
+
+./* ========================================
+   IMAGEM DO PRODUTO
+======================================== */
+
+.produto img {
+    width: 100%;
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    object-fit: cover;
+    object-position: center;
+
+    display: block;
+
+    background: #f5f5f5;
+
+    transition: transform 0.3s ease;
+}
+
+.produto:hover img {
+    transform: scale(1.03);
+}
+/* ================================
+   INFORMAÇÕES
+================================ */
+
+.produto-info {
+    padding: 18px;
+
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+
+    box-sizing: border-box;
+}
+.produto-info .botao {
+    margin-top: auto;
+}
+
+.produto-info h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+/* DESCRIÇÃO DO PRODUTO */
+
+.produto-info p {
+    color: var(--texto-secundario);
+
+    font-size: 14px;
+    line-height: 1.5;
+
+    margin-bottom: 14px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+}
+
+.preco {
+    font-size: 21px;
+    font-weight: 700;
+
+    color: var(--verde);
+
+    margin-top: 4px;
+    margin-bottom: 14px;
+}
+
+/* ================================
+   BOTÃO
+================================ */
+
+.botao {
+    width: 100%;
+
+    border: none;
+    border-radius: 12px;
+
+    padding: 13px 16px;
+
+    background: var(--verde);
+    color: white;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.botao:hover {
+    background: var(--verde-escuro);
+}
+
+.botao:active {
+    transform: scale(0.98);
+}
+
+/* ================================
+   RESPONSIVIDADE
+================================ */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 22px 16px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    main {
+        padding: 20px 14px 80px;
+    }
+
+    .produtos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .produto {
+        border-radius: 16px;
+    }
+
+    .produto img {
+    height: 160px;
+    object-fit: contain;
+    background: #f5f5f5;
+}
+
+    .produto-info {
+        padding: 13px;
+    }
+
+    .produto-info h3 {
+        font-size: 15px;
+    }
+.produto-detalhes {
+    margin-top: 8px;
+
+    font-size: 13px;
+    font-weight: 500;
+
+    color: var(--texto-secundario);
+
+    line-height: 1.4;
+}
+    .produto-info p {
+        font-size: 13px;
+    }
+
+    .preco {
+        font-size: 17px;
+    }
+
+    .botao {
+        padding: 11px 8px;
+        font-size: 13px;
+    }
+}/* ========================================
+   CARRINHO LATERAL
+======================================== */
+
+#carrinho {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    width: min(400px, 90vw);
+    height: 100vh;
+
+    background: white;
+
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.12);
+
+    padding: 24px;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho-carrinho {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #eee;
+
+    padding-bottom: 18px;
+}
+
+.cabecalho-carrinho h2 {
+    margin: 0;
+
+    font-size: 22px;
+}
+
+#fecharCarrinho {
+    border: none;
+
+    background: transparent;
+
+    font-size: 32px;
+
+    line-height: 1;
+
+    cursor: pointer;
+
+    padding: 0 4px;
+}
+
+
+/* CONTADOR */
+
+.contador-carrinho {
+    padding: 14px 0;
+
+    font-size: 14px;
+
+    color: #666;
+}
+
+
+/* LISTA */
+
+#itensCarrinho {
+    flex: 1;
+
+    overflow-y: auto;
+
+    padding-right: 4px;
+}
+
+
+/* ITEM */
+
+.item-carrinho {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 12px;
+
+    padding: 16px 0;
+
+    border-bottom: 1px solid #eee;
+}
+
+.item-carrinho strong {
+    display: block;
+
+    margin-bottom: 6px;
+}
+
+.item-carrinho p {
+    margin: 0;
+
+    color: #666;
+
+    font-size: 14px;
+}
+
+.item-carrinho button {
+    border: none;
+
+    background: transparent;
+
+    cursor: pointer;
+
+    font-size: 13px;
+
+    text-decoration: underline;
+}
+
+
+/* RODAPÉ */
+
+.rodape-carrinho {
+    border-top: 1px solid #eee;
+
+    padding-top: 18px;
+
+    margin-top: 12px;
+}
+
+.rodape-carrinho p {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin: 0 0 16px;
+
+    font-size: 16px;
+}
+
+.rodape-carrinho strong {
+    font-size: 20px;
+}
+
+
+/* BOTÃO WHATSAPP */
+
+#finalizarWhatsApp {
+    width: 100%;
+
+    border: none;
+
+    border-radius: 12px;
+
+    padding: 15px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    font-weight: 600;
+}#carrinho {
+    right: 0 !important;
+    left: auto !important;
+}/* ========================================
+   ANIMAÇÃO DO CARRINHO
+======================================== */
+
+#carrinho {
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+}
+
+#carrinho.aberto {
+    transform: translateX(0);
+}/* ========================================
+   BOTÃO FLUTUANTE DO CARRINHO
+======================================== */
+
+#abrirCarrinho {
+    position: fixed;
+
+    right: 24px;
+    bottom: 24px;
+
+    width: 58px;
+    height: 58px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #111;
+    color: white;
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    z-index: 900;
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+#abrirCarrinho:hover {
+    transform: translateY(-2px);
+
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
+}
+
+
+/* CONTADOR DO BOTÃO */
+
+#contador-flutuante {
+    position: absolute;
+
+    top: -4px;
+    right: -4px;
+
+    min-width: 20px;
+    height: 20px;
+
+    padding: 0 5px;
+
+    border-radius: 50%;
+
+    background: #e53935;
+    color: white;
+
+    font-size: 11px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+}/* ========================================
+   CATEGORIA DO PRODUTO
+======================================== */
+
+.categoria-produto {
+    display: inline-block;
+
+    margin-bottom: 8px;
+
+    font-size: 11px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+
+    color: var(--verde);
+
+    background: rgba(0, 0, 0, 0.05);
+
+    padding: 5px 9px;
+
+    border-radius: 999px;
+}
+/* ========================================
+   FILTRO DE CATEGORIAS
+======================================== */
+
+#listaCategorias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin-bottom: 30px;
+
+    width: 100%;
+    padding: 6px 2px 10px;
+
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.categoria {
+    flex: 0 0 auto;
+
+    border: 1px solid var(--borda);
+
+    background: var(--branco);
+
+    color: var(--texto);
+
+    padding: 10px 16px;
+
+    border-radius: 999px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.categoria:hover {
+    transform: translateY(-1px);
+
+    border-color: var(--verde);
+
+    color: var(--verde);
+}
+
+.categoria.ativo {
+    background: var(--verde);
+
+    border-color: var(--verde);
+
+    color: white;
+}
+/* ========================================
+   TELAS MUITO PEQUENAS
+======================================== */
+
+@media (max-width: 380px) {
+
+    .produtos {
+        grid-template-columns: 1fr;
+    }
+
+    .produto img {
+        height: 200px;
+    }
+
+    .produto-info {
+        padding: 16px;
+    }
+
+}.logo-loja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+}
+
+.logo-loja img {
+    display: block;
+    width: 180px;
+    max-width: 60vw;
+    height: auto;
+    object-fit: contain;
+}

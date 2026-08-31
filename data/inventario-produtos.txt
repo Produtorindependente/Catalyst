@@ -1,0 +1,429 @@
+============================================================
+ CATALYST — INVENTÁRIO COMPLETO DE PRODUTOS
+============================================================
+
+TOTAL DE REGISTROS: 419
+
+001 | ID: 1       | Pão Tradicional com Gergelim | Pães | R$ 28,90 | 500 g1 unidade | CÓD: - | IMG: SIM
+002 | ID: 2       | Pão de Limão Siciliano | Pães | R$ 28,90 | 500 g1 unidade | CÓD: - | IMG: SIM
+003 | ID: 3       | Pão de Nozes com Castanha-do-Pará | Pães | R$ 28,90 | 500 g1 unidade | CÓD: - | IMG: SIM
+004 | ID: 4       | Pão de Alecrim | Pães | R$ 28,90 | 500 g1 unidade | CÓD: - | IMG: SIM
+005 | ID: 5       | Pão de Linhaça com Chia | Pães | SEM PREÇO | 500 g1 unidade | CÓD: - | IMG: SIM
+006 | ID: 6       | Muffin de Cacau Vegano | Muffins | R$ 25,90 | 160 g1 embalagem | CÓD: - | IMG: SIM
+007 | ID: 7       | Muffin de Frango, Milho e Cenoura | Muffins | R$ 27,90 | 200 g1 embalagem | CÓD: - | IMG: SIM
+008 | ID: 8       | Muffin de Chocolate | Muffins | R$ 23,90 | 140 g1 embalagem | CÓD: - | IMG: SIM
+009 | ID: 9       | Muffin de Banana | Muffins | R$ 23,90 | 160 g1 embalagem | CÓD: - | IMG: SIM
+010 | ID: 10      | Muffin de Coco com Chocolate Branco Low Carb | Muffins | R$ 26,90 | 160 g1 embalagem | CÓD: - | IMG: SIM
+011 | ID: 11      | Torta de Maçã | Tortas | R$ 32,00 | 200 g1 unidade | CÓD: - | IMG: SIM
+012 | ID: 12      | Torta de Palmito | Tortas | R$ 28,90 | 200 g1 unidade | CÓD: - | IMG: SIM
+013 | ID: 13      | Pão Francês com Sementes | Pães | R$ 27,90 | 350 g5 unidades | CÓD: - | IMG: SIM
+014 | ID: 14      | Pão de Queijo com Goiabada | Pães | R$ 28,90 | 300 g | CÓD: - | IMG: SIM
+015 | ID: 15      | Pão de Hot Dog sem Glúten | Pães | R$ 24,90 | 125 g2 unidades | CÓD: - | IMG: SIM
+016 | ID: 16      | Bisnaguinha | Pães | R$ 24,90 | 150 g | CÓD: - | IMG: SIM
+017 | ID: 17      | Pão de Hambúrguer | Pães | R$ 24,90 | 125 g2 unidades | CÓD: - | IMG: SIM
+018 | ID: 18      | Pãozinho de Cebola | Pães | R$ 23,90 | 200 gaprox. 9 unidades | CÓD: - | IMG: SIM
+019 | ID: 19      | Pãozinho de Cenoura | Pães | R$ 27,90 | 200 gaprox. 8 unidades | CÓD: - | IMG: SIM
+020 | ID: 20      | Pão Sírio Tipo Pita | Pães | R$ 24,00 | 200 g4 unidades | CÓD: - | IMG: SIM
+021 | ID: 21      | Wrap sem Glúten | Wraps e Massas | R$ 33,90 | 220 g6 unidades | CÓD: - | IMG: SIM
+022 | ID: 22      | Wrap de Tapioca Original | Wraps e Massas | R$ 10,90 | 150 g5 unidades | CÓD: - | IMG: SIM
+023 | ID: 23      | Chips de Batata-Doce com Sal Rosa do Himalaia | Snacks | R$ 9,90 | 50 g | CÓD: - | IMG: SIM
+024 | ID: 24      | Chips de Mandioca com Chimi Churri | Snacks | R$ 9,99 | 50 g | CÓD: - | IMG: SIM
+025 | ID: 25      | Chips de Mandioca com Lemon Pepper | Snacks | R$ 9,99 | 50 g | CÓD: - | IMG: SIM
+026 | ID: 26      | Chips de Batata-Doce Sweet Chilli | Snacks | R$ 9,99 | 50 g | CÓD: - | IMG: SIM
+027 | ID: 27      | Chips de Batata-Doce com Azeite e Manjericão | Snacks | R$ 9,90 | 45 g | CÓD: - | IMG: SIM
+028 | ID: 28      | Chips de Batata Roxa com Gergelim Branco | Snacks | R$ 19,90 | 30 g | CÓD: - | IMG: SIM
+029 | ID: 29      | Chips de Batata-Doce | Snacks | R$ 19,90 | 30 g | CÓD: - | IMG: SIM
+030 | ID: 30      | Canjica de Milho com Sal Marinho | Snacks | R$ 6,90 | 40 g | CÓD: - | IMG: SIM
+031 | ID: 31      | Salgadinho de Requeijão com Milho e Quinoa | Snacks | R$ 5,90 | 25 g | CÓD: - | IMG: SIM
+032 | ID: 32      | Cookies Baunilha & Chocolate Zero Açúcar | Cookies e Doces | R$ 9,90 | 67 g | CÓD: - | IMG: SIM
+033 | ID: 33      | Wafer Cappuccino | Proteicos | R$ 8,90 | 25 g1 unidade | CÓD: - | IMG: SIM
+034 | ID: 34      | Wafer Creme de Avelã | Proteicos | R$ 8,90 | 25 g1 unidade | CÓD: - | IMG: SIM
+035 | ID: 35      | Bacio di Latte Pistacchio | Proteicos | R$ 15,90 | - | CÓD: - | IMG: SIM
+036 | ID: 36      | Bacio di Latte Caramello Salgado | Proteicos | R$ 13,90 | - | CÓD: - | IMG: SIM
+037 | ID: 37      | Havanna Legítimo Dulce de Leche | Proteicos | R$ 14,00 | - | CÓD: - | IMG: SIM
+038 | ID: 38      | Havanna Brownie de Chocolate e Dulce de Leche | Proteicos | R$ 19,90 | - | CÓD: - | IMG: SIM
+039 | ID: 39      | Protein Crisp Ovomaltine | Proteicos | R$ 12,90 | 45 g1 unidade | CÓD: - | IMG: SIM
+040 | ID: 40      | Protein Max Chocolate & Nibs | Proteicos | R$ 19,00 | - | CÓD: - | IMG: SIM
+041 | ID: 41      | Choco Wheyfer Chocolate com Avelã | Proteicos | R$ 9,90 | 25 g1 unidade | CÓD: - | IMG: SIM
+042 | ID: 42      | Choco Wheyfer Cookies'n Cream | Proteicos | R$ 9,90 | 25 g1 unidade | CÓD: - | IMG: SIM
+043 | ID: 43      | 100% Whey Cookies | Proteínas | R$ 12,00 | 35 g1 sachê | CÓD: - | IMG: SIM
+044 | ID: 44      | 100% Whey Coco com Baunilha | Proteínas | R$ 12,00 | 35 g1 sachê | CÓD: - | IMG: SIM
+045 | ID: 45      | 100% Whey Torta de Limão | Proteínas | R$ 12,00 | 35 g1 sachê | CÓD: - | IMG: SIM
+046 | ID: 46      | 100% Whey Banoffee | Proteínas | R$ 12,00 | 35 g1 sachê | CÓD: - | IMG: SIM
+047 | ID: 47      | 100% Whey Chocolate com Avelã | Proteínas | R$ 12,00 | 35 g1 sachê | CÓD: - | IMG: SIM
+048 | ID: 48      | Paçoquinha Zero Adição de Açúcares | Doces | R$ 5,00 | 17 g1 unidade | CÓD: - | IMG: SIM
+049 | ID: 49      | Cocada com Abacaxi | Doces | R$ 4,90 | - | CÓD: - | IMG: SIM
+050 | ID: 50      | Nuts & Fruits Cranberry | Snacks | R$ 5,00 | 25 g1 unidade | CÓD: - | IMG: SIM
+051 | ID: 51      | Goiabinha Cremosa Zero | Doces | R$ 3,90 | 22 g1 unidade | CÓD: - | IMG: SIM
+052 | ID: 52      | Protein Pão de Mel | Proteicos | R$ 11,00 | 45 g1 unidade | CÓD: - | IMG: SIM
+053 | ID: 53      | Best Whey Cookies & Cream | Proteicos | R$ 14,90 | 49 g1 unidade | CÓD: - | IMG: SIM
+054 | ID: 54      | Water Timber's Zero Pistache | Bebidas | R$ 6,90 | 324 g12 unidades | CÓD: - | IMG: SIM
+055 | ID: 55      | Mel Flores Silvestres | Mel e Própolis | R$ 6,90 | 35 g10 sachês | CÓD: - | IMG: SIM
+056 | ID: 56      | Mel & Alho | Mel e Própolis | R$ 19,90 | 160 g1 pote | CÓD: - | IMG: SIM
+057 | ID: 57      | Verdprópolis — Extrato de Própolis Verde | Mel e Própolis | R$ 48,90 | 30 ml1 frasco | CÓD: - | IMG: SIM
+058 | ID: 58      | Redprópolis — Extrato de Própolis Vermelho | Mel e Própolis | R$ 55,90 | 30 ml1 frasco | CÓD: - | IMG: SIM
+059 | ID: 59      | Extrato de Própolis Glicólico | Mel e Própolis | R$ 43,90 | 30 ml1 frasco | CÓD: - | IMG: SIM
+060 | ID: 60      | Spray de Mel com Própolis, Romã e Gengibre | Mel e Própolis | R$ 16,90 | - | CÓD: - | IMG: SIM
+061 | ID: 61      | Óleo de Linhaça | Suplementos | R$ 60,90 | 1000 mg100 cápsulas | CÓD: - | IMG: SIM
+062 | ID: 62      | Chlorella | Suplementos | R$ 54,90 | 500 mg100 cápsulas | CÓD: - | IMG: SIM
+063 | ID: 63      | Tâmara com Colágeno | Funcionais | R$ 13,90 | - | CÓD: - | IMG: SIM
+064 | ID: 64      | Mulungu | Suplementos | R$ 29,99 | 500 mg60 cápsulas | CÓD: - | IMG: SIM
+065 | ID: 65      | Gummy Original AIR Zero | Gummies | R$ 151,90 | - | CÓD: - | IMG: SIM
+066 | ID: 66      | Gummy Original AIR Maçã Verde | Gummies | R$ 149,90 | - | CÓD: - | IMG: SIM
+067 | ID: 67      | Gummy Original Apple Vinegar | Gummies | R$ 110,00 | - | CÓD: - | IMG: SIM
+068 | ID: 68      | Gummy Original Hair One | Gummies | R$ 91,00 | - | CÓD: - | IMG: SIM
+069 | ID: 69      | Gengibre Cristalizado | Naturais | R$ 15,00 | 200 g1 embalagem | CÓD: - | IMG: SIM
+070 | ID: 70      | Amora | Suplementos | R$ 129,90 | 600 mg100 cápsulas | CÓD: - | IMG: SIM
+071 | ID: 71      | Bananinha sem Adição de Açúcar | Doces | R$ 5,50 | - | CÓD: - | IMG: SIM
+072 | ID: 72      | Doce de Banana sem Adição de Açúcares | Doces | R$ 5,90 | - | CÓD: - | IMG: SIM
+073 | ID: 73      | Bananinha Coberta com Chocolate | Doces | R$ 5,90 | - | CÓD: - | IMG: SIM
+074 | ID: 74      | Bananinha com Canela | Doces | R$ 4,50 | - | CÓD: - | IMG: SIM
+075 | ID: 75      | Doce de Banana com Açúcar e Canela | Doces | R$ 4,50 | - | CÓD: - | IMG: SIM
+076 | ID: 76      | Bisco Light Coco Branco com Pistache | Biscoitos e Snacks | R$ 37,90 | 150 g1 unidade | CÓD: - | IMG: NÃO
+077 | ID: 77      | Bisco Light Churros | Biscoitos e Snacks | R$ 37,90 | 150 g1 unidade | CÓD: - | IMG: NÃO
+078 | ID: 78      | Crush Bar Morango | Barras de Proteína | R$ 70,90 | 35 gcaixa com 12 unidades | CÓD: - | IMG: SIM
+079 | ID: 79      | Stroopwafel Wafel Holandês | Biscoitos e Snacks | R$ 22,90 | 230 g1 unidade | CÓD: - | IMG: SIM
+080 | ID: 80      | Muma Biscoito de Arroz Chocolate Zero | Biscoitos e Snacks | R$ 17,90 | 60 g1 unidade | CÓD: - | IMG: SIM
+081 | ID: 81      | Muma Biscoito de Milho Mediterrâneo | Biscoitos e Snacks | R$ 14,90 | 65 g1 unidade | CÓD: - | IMG: SIM
+082 | ID: 82      | Muma Biscoito de Milho Ervas Finas e Azeite | Biscoitos e Snacks | R$ 14,90 | 65 g1 unidade | CÓD: - | IMG: SIM
+083 | ID: 83      | Repeat Snack Alga Marinha Original | Snacks | R$ 9,90 | 5 g1 unidade | CÓD: - | IMG: SIM
+084 | ID: 84      | Biscoito Sembei | Biscoitos e Snacks | R$ 9,90 | 100 g1 unidade | CÓD: 160 | IMG: SIM
+085 | ID: 85      | Biscoito Beliscão | Biscoitos e Snacks | R$ 8,50 | 100 g1 unidade | CÓD: 187 | IMG: SIM
+086 | ID: 86      | Biscoito Banana e Canela | Biscoitos e Snacks | R$ 11,00 | 100 g1 unidade | CÓD: 137 | IMG: SIM
+087 | ID: 87      | Biscoito de Maracujá Vegano | Biscoitos e Snacks | R$ 12,90 | 100 g1 unidade | CÓD: 653 | IMG: SIM
+088 | ID: 88      | Biscoito de Castanha de Pecã | Biscoitos e Snacks | R$ 16,90 | 100 g1 unidade | CÓD: 3084 | IMG: SIM
+089 | ID: 89      | Biscoito com Gotas de Chocolate 52% | Biscoitos e Snacks | R$ 17,00 | 100 g1 unidade | CÓD: 3039 | IMG: SIM
+090 | ID: 90      | Biscoito Parmesão com Páprica e Cúrcuma | Biscoitos e Snacks | R$ 17,00 | 100 g1 unidade | CÓD: 84 | IMG: SIM
+091 | ID: 91      | Polvilho com Provolone | Biscoitos e Snacks | R$ 11,90 | 100 g1 unidade | CÓD: - | IMG: SIM
+092 | ID: 92      | Polvilho com Chia | Biscoitos e Snacks | R$ 11,90 | 100 g1 unidade | CÓD: - | IMG: SIM
+093 | ID: 93      | Polvilho com Cebola | Biscoitos e Snacks | R$ 11,90 | 100 g1 unidade | CÓD: - | IMG: SIM
+094 | ID: 94      | Biscoito Polvilho Perfeito Pimenta e Limão | Biscoitos e Snacks | R$ 18,90 | 80 g1 unidade | CÓD: - | IMG: SIM
+095 | ID: 95      | Provolone com Goiabada | Biscoitos e Snacks | R$ 18,00 | 100 g1 unidade | CÓD: - | IMG: SIM
+096 | ID: 96      | Snack de Queijo Coalho | Snacks | R$ 18,99 | 100 g1 unidade | CÓD: - | IMG: SIM
+097 | ID: 97      | Banana Chips Doce | Frutas Desidratadas | R$ 8,59 | 100 g1 unidade | CÓD: - | IMG: SIM
+098 | ID: 98      | Amendoim Japonês | Snacks | R$ 3,50 | 100 g1 unidade | CÓD: - | IMG: SIM
+099 | ID: 99      | Amendoim Olhinho | Snacks | R$ 4,90 | 100 g1 unidade | CÓD: - | IMG: SIM
+100 | ID: 100     | Mix Crocante | Snacks | R$ 15,90 | 100 g1 unidade | CÓD: - | IMG: SIM
+101 | ID: 101     | Mix de Frutas Tropicais | Frutas Desidratadas | R$ 21,90 | 100 g1 unidade | CÓD: 80 | IMG: SIM
+102 | ID: 102     | Mix de Frutas Vermelhas | Frutas Desidratadas | R$ 16,90 | 100 g1 unidade | CÓD: 645 | IMG: SIM
+103 | ID: 103     | Damasco | Frutas Desidratadas | R$ 18,90 | 100 g1 unidade | CÓD: 48 | IMG: SIM
+104 | ID: 104     | Manga Desidratada | Frutas Desidratadas | R$ 12,00 | 100 g1 unidade | CÓD: 62 | IMG: SIM
+105 | ID: 105     | Kiwi Desidratado | Frutas Desidratadas | R$ 11,00 | 100 g1 unidade | CÓD: 58 | IMG: SIM
+106 | ID: 106     | Goji Berry | Frutas Desidratadas | R$ 9,90 | 100 g1 unidade | CÓD: 56 | IMG: SIM
+107 | ID: 107     | Blueberry | Frutas Desidratadas | R$ 26,90 | 100 g1 unidade | CÓD: 35 | IMG: SIM
+108 | ID: 108     | Morango Glaceado | Frutas Desidratadas | R$ 14,90 | 100 g1 unidade | CÓD: 171 | IMG: SIM
+109 | ID: 109     | Cereja Desidratada | Frutas Desidratadas | R$ 13,50 | 100 g1 unidade | CÓD: 975 | IMG: SIM
+110 | ID: 110     | Abacaxi Desidratado | Frutas Desidratadas | R$ 19,90 | 100 g1 unidade | CÓD: 3 | IMG: SIM
+111 | ID: 111     | Mamão Cristalizado | Frutas Desidratadas | R$ 12,00 | 100 g1 unidade | CÓD: 61 | IMG: SIM
+112 | ID: 112     | Frutas Cristalizadas | Frutas Desidratadas | R$ 3,90 | 100 g1 unidade | CÓD: 53 | IMG: SIM
+113 | ID: 113     | Tâmara sem Caroço | Frutas Desidratadas | R$ 5,90 | 100 g1 unidade | CÓD: 976 | IMG: SIM
+114 | ID: 114     | Tâmara Jumbo | Frutas Desidratadas | R$ 9,90 | 100 g1 unidade | CÓD: 95 | IMG: SIM
+115 | ID: 115     | Banana Passa | Frutas Desidratadas | R$ 6,50 | 100 g1 unidade | CÓD: 27 | IMG: SIM
+116 | ID: 116     | Mini Figo Turco | Frutas Desidratadas | R$ 15,00 | 100 g1 unidade | CÓD: 169 | IMG: SIM
+117 | ID: 117     | Figo Turco | Frutas Desidratadas | R$ 15,90 | 100 g1 unidade | CÓD: 51 | IMG: SIM
+118 | ID: 118     | Banana Chips Salgada | Chips e Snacks | R$ 12,00 | 100 g1 unidade | CÓD: 26 | IMG: SIM
+119 | ID: 119     | Chips de Mandioca Premium | Chips e Snacks | R$ 18,00 | 100 g1 unidade | CÓD: 45 | IMG: SIM
+120 | ID: 120     | Chips de Kiwi | Chips e Snacks | R$ 25,00 | 100 g1 unidade | CÓD: 674 | IMG: SIM
+121 | ID: 121     | Chips de Coco sem Açúcar | Chips e Snacks | R$ 10,90 | 100 g1 unidade | CÓD: 195 | IMG: SIM
+122 | ID: 122     | Chips de Coco com Bordo | Chips e Snacks | R$ 12,00 | 100 g1 unidade | CÓD: 06 | IMG: SIM
+123 | ID: 123     | Mix de Castanhas | Oleaginosas | R$ 19,90 | 100 g1 unidade | CÓD: 73 | IMG: SIM
+124 | ID: 124     | Amêndoa Laminada | Oleaginosas | R$ 16,90 | 100 g1 unidade | CÓD: 11 | IMG: SIM
+125 | ID: 125     | Macadâmia sem Sal | Oleaginosas | R$ 26,00 | 100 g1 unidade | CÓD: 63 | IMG: SIM
+126 | ID: 126     | Pistache com Casca | Oleaginosas | R$ 20,00 | 100 g1 unidade | CÓD: 85 | IMG: SIM
+127 | ID: 127     | Pistache Inteiro sem Casca | Oleaginosas | R$ 32,00 | 100 g1 unidade | CÓD: 86 | IMG: SIM
+128 | ID: 128     | Castanha do Pará Inteira | Oleaginosas | R$ 21,00 | 100 g1 unidade | CÓD: 43 | IMG: SIM
+129 | ID: 129     | Castanha do Pará Quebrada | Oleaginosas | R$ 14,90 | 100 g1 unidade | CÓD: 44 | IMG: SIM
+130 | ID: 130     | Castanha de Caju Crua W1 | Oleaginosas | R$ 13,00 | 100 g1 unidade | CÓD: 37 | IMG: SIM
+131 | ID: 131     | Castanha de Caju Quebrada sem Sal | Oleaginosas | R$ 10,00 | 100 g1 unidade | CÓD: 230 | IMG: SIM
+132 | ID: 132     | Castanha de Caju Assada sem Sal | Oleaginosas | R$ 14,00 | 100 g1 unidade | CÓD: 625 | IMG: SIM
+133 | ID: 133     | Castanha de Caju Torrada com Sal | Oleaginosas | R$ 14,00 | 100 g1 unidade | CÓD: 38 | IMG: SIM
+134 | ID: 134     | Castanha de Caju Torrada sem Sal | Oleaginosas | R$ 14,00 | 100 g1 unidade | CÓD: 40 | IMG: SIM
+135 | ID: 135     | Noz Pecan | Oleaginosas | R$ 19,90 | 100 g1 unidade | CÓD: 81 | IMG: SIM
+136 | ID: 136     | Noz Quartilho | Oleaginosas | R$ 9,90 | 100 g1 unidade | CÓD: 620 | IMG: SIM
+137 | ID: 137     | Noz Quartz | Oleaginosas | R$ 10,50 | 100 g1 unidade | CÓD: 82 | IMG: SIM
+138 | ID: 138     | Noz Mariposa | Oleaginosas | R$ 12,90 | 100 g1 unidade | CÓD: 119 | IMG: SIM
+139 | ID: 139     | Xerém de Amendoim | Oleaginosas | R$ 3,90 | 100 g1 unidade | CÓD: 951 | IMG: SIM
+140 | ID: 140     | Amendoim Doce | Oleaginosas | R$ 3,90 | 100 g1 unidade | CÓD: 16 | IMG: SIM
+141 | ID: 141     | Amendoim Natural | Oleaginosas | R$ 5,50 | 100 g1 unidade | CÓD: 19 | IMG: SIM
+142 | ID: 142     | Amendoim sem Casca | Oleaginosas | R$ 2,90 | 100 g1 unidade | CÓD: 15 | IMG: SIM
+143 | ID: 143     | Cacau 100% Alcalino | Ingredientes Naturais | R$ 7,90 | 100 g1 unidade | CÓD: 639 | IMG: SIM
+144 | ID: 144     | Cacau 70% | Ingredientes Naturais | R$ 7,50 | 100 g1 unidade | CÓD: 316 | IMG: SIM
+145 | ID: 145     | Cacau 50% | Ingredientes Naturais | R$ 5,50 | 100 g1 unidade | CÓD: 353 | IMG: SIM
+146 | ID: 146     | Nibs de Cacau | Ingredientes Naturais | R$ 24,90 | 100 g1 unidade | CÓD: 716 | IMG: SIM
+147 | ID: 147     | Eritritol | Adoçantes | R$ 6,20 | 100 g1 unidade | CÓD: 315 | IMG: SIM
+148 | ID: 148     | Stevia em Pó | Adoçantes | R$ 42,00 | 100 g1 unidade | CÓD: 940 | IMG: SIM
+149 | ID: 149     | Cravo em Pó | Temperos | R$ 6,50 | 100 g1 unidade | CÓD: 196 | IMG: SIM
+150 | ID: 150     | Bicarbonato de Sódio | Ingredientes Naturais | R$ 1,90 | 100 g1 unidade | CÓD: 314 | IMG: SIM
+151 | ID: 151     | Farinha Panko | Farinhas | R$ 4,00 | 100 g1 unidade | CÓD: 346 | IMG: SIM
+152 | ID: 152     | Farinha Mineira | Farinhas | R$ 4,10 | 100 g1 unidade | CÓD: 439 | IMG: SIM
+153 | ID: 153     | Polvilho Doce | Farinhas | R$ 1,90 | 100 g1 unidade | CÓD: 373 | IMG: SIM
+154 | ID: 154     | Polvilho Azedo | Farinhas | R$ 1,99 | 100 g1 unidade | CÓD: 372 | IMG: SIM
+155 | ID: 155     | Flocos de Arroz | Cereais | R$ 4,00 | 100 g1 unidade | CÓD: 262 | IMG: SIM
+156 | ID: 156     | Fubá Italiano | Farinhas | R$ 3,10 | 100 g1 unidade | CÓD: 156 | IMG: SIM
+157 | ID: 157     | Açúcar Mascavo | Açúcares Naturais | R$ 4,69 | 100 g1 unidade | CÓD: 303 | IMG: SIM
+158 | ID: 158     | Açúcar de Coco | Açúcares Naturais | R$ 6,00 | 100 g1 unidade | CÓD: 301 | IMG: SIM
+159 | ID: 159     | Açúcar Demerara | Açúcares Naturais | R$ 1,49 | 100 g1 unidade | CÓD: 302 | IMG: SIM
+160 | ID: 160     | Café Bossa Nova | Cafés | R$ 59,90 | 500 g1 unidade | CÓD: - | IMG: SIM
+161 | ID: 161     | Café Bossa Nova | Cafés | R$ 30,00 | 250 g1 unidade | CÓD: - | IMG: NÃO
+162 | ID: 162     | Cebola em Conserva Temperada | Conservas | R$ 31,00 | 340 g1 unidade | CÓD: - | IMG: SIM
+163 | ID: 163     | Homus | Pastas e Patês | R$ 42,00 | 320 g1 unidade | CÓD: - | IMG: SIM
+164 | ID: 164     | Pasta de Truta Defumada Tradicional | Pastas e Patês | R$ 39,90 | 160 g1 unidade | CÓD: - | IMG: SIM
+165 | ID: 165     | Geleia de Abacaxi com Hortelã Diet | Geleias | R$ 34,90 | 200 g1 unidade | CÓD: - | IMG: SIM
+166 | ID: 166     | Geleia de Frutos Vermelhos Diet | Geleias | R$ 39,90 | 200 g1 unidade | CÓD: - | IMG: SIM
+167 | ID: 167     | Geleia de Pimenta Diet | Geleias | R$ 34,90 | 200 g1 unidade | CÓD: - | IMG: SIM
+168 | ID: 168     | Óleo de Coco Copra Extravirgem | Óleos | R$ 64,90 | 500 ml1 unidade | CÓD: - | IMG: SIM
+169 | ID: 169     | Óleo de Coco Copra Extravirgem | Óleos | R$ 29,90 | 200 ml1 unidade | CÓD: - | IMG: SIM
+170 | ID: 170     | Óleo de Coco Copra sem Sabor e sem Cheiro | Óleos | R$ 25,00 | 200 ml1 unidade | CÓD: - | IMG: SIM
+171 | ID: 171     | Óleo de Coco Copra sem Sabor e sem Cheiro | Óleos | R$ 51,90 | 500 ml1 unidade | CÓD: - | IMG: SIM
+172 | ID: 172     | Óleo de Coco Santo Óleo Extravirgem | Óleos | R$ 28,00 | 200 ml1 unidade | CÓD: - | IMG: SIM
+173 | ID: 173     | Óleo de Coco Santo Óleo Extravirgem | Óleos | R$ 54,90 | 500 ml1 unidade | CÓD: - | IMG: SIM
+174 | ID: 174     | Azeite de Abacate Extravirgem | Óleos | R$ 39,00 | 250 ml1 unidade | CÓD: - | IMG: SIM
+175 | ID: 175     | Tahine Integral | Pastas e Patês | R$ 36,90 | 320 g1 unidade | CÓD: - | IMG: SIM
+176 | ID: 176     | Tahine Tradicional | Pastas e Patês | R$ 37,90 | 320 g1 unidade | CÓD: - | IMG: SIM
+177 | ID: 177     | Gergelim Mix | Sementes | R$ 19,90 | 170 g1 unidade | CÓD: - | IMG: SIM
+178 | ID: 178     | Sriracha Hot Chili Sauce | Molhos | R$ 31,90 | 330 g1 unidade | CÓD: - | IMG: SIM
+179 | ID: 179     | Molho Mrs Chicken | Molhos | R$ 32,90 | 320 g1 unidade | CÓD: - | IMG: SIM
+180 | ID: 180     | Geleia de Pimenta com Frutas Vermelhas | Geleias | R$ 24,90 | 260 g1 unidade | CÓD: - | IMG: SIM
+181 | ID: 181     | Molho Agridoce Defumado | Molhos | R$ 24,90 | 260 g1 unidade | CÓD: - | IMG: SIM
+182 | ID: 182     | Sal Sertão Integral | Sais | R$ 14,90 | 1 kg1 unidade | CÓD: - | IMG: SIM
+183 | ID: 183     | Sal Marinho Integral de Mossoró | Sais | R$ 12,00 | 500 g1 unidade | CÓD: - | IMG: SIM
+184 | ID: 184     | Sal Marinho Integral de Mossoró | Sais | R$ 20,00 | 1 kg1 unidade | CÓD: - | IMG: SIM
+185 | ID: 185     | Sal Marinho Integral | Sais | R$ 15,90 | 1 kg1 unidade | CÓD: - | IMG: SIM
+186 | ID: 186     | Flocos de Milho Livre | Cereais | R$ 9,90 | 500 g1 unidade | CÓD: - | IMG: SIM
+187 | ID: 187     | Extrato Natural de Baunilha | Ingredientes Naturais | R$ 44,00 | 30 ml1 unidade | CÓD: - | IMG: SIM
+188 | ID: 188     | Shoyu de Coco Copra | Molhos | R$ 34,90 | 250 ml1 unidade | CÓD: - | IMG: SIM
+189 | ID: SEM ID  | Black Maca Peruana Premium | Suplementos | R$ 68,00 | 150 g | CÓD: - | IMG: SIM
+190 | ID: SEM ID  | Beterraba em Pó | Granel | R$ 8,90 | 100 g | CÓD: - | IMG: SIM
+191 | ID: SEM ID  | Feno Grego em Pó | Granel | R$ 5,90 | 100 g | CÓD: - | IMG: SIM
+192 | ID: SEM ID  | Energético em Pó (Tribulus) | Suplementos | R$ 11,90 | 100 g | CÓD: - | IMG: SIM
+193 | ID: SEM ID  | Farinha de Berinjela | Granel | R$ 8,90 | 100 g | CÓD: - | IMG: SIM
+194 | ID: SEM ID  | Farinha de Inhame | Granel | R$ 10,00 | 100 g | CÓD: - | IMG: SIM
+195 | ID: SEM ID  | Goma Xantana | Granel | R$ 8,90 | 100 g | CÓD: - | IMG: SIM
+196 | ID: SEM ID  | Semolina | Granel | R$ 2,20 | 100 g | CÓD: - | IMG: SIM
+197 | ID: SEM ID  | Farinha de Centeio | Granel | R$ 2,50 | 100 g | CÓD: - | IMG: SIM
+198 | ID: SEM ID  | Farinha de Maracujá | Granel | R$ 3,50 | 100 g | CÓD: - | IMG: SIM
+199 | ID: SEM ID  | Ágar-Ágar em Pó | Farinhas e Pós | R$ 20,00 | 100 g | CÓD: - | IMG: SIM
+200 | ID: SEM ID  | Dolomita | Suplementos | R$ 1,60 | 100 g | CÓD: - | IMG: SIM
+201 | ID: SEM ID  | Argila Branca | Cosméticos Naturais | R$ 2,50 | 100 g | CÓD: - | IMG: SIM
+202 | ID: SEM ID  | Argila Verde | Cosméticos Naturais | R$ 2,90 | 100 g | CÓD: - | IMG: SIM
+203 | ID: SEM ID  | Alcachofra | Chás | R$ 9,50 | 100 g | CÓD: - | IMG: SIM
+204 | ID: SEM ID  | Amora Branca | Chás | R$ 9,50 | 100 g | CÓD: - | IMG: SIM
+205 | ID: SEM ID  | Funcho | Chás | R$ 9,50 | 100 g | CÓD: - | IMG: SIM
+206 | ID: SEM ID  | Alfazema Azul | Chás | R$ 25,00 | 100 g | CÓD: - | IMG: SIM
+207 | ID: SEM ID  | Oliveira - Folha | Chás | R$ 9,50 | 100 g | CÓD: - | IMG: SIM
+208 | ID: SEM ID  | Macela - Flor | Chás | R$ 12,50 | 100 g | CÓD: - | IMG: SIM
+209 | ID: SEM ID  | Maçã para Chá | Chás | R$ 14,00 | 100 g | CÓD: - | IMG: SIM
+210 | ID: SEM ID  | Limão Desidratado | Frutas Desidratadas | R$ 9,50 | 100 g | CÓD: - | IMG: SIM
+211 | ID: SEM ID  | Laranja para Chá | Chás | R$ 14,90 | 100 g | CÓD: - | IMG: SIM
+212 | ID: SEM ID  | Cravo da Índia | Temperos Naturais | R$ 15,90 | 100 g | CÓD: - | IMG: SIM
+213 | ID: SEM ID  | Anis Estrelado | Temperos Naturais | R$ 14,90 | 100 g | CÓD: - | IMG: SIM
+214 | ID: SEM ID  | Glucomannan | Suplementos | R$ 29,90 | 100 g | CÓD: - | IMG: SIM
+215 | ID: SEM ID  | Amaranto em Flocos | Cereais | R$ 7,90 | 100 g | CÓD: - | IMG: SIM
+216 | ID: SEM ID  | Açaí em Pó | Suplementos | R$ 15,00 | 100 g | CÓD: - | IMG: SIM
+217 | ID: SEM ID  | Levedura de Cerveja em Pó | Suplementos | R$ 5,30 | 100 g | CÓD: - | IMG: SIM
+218 | ID: SEM ID  | Mucuna Nutricional | Suplementos | R$ 19,90 | 100 g | CÓD: - | IMG: SIM
+219 | ID: SEM ID  | Quirera de Milho | Cereais | R$ 1,50 | 100 g | CÓD: - | IMG: SIM
+220 | ID: SEM ID  | Farinha de Milho | Cereais | R$ 2,99 | 100 g | CÓD: - | IMG: SIM
+221 | ID: SEM ID  | Farinha de Mandioca Fina | Farinhas | R$ 7,90 | 100 g | CÓD: - | IMG: SIM
+222 | ID: SEM ID  | Tapioca Granulada | Farinhas | R$ 2,60 | 100 g | CÓD: - | IMG: SIM
+223 | ID: SEM ID  | Maca Peruana | Suplementos | R$ 10,00 | 100 g | CÓD: - | IMG: SIM
+224 | ID: SEM ID  | Farinha de Linhaça Marrom | Farinhas | R$ 4,50 | 100 g | CÓD: - | IMG: SIM
+225 | ID: SEM ID  | Farinha de Linhaça | Farinhas | R$ 2,99 | 100 g | CÓD: - | IMG: SIM
+226 | ID: SEM ID  | Gengibre em Pó | Temperos Naturais | R$ 7,90 | 100 g | CÓD: - | IMG: SIM
+227 | ID: SEM ID  | Chia Premium | Sementes | R$ 4,99 | 100 g | CÓD: - | IMG: SIM
+228 | ID: SEM ID  | Farinha de Chia | Farinhas | R$ 5,50 | 100 g | CÓD: - | IMG: SIM
+229 | ID: 189     | Psyllium Husk 90% | Suplementos | R$ 5,99 | 100 g100 g | CÓD: - | IMG: SIM
+230 | ID: 190     | Farinha de Aveia Integral | Farinhas | R$ 4,50 | 100 g100 g | CÓD: - | IMG: SIM
+231 | ID: 191     | Farinha de Aveia | Farinhas | R$ 1,89 | 100 g100 g | CÓD: - | IMG: SIM
+232 | ID: 192     | Farinha de Amêndoa | Farinhas | R$ 12,99 | 100 g100 g | CÓD: - | IMG: SIM
+233 | ID: 193     | Farinha de Coco | Farinhas | R$ 3,49 | 100 g100 g | CÓD: - | IMG: SIM
+234 | ID: 194     | Leite de Coco em Pó | Ingredientes Naturais | R$ 7,90 | 100 g100 g | CÓD: - | IMG: SIM
+235 | ID: 195     | Colágeno Hidrolisado | Suplementos | R$ 13,90 | 100 g100 g | CÓD: - | IMG: SIM
+236 | ID: 196     | Fibra de Maçã | Suplementos | R$ 9,00 | 100 g100 g | CÓD: - | IMG: SIM
+237 | ID: 197     | Gelatina Natural | Ingredientes Naturais | R$ 4,90 | 100 g100 g | CÓD: - | IMG: SIM
+238 | ID: 198     | Matcha | Chás | R$ 13,50 | 100 g100 g | CÓD: - | IMG: SIM
+239 | ID: 199     | Proteína Isolada | Proteínas | R$ 9,00 | 100 g100 g | CÓD: - | IMG: SIM
+240 | ID: 200     | Cardamomo em Pó | Temperos Naturais | R$ 48,00 | 100 g100 g | CÓD: - | IMG: SIM
+241 | ID: 201     | Cardamomo em Grãos | Temperos Naturais | R$ 70,00 | 100 g100 g | CÓD: - | IMG: SIM
+242 | ID: 202     | Cardo Mariano | Chás | R$ 39,90 | - | CÓD: - | IMG: SIM
+243 | ID: 203     | Uxi Amarelo | Chás | R$ 19,90 | - | CÓD: - | IMG: SIM
+244 | ID: 204     | Zimbro | Temperos Naturais | R$ 44,90 | - | CÓD: - | IMG: SIM
+245 | ID: 205     | Maçã com Canela | Chás | R$ 8,50 | - | CÓD: - | IMG: SIM
+246 | ID: 206     | Chá Verde com Hibiscus | Chás | R$ 7,90 | - | CÓD: - | IMG: SIM
+247 | ID: 207     | Picão | Chás | R$ 6,50 | - | CÓD: - | IMG: SIM
+248 | ID: 208     | Quebra-Pedra | Chás | R$ 9,90 | - | CÓD: - | IMG: SIM
+249 | ID: 209     | Sálvia | Chás | R$ 6,00 | - | CÓD: - | IMG: SIM
+250 | ID: 210     | Arruda | Chás | R$ 9,50 | - | CÓD: - | IMG: SIM
+251 | ID: 211     | Artemísia | Chás | R$ 7,90 | - | CÓD: - | IMG: SIM
+252 | ID: 212     | Barbatimão | Chás | R$ 9,90 | - | CÓD: - | IMG: SIM
+253 | ID: 213     | Boldo do Chile | Chás | R$ 9,90 | - | CÓD: - | IMG: SIM
+254 | ID: 214     | Cavalinha | Chás | R$ 9,90 | - | CÓD: - | IMG: SIM
+255 | ID: 215     | Carqueja | Chás | R$ 5,50 | - | CÓD: - | IMG: SIM
+256 | ID: 216     | Dente-de-Leão | Chás | R$ 6,00 | - | CÓD: - | IMG: SIM
+257 | ID: 217     | Erva-de-Bicho | Chás | R$ 6,00 | - | CÓD: - | IMG: SIM
+258 | ID: 218     | Erva-Baleeira | Chás | R$ 6,00 | - | CÓD: - | IMG: SIM
+259 | ID: 219     | Erva-de-Bugre | Chás | R$ 6,00 | - | CÓD: - | IMG: SIM
+260 | ID: 220     | Graviola | Chás | R$ 8,00 | - | CÓD: - | IMG: SIM
+261 | ID: 221     | Guiné | Chás | R$ 8,00 | - | CÓD: - | IMG: SIM
+262 | ID: 222     | Goiabeira | Chás | R$ 8,00 | - | CÓD: - | IMG: SIM
+263 | ID: 223     | Louro | Chás | R$ 14,00 | - | CÓD: - | IMG: SIM
+264 | ID: 224     | Urtiga Folha | Chás | R$ 14,00 | - | CÓD: - | IMG: SIM
+265 | ID: 225     | Manacá | Chás | R$ 9,50 | - | CÓD: - | IMG: SIM
+266 | ID: 226     | Boldo do Chile — Embalagem 100 g | Chás | R$ 13,50 | 100 g1 embalagem | CÓD: 232 | IMG: SIM
+267 | ID: 227     | Urtiga Folha — Embalagem 100 g | Chás | R$ 14,00 | 100 g1 embalagem | CÓD: - | IMG: NÃO
+268 | ID: 228     | Albumina — Clara de Ovo | Suplementos | R$ 18,90 | 100 g1 embalagem | CÓD: 127 | IMG: SIM
+269 | ID: 229     | Quinua em Flocos | Grãos e Cereais | R$ 5,69 | 100 g1 embalagem | CÓD: 279 | IMG: SIM
+270 | ID: 230     | Ovo-Albumina em Pó | Suplementos | R$ 19,99 | 100 g1 embalagem | CÓD: 479 | IMG: SIM
+271 | ID: 231     | Gérmen de Trigo | Grãos e Cereais | R$ 2,10 | 100 g1 embalagem | CÓD: 356 | IMG: SIM
+272 | ID: 232     | Feno Grego — Grãos | Grãos e Sementes | R$ 9,50 | 100 g1 embalagem | CÓD: 605 | IMG: SIM
+273 | ID: 233     | Glutamina | Suplementos | R$ 14,90 | 100 g1 embalagem | CÓD: 407 | IMG: SIM
+274 | ID: 234     | Farinha de Semente de Abóbora — Sem Casca | Farinhas e Pós | R$ 12,00 | 100 g1 embalagem | CÓD: 802 | IMG: SIM
+275 | ID: 235     | Semente de Abóbora em Pó | Farinhas e Pós | R$ 8,10 | 100 g1 embalagem | CÓD: 801 | IMG: SIM
+276 | ID: 236     | Farinha de Batata-Doce | Farinhas | R$ 2,90 | 100 g1 embalagem | CÓD: 333 | IMG: SIM
+277 | ID: 237     | Farinha de Arroz Integral | Farinhas | R$ 4,40 | 100 g1 embalagem | CÓD: 768 | IMG: SIM
+278 | ID: 238     | Fécula de Mandioca | Farinhas | R$ 2,90 | 100 g1 embalagem | CÓD: 184 | IMG: SIM
+279 | ID: 239     | Fécula de Batata | Farinhas | R$ 2,90 | - | CÓD: 350 | IMG: SIM
+280 | ID: 240     | Guaraná em Pó | Suplementos | R$ 9,90 | - | CÓD: 408 | IMG: SIM
+281 | ID: 241     | Farinha de Uva | Farinhas | R$ 5,49 | - | CÓD: 430 | IMG: SIM
+282 | ID: 242     | Catuaba em Pó | Suplementos | R$ 8,00 | - | CÓD: 219 | IMG: SIM
+283 | ID: 243     | Ginseng em Pó | Suplementos | R$ 5,99 | - | CÓD: 357 | IMG: SIM
+284 | ID: 244     | Spirulina em Pó | Suplementos | R$ 34,90 | - | CÓD: 380 | IMG: SIM
+285 | ID: 245     | Farinha de Grão-de-Bico | Farinhas | R$ 2,90 | - | CÓD: 340 | IMG: SIM
+286 | ID: 246     | Farinha de Banana Verde | Farinhas | R$ 4,50 | - | CÓD: 332 | IMG: SIM
+287 | ID: 247     | Trigo para Kibe | Grãos e Cereais | R$ 1,30 | - | CÓD: 274 | IMG: SIM
+288 | ID: 248     | Extrato de Soja | Farinhas e Pós | R$ 1,50 | - | CÓD: 323 | IMG: SIM
+289 | ID: 249     | Manjerona em Pó | Temperos Naturais | R$ 7,90 | 100 g100 g | CÓD: 99 | IMG: NÃO
+290 | ID: 250     | Sucupira Miúda | Chás | R$ 15,50 | 100 g100 g | CÓD: 485 | IMG: SIM
+291 | ID: 251     | Erva-do-Bicho | Chás | R$ 9,50 | 100 g100 g | CÓD: 578 | IMG: NÃO
+292 | ID: 252     | Verbena | Chás | R$ 9,50 | 100 g100 g | CÓD: 382 | IMG: SIM
+293 | ID: 253     | Buchinha do Norte | Chás | R$ 10,00 | 1 unidade1 unidade | CÓD: 792 | IMG: NÃO
+294 | ID: 254     | Losna | Chás | R$ 9,50 | 100 g100 g | CÓD: 2031 | IMG: NÃO
+295 | ID: 255     | Jambolão | Chás | R$ 9,50 | 100 g100 g | CÓD: 33 | IMG: SIM
+296 | ID: 256     | Tanchagem | Chás | R$ 9,50 | 100 g100 g | CÓD: 498 | IMG: NÃO
+297 | ID: 257     | Drageado de Castanha de Caju 70% | Oleaginosas | R$ 23,00 | 100 g100 g | CÓD: 777 | IMG: SIM
+298 | ID: 258     | Castanha do Pará 70% | Oleaginosas | R$ 24,90 | 100 g100 g | CÓD: 466 | IMG: SIM
+299 | ID: 259     | Drageado de Castanha do Pará 70% | Oleaginosas | R$ 24,30 | 100 g100 g | CÓD: 466 | IMG: SIM
+300 | ID: 260     | Drageado de Amêndoas 70% | Oleaginosas | R$ 23,00 | 100 g100 g | CÓD: 777 | IMG: SIM
+301 | ID: 261     | Drageado de Banana Passa com Whey 70% | Frutas Desidratadas | R$ 23,00 | 100 g100 g | CÓD: 777 | IMG: NÃO
+302 | ID: 262     | Drageado de Avelã ao Leite | Oleaginosas | R$ 23,00 | 100 g100 g | CÓD: 777 | IMG: SIM
+303 | ID: 263     | Drageado de Castanha de Caju ao Leite | Oleaginosas | R$ 23,00 | 100 g100 g | CÓD: 777 | IMG: NÃO
+304 | ID: 264     | Drageado de Banana c/ Chocolate 70% Dietético | Frutas Desidratadas | R$ 22,00 | - | CÓD: 773 | IMG: SIM
+305 | ID: 265     | Castanhinha de Banana c/ Chocolate 70% | Frutas Desidratadas | R$ 19,00 | - | CÓD: 597 | IMG: SIM
+306 | ID: 266     | Amendoim c/ Chocolate 70% | Oleaginosas | R$ 24,90 | - | CÓD: 776 | IMG: SIM
+307 | ID: 267     | Gotas Branca 0 Açúcar | Chocolates | R$ 19,90 | - | CÓD: 774 | IMG: SIM
+308 | ID: 268     | Gotas de Chocolate ao Leite 0 Açúcar | Chocolates | R$ 19,90 | - | CÓD: 774 | IMG: SIM
+309 | ID: 269     | Drageado de Uva c/ Chocolate 70% | Frutas Desidratadas | R$ 20,00 | - | CÓD: 773 | IMG: SIM
+310 | ID: 270     | Drageado de Amendoim c/ Chocolate 70% | Oleaginosas | R$ 20,00 | - | CÓD: 773 | IMG: SIM
+311 | ID: 271     | Drageado de Cranberry c/ Chocolate 70% | Frutas Desidratadas | R$ 20,00 | - | CÓD: 773 | IMG: SIM
+312 | ID: 272     | Drageado de Cranberry Zero Açúcar | Frutas Desidratadas | R$ 20,00 | - | CÓD: 773 | IMG: SIM
+313 | ID: 273     | Only4 Chocolate + Cranberry 70% | Chocolates | R$ 28,90 | - | CÓD: - | IMG: SIM
+314 | ID: 274     | Bala de Alcaçuz | Guloseimas | R$ 11,00 | - | CÓD: 265 | IMG: SIM
+315 | ID: 275     | Damasco c/ Chocolate 70% | Frutas Desidratadas | R$ 21,90 | - | CÓD: 776 | IMG: SIM
+316 | ID: 276     | Drageado de Limão Siciliano | Frutas Desidratadas | R$ 23,00 | - | CÓD: 777 | IMG: SIM
+317 | ID: 277     | Castanha do Pará c/ Chocolate ao Leite | Drageados e Chocolates | R$ 24,90 | 100 g100 g | CÓD: 466 | IMG: SIM
+318 | ID: 278     | Drageado de Amendoim c/ Chocolate ao Leite | Drageados e Chocolates | R$ 23,00 | 100 g100 g | CÓD: 777 | IMG: SIM
+319 | ID: 279     | Drageado de Uva Passa c/ Chocolate ao Leite | Drageados e Chocolates | R$ 23,00 | 100 g100 g | CÓD: 777 | IMG: SIM
+320 | ID: 280     | Drageado de Castanha do Pará | Drageados e Chocolates | R$ 23,00 | 100 g100 g | CÓD: 777 | IMG: SIM
+321 | ID: 281     | Cebola, Alho e Salsa | Temperos e Especiarias | R$ 7,90 | 100 g100 g | CÓD: 309 | IMG: SIM
+322 | ID: 282     | Cebola Granulada | Temperos e Especiarias | R$ 7,90 | 100 g100 g | CÓD: 387 | IMG: SIM
+323 | ID: 283     | Tempero Edu Guedes | Temperos e Especiarias | R$ 7,90 | 100 g100 g | CÓD: 147 | IMG: NÃO
+324 | ID: 284     | Chimichurri s/ Pimenta | Temperos e Especiarias | R$ 8,70 | 100 g100 g | CÓD: 1123 | IMG: SIM
+325 | ID: 285     | Orégano | Temperos e Especiarias | R$ 7,90 | 100 g100 g | CÓD: 28 | IMG: SIM
+326 | ID: 286     | Tempero Gaúcho | Temperos e Especiarias | R$ 7,00 | 100 g100 g | CÓD: 310 | IMG: SIM
+327 | ID: 317     | Castanha do Pará | Oleaginosas | R$ 24,90 | 100g | CÓD: 466 | IMG: SIM
+328 | ID: 318     | Drageado de Morango | Drageados | R$ 23,00 | 100g | CÓD: 777 | IMG: SIM
+329 | ID: 319     | Drageado de Licor de Morango | Drageados | R$ 23,00 | 100g | CÓD: 777 | IMG: SIM
+330 | ID: 320     | Drageado de Licor de Conhaque | Drageados | R$ 23,00 | 100g | CÓD: 777 | IMG: SIM
+331 | ID: 321     | Cebola, Alho e Salsa | Temperos Naturais | R$ 7,90 | 100g | CÓD: 309 | IMG: SIM
+332 | ID: 322     | Cebola Granulada | Temperos Naturais | R$ 7,90 | 100g | CÓD: 387 | IMG: SIM
+333 | ID: 323     | Tempero Edu Guedes | Temperos Naturais | R$ 7,90 | 100g | CÓD: 147 | IMG: SIM
+334 | ID: 324     | Chimichurri sem Pimenta | Temperos Naturais | R$ 8,70 | 100g | CÓD: 1123 | IMG: SIM
+335 | ID: 325     | Orégano | Temperos Naturais | R$ 7,90 | 100g | CÓD: 28 | IMG: SIM
+336 | ID: 326     | Tempero Gaúcho | Temperos Naturais | R$ 7,00 | 100g | CÓD: 310 | IMG: SIM
+337 | ID: 327     | Páprica Defumada | Temperos Naturais | R$ 7,90 | 100g | CÓD: 266 | IMG: SIM
+338 | ID: 328     | Páprica Doce | Temperos Naturais | R$ 7,90 | 100g | CÓD: 258 | IMG: SIM
+339 | ID: 329     | Tempero Baiano com Pimenta | Temperos Naturais | R$ 7,90 | 100g | CÓD: 253 | IMG: SIM
+340 | ID: 330     | Mix Mexicano Bela | Temperos Naturais | R$ 23,00 | 100g | CÓD: 616 | IMG: SIM
+341 | ID: 331     | Sal Rosa Fino | Temperos Naturais | R$ 7,20 | 100g | CÓD: 121 | IMG: SIM
+342 | ID: 332     | Sal Rosa Grosso | Temperos Naturais | R$ 7,20 | 100g | CÓD: 142 | IMG: SIM
+343 | ID: 333     | Mix Mexicano em Pó | Temperos Naturais | R$ 6,60 | 100g | CÓD: 227 | IMG: SIM
+344 | ID: 334     | Tempero Baiano sem Pimenta | Temperos Naturais | R$ 7,90 | 100g | CÓD: 153 | IMG: SIM
+345 | ID: 335     | Louro em Pó | Temperos Naturais | R$ 14,90 | 100g | CÓD: 121 | IMG: SIM
+346 | ID: 336     | Páprica Picante | Temperos Naturais | R$ 7,90 | 100g | CÓD: 330 | IMG: SIM
+347 | ID: 347     | Colorau | Temperos Naturais | R$ 7,90 | 100g | CÓD: 112 | IMG: SIM
+348 | ID: 348     | Tempero Pega Marido | Temperos Naturais | R$ 7,90 | 100g | CÓD: 332 | IMG: SIM
+349 | ID: 349     | Chimichurri c/ Pimenta | Temperos Naturais | R$ 8,70 | 100g | CÓD: 1122 | IMG: SIM
+350 | ID: 350     | Cebola, Salsa e Tomate | Temperos Naturais | R$ 7,90 | 100g | CÓD: 815 | IMG: SIM
+351 | ID: 351     | Tempero Ana Maria | Temperos Naturais | R$ 7,90 | 100g | CÓD: 145 | IMG: SIM
+352 | ID: 352     | Vinagrete | Temperos Naturais | R$ 7,90 | 100g | CÓD: 149 | IMG: SIM
+353 | ID: 353     | Açafrão Premium | Temperos Naturais | R$ 7,90 | 100g | CÓD: 201 | IMG: SIM
+354 | ID: 354     | Cebola em Pó | Temperos Naturais | R$ 7,90 | 100g | CÓD: 64 | IMG: SIM
+355 | ID: 355     | Farinha de Cebola | Temperos Naturais | R$ 7,90 | 100g | CÓD: 133 | IMG: SIM
+356 | ID: 356     | Cúrcuma Pura | Temperos Naturais | R$ 7,00 | 100g | CÓD: 114 | IMG: SIM
+357 | ID: 357     | Curry | Temperos Naturais | R$ 7,90 | 100g | CÓD: 511 | IMG: SIM
+358 | ID: 358     | Caldo de Carne | Temperos Naturais | R$ 3,90 | 100g | CÓD: 070 | IMG: SIM
+359 | ID: 359     | Lemon Pepper | Temperos Naturais | R$ 7,90 | 100g | CÓD: 120 | IMG: SIM
+360 | ID: 360     | Fumaça em Pó | Temperos Naturais | R$ 7,90 | 100g | CÓD: 626 | IMG: SIM
+361 | ID: 361     | Limão com Ervas Finas | Temperos Naturais | R$ 7,90 | 100g | CÓD: 749 | IMG: SIM
+362 | ID: 363     | Zattar | Temperos Naturais | R$ 7,90 | 100g | CÓD: 150 | IMG: SIM
+363 | ID: 364     | Pimenta Calabresa | Temperos Naturais | R$ 3,90 | 100g | CÓD: 712 | IMG: SIM
+364 | ID: 365     | Pimenta Chili | Temperos Naturais | R$ 7,90 | 100g | CÓD: 1121 | IMG: SIM
+365 | ID: 366     | Pimenta Rosa Grãos | Temperos Naturais | R$ 12,90 | 100g | CÓD: 136 | IMG: SIM
+366 | ID: 367     | Coentro em Grão | Temperos Naturais | R$ 7,90 | 100g | CÓD: - | IMG: SIM
+367 | ID: 368     | Pimenta Jamaica em Grão | Temperos Naturais | R$ 20,00 | 100g | CÓD: 909 | IMG: SIM
+368 | ID: 369     | Pimenta Jamaica | Temperos Naturais | R$ 7,90 | 100g | CÓD: 981 | IMG: SIM
+369 | ID: 370     | Pimenta Branca em Grão | Temperos Naturais | R$ 19,90 | 100g | CÓD: 132 | IMG: SIM
+370 | ID: 372     | Pimenta do Reino em Pó | Temperos Naturais | R$ 11,90 | 100g | CÓD: 134 | IMG: SIM
+371 | ID: 373     | Pimenta Malagueta | Temperos Naturais | R$ 7,90 | 100g | CÓD: 12902 | IMG: SIM
+372 | ID: 374     | Pimenta Caiena | Temperos Naturais | R$ 7,90 | 100g | CÓD: 931 | IMG: SIM
+373 | ID: 375     | Pimenta Preta em Grão | Temperos Naturais | R$ 12,99 | 100g | CÓD: 159 | IMG: SIM
+374 | ID: 376     | Funghi Seco | Temperos Naturais | R$ 12,90 | 100g | CÓD: 230 | IMG: SIM
+375 | ID: 377     | Sal Negro Fino | Temperos Naturais | R$ 21,49 | 100g | CÓD: 140 | IMG: NÃO
+376 | ID: 378     | Mostarda em Grão | Temperos Naturais | R$ 7,90 | 100g | CÓD: 748 | IMG: SIM
+377 | ID: 379     | Tempero Ana Maria Light | Temperos Naturais | R$ 7,90 | 100g | CÓD: 769 | IMG: SIM
+378 | ID: 380     | Cominho em Grão | Temperos Naturais | R$ 7,90 | 100g | CÓD: 612 | IMG: SIM
+379 | ID: 381     | Tomilho | Temperos Naturais | R$ 7,90 | 100g | CÓD: 143 | IMG: SIM
+380 | ID: 382     | Alho em Pó | Temperos Naturais | R$ 7,90 | 100g | CÓD: 659 | IMG: SIM
+381 | ID: 383     | Alho em Flocos | Temperos Naturais | R$ 7,90 | 100g | CÓD: 901 | IMG: SIM
+382 | ID: 384     | Ervas Finas | Temperos Naturais | R$ 7,90 | 100g | CÓD: 116 | IMG: SIM
+383 | ID: 385     | Alho Granulado | Temperos Naturais | R$ 7,90 | 100g | CÓD: 104 | IMG: SIM
+384 | ID: 387     | Manjericão | Temperos Naturais | R$ 7,90 | 100g | CÓD: NÃO LEGÍVEL | IMG: SIM
+385 | ID: 388     | Alecrim Desidratado | Temperos Naturais | R$ 7,90 | 100g | CÓD: 204 | IMG: SIM
+386 | ID: 390     | Flor de Sal | Temperos Naturais | R$ 7,90 | 100g | CÓD: 162 | IMG: SIM
+387 | ID: 391     | Trigo Sarraceno | Grãos | R$ 3,80 | 100g | CÓD: 190 | IMG: SIM
+388 | ID: 392     | Canela em Pau | Temperos Naturais | R$ 12,00 | 100g | CÓD: 246 | IMG: SIM
+389 | ID: 393     | Ginkgo Biloba | Chás | R$ 9,50 | 100g | CÓD: 232 | IMG: SIM
+390 | ID: 394     | Guaco | Chás | R$ 9,50 | 100g | CÓD: 234 | IMG: NÃO
+391 | ID: 395     | Chá Verde | Chás | R$ 9,50 | 100g | CÓD: 221 | IMG: SIM
+392 | ID: 396     | Alho Frito Granulado | Temperos Naturais | R$ 7,90 | 100g | CÓD: 103 | IMG: SIM
+393 | ID: 397     | Hortelã | Chás | R$ 9,50 | 100g | CÓD: 447 | IMG: SIM
+394 | ID: 398     | Erva Doce | Chás | R$ 7,90 | 100g | CÓD: 226 | IMG: SIM
+395 | ID: 399     | Hibisco | Chás | R$ 9,90 | 100g | CÓD: 236 | IMG: SIM
+396 | ID: 400     | Capim Limão | Chás | R$ 9,50 | 100g | CÓD: 113 | IMG: SIM
+397 | ID: 401     | Camomila Flor | Chás | R$ 9,60 | 100g | CÓD: 214 | IMG: SIM
+398 | ID: 402     | Folha de Maracujá | Chás | R$ 9,50 | 100g | CÓD: 603 | IMG: SIM
+399 | ID: 403     | Melissa | Chás | R$ 14,90 | 100g | CÓD: 240 | IMG: SIM
+400 | ID: 404     | Chá Sene | Chás | R$ 9,50 | 100g | CÓD: 146 | IMG: SIM
+401 | ID: 405     | Espinheira Santa | Chás | R$ 8,90 | 100g | CÓD: 327 | IMG: SIM
+402 | ID: 406     | Ervilha Verde Partida | Grãos e Leguminosas | R$ 1,69 | 100g | CÓD: 163 | IMG: SIM
+403 | ID: 407     | Lentilha Canadense | Grãos e Leguminosas | R$ 3,70 | 100g | CÓD: 363 | IMG: SIM
+404 | ID: 408     | Grão de Bico | Grãos e Leguminosas | R$ 3,50 | 100g | CÓD: 361 | IMG: SIM
+405 | ID: 409     | Proteína de Soja Clara | Proteínas Vegetais | R$ 3,50 | 100g | CÓD: 252 | IMG: SIM
+406 | ID: 410     | Proteína de Soja Escura | Proteínas Vegetais | R$ 3,50 | 100g | CÓD: 254 | IMG: SIM
+407 | ID: 411     | Bacon de Soja | Proteínas Vegetais | R$ 6,60 | 100g | CÓD: 145 | IMG: SIM
+408 | ID: 412     | Feijão Preto | Grãos e Leguminosas | R$ 1,20 | 100g | CÓD: 512 | IMG: SIM
+409 | ID: 413     | Feijão Branco | Grãos e Leguminosas | R$ 2,50 | 100g | CÓD: 104 | IMG: SIM
+410 | ID: 414     | Feijão Fradinho | Grãos e Oleaginosas | R$ 1,50 | 100gg | CÓD: 110 | IMG: NÃO
+411 | ID: 415     | Milho Mostarda e Mel | Grãos e Oleaginosas | R$ 8,50 | 100gg | CÓD: 157 | IMG: NÃO
+412 | ID: 416     | Ervilha c/ Wasabi | Grãos e Oleaginosas | R$ 6,90 | 100gg | CÓD: 793 | IMG: NÃO
+413 | ID: 417     | Amendoim com Sal e com Pele | Grãos e Oleaginosas | R$ 3,00 | 100gg | CÓD: 22 | IMG: NÃO
+414 | ID: 418     | Amendoim Cru c/ Pele | Grãos e Oleaginosas | R$ 2,90 | 100gg | CÓD: 1091 | IMG: NÃO
+415 | ID: 419     | Amendoim com Sal | Grãos e Oleaginosas | R$ 3,10 | 100gg | CÓD: 23 | IMG: NÃO
+416 | ID: 420     | Amendoim Sem Sal | Grãos e Oleaginosas | R$ 3,10 | 100gg | CÓD: 21 | IMG: NÃO
+417 | ID: 421     | Amêndoa Defumada | Grãos e Oleaginosas | R$ 12,90 | 100gg | CÓD: 10 | IMG: NÃO
+418 | ID: 422     | Amêndoa Torrada c/ Sal | Grãos e Oleaginosas | R$ 13,00 | 100gg | CÓD: 15 | IMG: NÃO
+419 | ID: 423     | Amêndoa Torrada s/ Sal | Grãos e Oleaginosas | R$ 12,90 | 100gg | CÓD: 112 | IMG: NÃO
+
+============================================================
+ FIM DO INVENTÁRIO
+============================================================

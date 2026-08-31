@@ -1,0 +1,5794 @@
+{
+  "resumo": {
+    "registros_analisados": 419,
+    "pesos_interpretados": 298,
+    "pesos_numericos_sem_medida": 56,
+    "unidades_comerciais": 187,
+    "unidades_medida": 84,
+    "formatos_nao_reconhecidos": 70
+  },
+  "produtos": [
+    {
+      "indice": 0,
+      "id": 1,
+      "nome": "Pão Tradicional com Gergelim",
+      "peso_original": "500 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 500,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 1,
+      "id": 2,
+      "nome": "Pão de Limão Siciliano",
+      "peso_original": "500 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 500,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 2,
+      "id": 3,
+      "nome": "Pão de Nozes com Castanha-do-Pará",
+      "peso_original": "500 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 500,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 3,
+      "id": 4,
+      "nome": "Pão de Alecrim",
+      "peso_original": "500 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 500,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 4,
+      "id": 5,
+      "nome": "Pão de Linhaça com Chia",
+      "peso_original": "500 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 500,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 5,
+      "id": 6,
+      "nome": "Muffin de Cacau Vegano",
+      "peso_original": "160 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 160,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 6,
+      "id": 7,
+      "nome": "Muffin de Frango, Milho e Cenoura",
+      "peso_original": "200 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 200,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 7,
+      "id": 8,
+      "nome": "Muffin de Chocolate",
+      "peso_original": "140 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 140,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 8,
+      "id": 9,
+      "nome": "Muffin de Banana",
+      "peso_original": "160 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 160,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 9,
+      "id": 10,
+      "nome": "Muffin de Coco com Chocolate Branco Low Carb",
+      "peso_original": "160 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 160,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 10,
+      "id": 11,
+      "nome": "Torta de Maçã",
+      "peso_original": "200 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 200,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 11,
+      "id": 12,
+      "nome": "Torta de Palmito",
+      "peso_original": "200 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 200,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 12,
+      "id": 13,
+      "nome": "Pão Francês com Sementes",
+      "peso_original": "350 g",
+      "unidade_original": "5 unidades",
+      "peso_interpretado": {
+        "quantidade": 350,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 5,
+        "tipo": "unidades"
+      }
+    },
+    {
+      "indice": 13,
+      "id": 14,
+      "nome": "Pão de Queijo com Goiabada",
+      "peso_original": "300 g",
+      "unidade_original": "",
+      "peso_interpretado": {
+        "quantidade": 300,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 14,
+      "id": 15,
+      "nome": "Pão de Hot Dog sem Glúten",
+      "peso_original": "125 g",
+      "unidade_original": "2 unidades",
+      "peso_interpretado": {
+        "quantidade": 125,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 2,
+        "tipo": "unidades"
+      }
+    },
+    {
+      "indice": 15,
+      "id": 16,
+      "nome": "Bisnaguinha",
+      "peso_original": "150 g",
+      "unidade_original": "",
+      "peso_interpretado": {
+        "quantidade": 150,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 16,
+      "id": 17,
+      "nome": "Pão de Hambúrguer",
+      "peso_original": "125 g",
+      "unidade_original": "2 unidades",
+      "peso_interpretado": {
+        "quantidade": 125,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 2,
+        "tipo": "unidades"
+      }
+    },
+    {
+      "indice": 17,
+      "id": 18,
+      "nome": "Pãozinho de Cebola",
+      "peso_original": "200 g",
+      "unidade_original": "aprox. 9 unidades",
+      "peso_interpretado": {
+        "quantidade": 200,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "aprox. 9 unidades"
+      }
+    },
+    {
+      "indice": 18,
+      "id": 19,
+      "nome": "Pãozinho de Cenoura",
+      "peso_original": "200 g",
+      "unidade_original": "aprox. 8 unidades",
+      "peso_interpretado": {
+        "quantidade": 200,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "aprox. 8 unidades"
+      }
+    },
+    {
+      "indice": 19,
+      "id": 20,
+      "nome": "Pão Sírio Tipo Pita",
+      "peso_original": "200 g",
+      "unidade_original": "4 unidades",
+      "peso_interpretado": {
+        "quantidade": 200,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 4,
+        "tipo": "unidades"
+      }
+    },
+    {
+      "indice": 20,
+      "id": 21,
+      "nome": "Wrap sem Glúten",
+      "peso_original": "220 g",
+      "unidade_original": "6 unidades",
+      "peso_interpretado": {
+        "quantidade": 220,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 6,
+        "tipo": "unidades"
+      }
+    },
+    {
+      "indice": 21,
+      "id": 22,
+      "nome": "Wrap de Tapioca Original",
+      "peso_original": "150 g",
+      "unidade_original": "5 unidades",
+      "peso_interpretado": {
+        "quantidade": 150,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 5,
+        "tipo": "unidades"
+      }
+    },
+    {
+      "indice": 22,
+      "id": 23,
+      "nome": "Chips de Batata-Doce com Sal Rosa do Himalaia",
+      "peso_original": "50 g",
+      "unidade_original": "",
+      "peso_interpretado": {
+        "quantidade": 50,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 23,
+      "id": 24,
+      "nome": "Chips de Mandioca com Chimi Churri",
+      "peso_original": "50 g",
+      "unidade_original": "",
+      "peso_interpretado": {
+        "quantidade": 50,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 24,
+      "id": 25,
+      "nome": "Chips de Mandioca com Lemon Pepper",
+      "peso_original": "50 g",
+      "unidade_original": "",
+      "peso_interpretado": {
+        "quantidade": 50,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 25,
+      "id": 26,
+      "nome": "Chips de Batata-Doce Sweet Chilli",
+      "peso_original": "50 g",
+      "unidade_original": "",
+      "peso_interpretado": {
+        "quantidade": 50,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 26,
+      "id": 27,
+      "nome": "Chips de Batata-Doce com Azeite e Manjericão",
+      "peso_original": "45 g",
+      "unidade_original": "",
+      "peso_interpretado": {
+        "quantidade": 45,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 27,
+      "id": 28,
+      "nome": "Chips de Batata Roxa com Gergelim Branco",
+      "peso_original": "30 g",
+      "unidade_original": "",
+      "peso_interpretado": {
+        "quantidade": 30,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 28,
+      "id": 29,
+      "nome": "Chips de Batata-Doce",
+      "peso_original": "30 g",
+      "unidade_original": "",
+      "peso_interpretado": {
+        "quantidade": 30,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 29,
+      "id": 30,
+      "nome": "Canjica de Milho com Sal Marinho",
+      "peso_original": "40 g",
+      "unidade_original": "",
+      "peso_interpretado": {
+        "quantidade": 40,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 30,
+      "id": 31,
+      "nome": "Salgadinho de Requeijão com Milho e Quinoa",
+      "peso_original": "25 g",
+      "unidade_original": "",
+      "peso_interpretado": {
+        "quantidade": 25,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 31,
+      "id": 32,
+      "nome": "Cookies Baunilha & Chocolate Zero Açúcar",
+      "peso_original": "67 g",
+      "unidade_original": "",
+      "peso_interpretado": {
+        "quantidade": 67,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 32,
+      "id": 33,
+      "nome": "Wafer Cappuccino",
+      "peso_original": "25 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 25,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 33,
+      "id": 34,
+      "nome": "Wafer Creme de Avelã",
+      "peso_original": "25 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 25,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 34,
+      "id": 35,
+      "nome": "Bacio di Latte Pistacchio",
+      "peso_original": "",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 35,
+      "id": 36,
+      "nome": "Bacio di Latte Caramello Salgado",
+      "peso_original": "",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 36,
+      "id": 37,
+      "nome": "Havanna Legítimo Dulce de Leche",
+      "peso_original": "",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 37,
+      "id": 38,
+      "nome": "Havanna Brownie de Chocolate e Dulce de Leche",
+      "peso_original": "",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 38,
+      "id": 39,
+      "nome": "Protein Crisp Ovomaltine",
+      "peso_original": "45 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 45,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 39,
+      "id": 40,
+      "nome": "Protein Max Chocolate & Nibs",
+      "peso_original": "",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 40,
+      "id": 41,
+      "nome": "Choco Wheyfer Chocolate com Avelã",
+      "peso_original": "25 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 25,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 41,
+      "id": 42,
+      "nome": "Choco Wheyfer Cookies'n Cream",
+      "peso_original": "25 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 25,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 42,
+      "id": 43,
+      "nome": "100% Whey Cookies",
+      "peso_original": "35 g",
+      "unidade_original": "1 sachê",
+      "peso_interpretado": {
+        "quantidade": 35,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "sachê"
+      }
+    },
+    {
+      "indice": 43,
+      "id": 44,
+      "nome": "100% Whey Coco com Baunilha",
+      "peso_original": "35 g",
+      "unidade_original": "1 sachê",
+      "peso_interpretado": {
+        "quantidade": 35,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "sachê"
+      }
+    },
+    {
+      "indice": 44,
+      "id": 45,
+      "nome": "100% Whey Torta de Limão",
+      "peso_original": "35 g",
+      "unidade_original": "1 sachê",
+      "peso_interpretado": {
+        "quantidade": 35,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "sachê"
+      }
+    },
+    {
+      "indice": 45,
+      "id": 46,
+      "nome": "100% Whey Banoffee",
+      "peso_original": "35 g",
+      "unidade_original": "1 sachê",
+      "peso_interpretado": {
+        "quantidade": 35,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "sachê"
+      }
+    },
+    {
+      "indice": 46,
+      "id": 47,
+      "nome": "100% Whey Chocolate com Avelã",
+      "peso_original": "35 g",
+      "unidade_original": "1 sachê",
+      "peso_interpretado": {
+        "quantidade": 35,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "sachê"
+      }
+    },
+    {
+      "indice": 47,
+      "id": 48,
+      "nome": "Paçoquinha Zero Adição de Açúcares",
+      "peso_original": "17 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 17,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 48,
+      "id": 49,
+      "nome": "Cocada com Abacaxi",
+      "peso_original": "",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 49,
+      "id": 50,
+      "nome": "Nuts & Fruits Cranberry",
+      "peso_original": "25 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 25,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 50,
+      "id": 51,
+      "nome": "Goiabinha Cremosa Zero",
+      "peso_original": "22 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 22,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 51,
+      "id": 52,
+      "nome": "Protein Pão de Mel",
+      "peso_original": "45 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 45,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 52,
+      "id": 53,
+      "nome": "Best Whey Cookies & Cream",
+      "peso_original": "49 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 49,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 53,
+      "id": 54,
+      "nome": "Water Timber's Zero Pistache",
+      "peso_original": "324 g",
+      "unidade_original": "12 unidades",
+      "peso_interpretado": {
+        "quantidade": 324,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 12,
+        "tipo": "unidades"
+      }
+    },
+    {
+      "indice": 54,
+      "id": 55,
+      "nome": "Mel Flores Silvestres",
+      "peso_original": "35 g",
+      "unidade_original": "10 sachês",
+      "peso_interpretado": {
+        "quantidade": 35,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 10,
+        "tipo": "sachês"
+      }
+    },
+    {
+      "indice": 55,
+      "id": 56,
+      "nome": "Mel & Alho",
+      "peso_original": "160 g",
+      "unidade_original": "1 pote",
+      "peso_interpretado": {
+        "quantidade": 160,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "pote"
+      }
+    },
+    {
+      "indice": 56,
+      "id": 57,
+      "nome": "Verdprópolis — Extrato de Própolis Verde",
+      "peso_original": "30 ml",
+      "unidade_original": "1 frasco",
+      "peso_interpretado": {
+        "quantidade": 30,
+        "medida": "ml"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "frasco"
+      }
+    },
+    {
+      "indice": 57,
+      "id": 58,
+      "nome": "Redprópolis — Extrato de Própolis Vermelho",
+      "peso_original": "30 ml",
+      "unidade_original": "1 frasco",
+      "peso_interpretado": {
+        "quantidade": 30,
+        "medida": "ml"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "frasco"
+      }
+    },
+    {
+      "indice": 58,
+      "id": 59,
+      "nome": "Extrato de Própolis Glicólico",
+      "peso_original": "30 ml",
+      "unidade_original": "1 frasco",
+      "peso_interpretado": {
+        "quantidade": 30,
+        "medida": "ml"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "frasco"
+      }
+    },
+    {
+      "indice": 59,
+      "id": 60,
+      "nome": "Spray de Mel com Própolis, Romã e Gengibre",
+      "peso_original": "",
+      "unidade_original": "1 frasco",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "frasco"
+      }
+    },
+    {
+      "indice": 60,
+      "id": 61,
+      "nome": "Óleo de Linhaça",
+      "peso_original": "1000 mg",
+      "unidade_original": "100 cápsulas",
+      "peso_interpretado": {
+        "quantidade": 1000,
+        "medida": "mg"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "cápsulas"
+      }
+    },
+    {
+      "indice": 61,
+      "id": 62,
+      "nome": "Chlorella",
+      "peso_original": "500 mg",
+      "unidade_original": "100 cápsulas",
+      "peso_interpretado": {
+        "quantidade": 500,
+        "medida": "mg"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "cápsulas"
+      }
+    },
+    {
+      "indice": 62,
+      "id": 63,
+      "nome": "Tâmara com Colágeno",
+      "peso_original": "",
+      "unidade_original": "12 unidades",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 12,
+        "tipo": "unidades"
+      }
+    },
+    {
+      "indice": 63,
+      "id": 64,
+      "nome": "Mulungu",
+      "peso_original": "500 mg",
+      "unidade_original": "60 cápsulas",
+      "peso_interpretado": {
+        "quantidade": 500,
+        "medida": "mg"
+      },
+      "unidade_interpretada": {
+        "quantidade": 60,
+        "tipo": "cápsulas"
+      }
+    },
+    {
+      "indice": 64,
+      "id": 65,
+      "nome": "Gummy Original AIR Zero",
+      "peso_original": "",
+      "unidade_original": "60 unidades",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 60,
+        "tipo": "unidades"
+      }
+    },
+    {
+      "indice": 65,
+      "id": 66,
+      "nome": "Gummy Original AIR Maçã Verde",
+      "peso_original": "",
+      "unidade_original": "60 unidades",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 60,
+        "tipo": "unidades"
+      }
+    },
+    {
+      "indice": 66,
+      "id": 67,
+      "nome": "Gummy Original Apple Vinegar",
+      "peso_original": "",
+      "unidade_original": "60 unidades",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 60,
+        "tipo": "unidades"
+      }
+    },
+    {
+      "indice": 67,
+      "id": 68,
+      "nome": "Gummy Original Hair One",
+      "peso_original": "",
+      "unidade_original": "60 unidades",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 60,
+        "tipo": "unidades"
+      }
+    },
+    {
+      "indice": 68,
+      "id": 69,
+      "nome": "Gengibre Cristalizado",
+      "peso_original": "200 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 200,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 69,
+      "id": 70,
+      "nome": "Amora",
+      "peso_original": "600 mg",
+      "unidade_original": "100 cápsulas",
+      "peso_interpretado": {
+        "quantidade": 600,
+        "medida": "mg"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "cápsulas"
+      }
+    },
+    {
+      "indice": 70,
+      "id": 71,
+      "nome": "Bananinha sem Adição de Açúcar",
+      "peso_original": "",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 71,
+      "id": 72,
+      "nome": "Doce de Banana sem Adição de Açúcares",
+      "peso_original": "",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 72,
+      "id": 73,
+      "nome": "Bananinha Coberta com Chocolate",
+      "peso_original": "",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 73,
+      "id": 74,
+      "nome": "Bananinha com Canela",
+      "peso_original": "",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 74,
+      "id": 75,
+      "nome": "Doce de Banana com Açúcar e Canela",
+      "peso_original": "",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 75,
+      "id": 76,
+      "nome": "Bisco Light Coco Branco com Pistache",
+      "peso_original": "150 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 150,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 76,
+      "id": 77,
+      "nome": "Bisco Light Churros",
+      "peso_original": "150 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 150,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 77,
+      "id": 78,
+      "nome": "Crush Bar Morango",
+      "peso_original": "35 g",
+      "unidade_original": "caixa com 12 unidades",
+      "peso_interpretado": {
+        "quantidade": 35,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "caixa com 12 unidades"
+      }
+    },
+    {
+      "indice": 78,
+      "id": 79,
+      "nome": "Stroopwafel Wafel Holandês",
+      "peso_original": "230 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 230,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 79,
+      "id": 80,
+      "nome": "Muma Biscoito de Arroz Chocolate Zero",
+      "peso_original": "60 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 60,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 80,
+      "id": 81,
+      "nome": "Muma Biscoito de Milho Mediterrâneo",
+      "peso_original": "65 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 65,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 81,
+      "id": 82,
+      "nome": "Muma Biscoito de Milho Ervas Finas e Azeite",
+      "peso_original": "65 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 65,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 82,
+      "id": 83,
+      "nome": "Repeat Snack Alga Marinha Original",
+      "peso_original": "5 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 5,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 83,
+      "id": 84,
+      "nome": "Biscoito Sembei",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 84,
+      "id": 85,
+      "nome": "Biscoito Beliscão",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 85,
+      "id": 86,
+      "nome": "Biscoito Banana e Canela",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 86,
+      "id": 87,
+      "nome": "Biscoito de Maracujá Vegano",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 87,
+      "id": 88,
+      "nome": "Biscoito de Castanha de Pecã",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 88,
+      "id": 89,
+      "nome": "Biscoito com Gotas de Chocolate 52%",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 89,
+      "id": 90,
+      "nome": "Biscoito Parmesão com Páprica e Cúrcuma",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 90,
+      "id": 91,
+      "nome": "Polvilho com Provolone",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 91,
+      "id": 92,
+      "nome": "Polvilho com Chia",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 92,
+      "id": 93,
+      "nome": "Polvilho com Cebola",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 93,
+      "id": 94,
+      "nome": "Biscoito Polvilho Perfeito Pimenta e Limão",
+      "peso_original": "80 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 80,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 94,
+      "id": 95,
+      "nome": "Provolone com Goiabada",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 95,
+      "id": 96,
+      "nome": "Snack de Queijo Coalho",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 96,
+      "id": 97,
+      "nome": "Banana Chips Doce",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 97,
+      "id": 98,
+      "nome": "Amendoim Japonês",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 98,
+      "id": 99,
+      "nome": "Amendoim Olhinho",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 99,
+      "id": 100,
+      "nome": "Mix Crocante",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 100,
+      "id": 101,
+      "nome": "Mix de Frutas Tropicais",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 101,
+      "id": 102,
+      "nome": "Mix de Frutas Vermelhas",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 102,
+      "id": 103,
+      "nome": "Damasco",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 103,
+      "id": 104,
+      "nome": "Manga Desidratada",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 104,
+      "id": 105,
+      "nome": "Kiwi Desidratado",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 105,
+      "id": 106,
+      "nome": "Goji Berry",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 106,
+      "id": 107,
+      "nome": "Blueberry",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 107,
+      "id": 108,
+      "nome": "Morango Glaceado",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 108,
+      "id": 109,
+      "nome": "Cereja Desidratada",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 109,
+      "id": 110,
+      "nome": "Abacaxi Desidratado",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 110,
+      "id": 111,
+      "nome": "Mamão Cristalizado",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 111,
+      "id": 112,
+      "nome": "Frutas Cristalizadas",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 112,
+      "id": 113,
+      "nome": "Tâmara sem Caroço",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 113,
+      "id": 114,
+      "nome": "Tâmara Jumbo",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 114,
+      "id": 115,
+      "nome": "Banana Passa",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 115,
+      "id": 116,
+      "nome": "Mini Figo Turco",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 116,
+      "id": 117,
+      "nome": "Figo Turco",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 117,
+      "id": 118,
+      "nome": "Banana Chips Salgada",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 118,
+      "id": 119,
+      "nome": "Chips de Mandioca Premium",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 119,
+      "id": 120,
+      "nome": "Chips de Kiwi",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 120,
+      "id": 121,
+      "nome": "Chips de Coco sem Açúcar",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 121,
+      "id": 122,
+      "nome": "Chips de Coco com Bordo",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 122,
+      "id": 123,
+      "nome": "Mix de Castanhas",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 123,
+      "id": 124,
+      "nome": "Amêndoa Laminada",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 124,
+      "id": 125,
+      "nome": "Macadâmia sem Sal",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 125,
+      "id": 126,
+      "nome": "Pistache com Casca",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 126,
+      "id": 127,
+      "nome": "Pistache Inteiro sem Casca",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 127,
+      "id": 128,
+      "nome": "Castanha do Pará Inteira",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 128,
+      "id": 129,
+      "nome": "Castanha do Pará Quebrada",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 129,
+      "id": 130,
+      "nome": "Castanha de Caju Crua W1",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 130,
+      "id": 131,
+      "nome": "Castanha de Caju Quebrada sem Sal",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 131,
+      "id": 132,
+      "nome": "Castanha de Caju Assada sem Sal",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 132,
+      "id": 133,
+      "nome": "Castanha de Caju Torrada com Sal",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 133,
+      "id": 134,
+      "nome": "Castanha de Caju Torrada sem Sal",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 134,
+      "id": 135,
+      "nome": "Noz Pecan",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 135,
+      "id": 136,
+      "nome": "Noz Quartilho",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 136,
+      "id": 137,
+      "nome": "Noz Quartz",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 137,
+      "id": 138,
+      "nome": "Noz Mariposa",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 138,
+      "id": 139,
+      "nome": "Xerém de Amendoim",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 139,
+      "id": 140,
+      "nome": "Amendoim Doce",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 140,
+      "id": 141,
+      "nome": "Amendoim Natural",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 141,
+      "id": 142,
+      "nome": "Amendoim sem Casca",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 142,
+      "id": 143,
+      "nome": "Cacau 100% Alcalino",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 143,
+      "id": 144,
+      "nome": "Cacau 70%",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 144,
+      "id": 145,
+      "nome": "Cacau 50%",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 145,
+      "id": 146,
+      "nome": "Nibs de Cacau",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 146,
+      "id": 147,
+      "nome": "Eritritol",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 147,
+      "id": 148,
+      "nome": "Stevia em Pó",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 148,
+      "id": 149,
+      "nome": "Cravo em Pó",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 149,
+      "id": 150,
+      "nome": "Bicarbonato de Sódio",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 150,
+      "id": 151,
+      "nome": "Farinha Panko",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 151,
+      "id": 152,
+      "nome": "Farinha Mineira",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 152,
+      "id": 153,
+      "nome": "Polvilho Doce",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 153,
+      "id": 154,
+      "nome": "Polvilho Azedo",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 154,
+      "id": 155,
+      "nome": "Flocos de Arroz",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 155,
+      "id": 156,
+      "nome": "Fubá Italiano",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 156,
+      "id": 157,
+      "nome": "Açúcar Mascavo",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 157,
+      "id": 158,
+      "nome": "Açúcar de Coco",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 158,
+      "id": 159,
+      "nome": "Açúcar Demerara",
+      "peso_original": "100 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 159,
+      "id": 160,
+      "nome": "Café Bossa Nova",
+      "peso_original": "500 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 500,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 160,
+      "id": 161,
+      "nome": "Café Bossa Nova",
+      "peso_original": "250 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 250,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 161,
+      "id": 162,
+      "nome": "Cebola em Conserva Temperada",
+      "peso_original": "340 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 340,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 162,
+      "id": 163,
+      "nome": "Homus",
+      "peso_original": "320 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 320,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 163,
+      "id": 164,
+      "nome": "Pasta de Truta Defumada Tradicional",
+      "peso_original": "160 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 160,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 164,
+      "id": 165,
+      "nome": "Geleia de Abacaxi com Hortelã Diet",
+      "peso_original": "200 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 200,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 165,
+      "id": 166,
+      "nome": "Geleia de Frutos Vermelhos Diet",
+      "peso_original": "200 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 200,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 166,
+      "id": 167,
+      "nome": "Geleia de Pimenta Diet",
+      "peso_original": "200 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 200,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 167,
+      "id": 168,
+      "nome": "Óleo de Coco Copra Extravirgem",
+      "peso_original": "500 ml",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 500,
+        "medida": "ml"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 168,
+      "id": 169,
+      "nome": "Óleo de Coco Copra Extravirgem",
+      "peso_original": "200 ml",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 200,
+        "medida": "ml"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 169,
+      "id": 170,
+      "nome": "Óleo de Coco Copra sem Sabor e sem Cheiro",
+      "peso_original": "200 ml",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 200,
+        "medida": "ml"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 170,
+      "id": 171,
+      "nome": "Óleo de Coco Copra sem Sabor e sem Cheiro",
+      "peso_original": "500 ml",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 500,
+        "medida": "ml"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 171,
+      "id": 172,
+      "nome": "Óleo de Coco Santo Óleo Extravirgem",
+      "peso_original": "200 ml",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 200,
+        "medida": "ml"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 172,
+      "id": 173,
+      "nome": "Óleo de Coco Santo Óleo Extravirgem",
+      "peso_original": "500 ml",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 500,
+        "medida": "ml"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 173,
+      "id": 174,
+      "nome": "Azeite de Abacate Extravirgem",
+      "peso_original": "250 ml",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 250,
+        "medida": "ml"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 174,
+      "id": 175,
+      "nome": "Tahine Integral",
+      "peso_original": "320 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 320,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 175,
+      "id": 176,
+      "nome": "Tahine Tradicional",
+      "peso_original": "320 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 320,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 176,
+      "id": 177,
+      "nome": "Gergelim Mix",
+      "peso_original": "170 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 170,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 177,
+      "id": 178,
+      "nome": "Sriracha Hot Chili Sauce",
+      "peso_original": "330 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 330,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 178,
+      "id": 179,
+      "nome": "Molho Mrs Chicken",
+      "peso_original": "320 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 320,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 179,
+      "id": 180,
+      "nome": "Geleia de Pimenta com Frutas Vermelhas",
+      "peso_original": "260 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 260,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 180,
+      "id": 181,
+      "nome": "Molho Agridoce Defumado",
+      "peso_original": "260 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 260,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 181,
+      "id": 182,
+      "nome": "Sal Sertão Integral",
+      "peso_original": "1 kg",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 1,
+        "medida": "kg"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 182,
+      "id": 183,
+      "nome": "Sal Marinho Integral de Mossoró",
+      "peso_original": "500 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 500,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 183,
+      "id": 184,
+      "nome": "Sal Marinho Integral de Mossoró",
+      "peso_original": "1 kg",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 1,
+        "medida": "kg"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 184,
+      "id": 185,
+      "nome": "Sal Marinho Integral",
+      "peso_original": "1 kg",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 1,
+        "medida": "kg"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 185,
+      "id": 186,
+      "nome": "Flocos de Milho Livre",
+      "peso_original": "500 g",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 500,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 186,
+      "id": 187,
+      "nome": "Extrato Natural de Baunilha",
+      "peso_original": "30 ml",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 30,
+        "medida": "ml"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 187,
+      "id": 188,
+      "nome": "Shoyu de Coco Copra",
+      "peso_original": "250 ml",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": 250,
+        "medida": "ml"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 188,
+      "nome": "Black Maca Peruana Premium",
+      "peso_original": "150 g",
+      "peso_interpretado": {
+        "quantidade": 150,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 189,
+      "nome": "Beterraba em Pó",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 190,
+      "nome": "Feno Grego em Pó",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 191,
+      "nome": "Energético em Pó (Tribulus)",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 192,
+      "nome": "Farinha de Berinjela",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 193,
+      "nome": "Farinha de Inhame",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 194,
+      "nome": "Goma Xantana",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 195,
+      "nome": "Semolina",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 196,
+      "nome": "Farinha de Centeio",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 197,
+      "nome": "Farinha de Maracujá",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 198,
+      "nome": "Ágar-Ágar em Pó",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 199,
+      "nome": "Dolomita",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 200,
+      "nome": "Argila Branca",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 201,
+      "nome": "Argila Verde",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 202,
+      "nome": "Alcachofra",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 203,
+      "nome": "Amora Branca",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 204,
+      "nome": "Funcho",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 205,
+      "nome": "Alfazema Azul",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 206,
+      "nome": "Oliveira - Folha",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 207,
+      "nome": "Macela - Flor",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 208,
+      "nome": "Maçã para Chá",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 209,
+      "nome": "Limão Desidratado",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 210,
+      "nome": "Laranja para Chá",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 211,
+      "nome": "Cravo da Índia",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 212,
+      "nome": "Anis Estrelado",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 213,
+      "nome": "Glucomannan",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 214,
+      "nome": "Amaranto em Flocos",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 215,
+      "nome": "Açaí em Pó",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 216,
+      "nome": "Levedura de Cerveja em Pó",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 217,
+      "nome": "Mucuna Nutricional",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 218,
+      "nome": "Quirera de Milho",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 219,
+      "nome": "Farinha de Milho",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 220,
+      "nome": "Farinha de Mandioca Fina",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 221,
+      "nome": "Tapioca Granulada",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 222,
+      "nome": "Maca Peruana",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 223,
+      "nome": "Farinha de Linhaça Marrom",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 224,
+      "nome": "Farinha de Linhaça",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 225,
+      "nome": "Gengibre em Pó",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 226,
+      "nome": "Chia Premium",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 227,
+      "nome": "Farinha de Chia",
+      "peso_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 228,
+      "id": 189,
+      "nome": "Psyllium Husk 90%",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 229,
+      "id": 190,
+      "nome": "Farinha de Aveia Integral",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 230,
+      "id": 191,
+      "nome": "Farinha de Aveia",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 231,
+      "id": 192,
+      "nome": "Farinha de Amêndoa",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 232,
+      "id": 193,
+      "nome": "Farinha de Coco",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 233,
+      "id": 194,
+      "nome": "Leite de Coco em Pó",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 234,
+      "id": 195,
+      "nome": "Colágeno Hidrolisado",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 235,
+      "id": 196,
+      "nome": "Fibra de Maçã",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 236,
+      "id": 197,
+      "nome": "Gelatina Natural",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 237,
+      "id": 198,
+      "nome": "Matcha",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 238,
+      "id": 199,
+      "nome": "Proteína Isolada",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 239,
+      "id": 200,
+      "nome": "Cardamomo em Pó",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 240,
+      "id": 201,
+      "nome": "Cardamomo em Grãos",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 241,
+      "id": 202,
+      "nome": "Cardo Mariano",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 242,
+      "id": 203,
+      "nome": "Uxi Amarelo",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 243,
+      "id": 204,
+      "nome": "Zimbro",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 244,
+      "id": 205,
+      "nome": "Maçã com Canela",
+      "unidade_original": "13 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 13,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 245,
+      "id": 206,
+      "nome": "Chá Verde com Hibiscus",
+      "unidade_original": "15 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 15,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 246,
+      "id": 207,
+      "nome": "Picão",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 247,
+      "id": 208,
+      "nome": "Quebra-Pedra",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 248,
+      "id": 209,
+      "nome": "Sálvia",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 249,
+      "id": 210,
+      "nome": "Arruda",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 250,
+      "id": 211,
+      "nome": "Artemísia",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 251,
+      "id": 212,
+      "nome": "Barbatimão",
+      "unidade_original": "50 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 50,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 252,
+      "id": 213,
+      "nome": "Boldo do Chile",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 253,
+      "id": 214,
+      "nome": "Cavalinha",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 254,
+      "id": 215,
+      "nome": "Carqueja",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 255,
+      "id": 216,
+      "nome": "Dente-de-Leão",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 256,
+      "id": 217,
+      "nome": "Erva-de-Bicho",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 257,
+      "id": 218,
+      "nome": "Erva-Baleeira",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 258,
+      "id": 219,
+      "nome": "Erva-de-Bugre",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 259,
+      "id": 220,
+      "nome": "Graviola",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 260,
+      "id": 221,
+      "nome": "Guiné",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 261,
+      "id": 222,
+      "nome": "Goiabeira",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 262,
+      "id": 223,
+      "nome": "Louro",
+      "unidade_original": "30 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 30,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 263,
+      "id": 224,
+      "nome": "Urtiga Folha",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 264,
+      "id": 225,
+      "nome": "Manacá",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 265,
+      "id": 226,
+      "nome": "Boldo do Chile — Embalagem 100 g",
+      "peso_original": "100 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 266,
+      "id": 227,
+      "nome": "Urtiga Folha — Embalagem 100 g",
+      "peso_original": "100 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 267,
+      "id": 228,
+      "nome": "Albumina — Clara de Ovo",
+      "peso_original": "100 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 268,
+      "id": 229,
+      "nome": "Quinua em Flocos",
+      "peso_original": "100 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 269,
+      "id": 230,
+      "nome": "Ovo-Albumina em Pó",
+      "peso_original": "100 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 270,
+      "id": 231,
+      "nome": "Gérmen de Trigo",
+      "peso_original": "100 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 271,
+      "id": 232,
+      "nome": "Feno Grego — Grãos",
+      "peso_original": "100 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 272,
+      "id": 233,
+      "nome": "Glutamina",
+      "peso_original": "100 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 273,
+      "id": 234,
+      "nome": "Farinha de Semente de Abóbora — Sem Casca",
+      "peso_original": "100 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 274,
+      "id": 235,
+      "nome": "Semente de Abóbora em Pó",
+      "peso_original": "100 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 275,
+      "id": 236,
+      "nome": "Farinha de Batata-Doce",
+      "peso_original": "100 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 276,
+      "id": 237,
+      "nome": "Farinha de Arroz Integral",
+      "peso_original": "100 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 277,
+      "id": 238,
+      "nome": "Fécula de Mandioca",
+      "peso_original": "100 g",
+      "unidade_original": "1 embalagem",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "embalagem"
+      }
+    },
+    {
+      "indice": 278,
+      "id": 239,
+      "nome": "Fécula de Batata",
+      "peso_original": "",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 279,
+      "id": 240,
+      "nome": "Guaraná em Pó",
+      "peso_original": "",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 280,
+      "id": 241,
+      "nome": "Farinha de Uva",
+      "peso_original": "",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 281,
+      "id": 242,
+      "nome": "Catuaba em Pó",
+      "peso_original": "",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 282,
+      "id": 243,
+      "nome": "Ginseng em Pó",
+      "peso_original": "",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 283,
+      "id": 244,
+      "nome": "Spirulina em Pó",
+      "peso_original": "",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 284,
+      "id": 245,
+      "nome": "Farinha de Grão-de-Bico",
+      "peso_original": "",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 285,
+      "id": 246,
+      "nome": "Farinha de Banana Verde",
+      "peso_original": "",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 286,
+      "id": 247,
+      "nome": "Trigo para Kibe",
+      "peso_original": "",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 287,
+      "id": 248,
+      "nome": "Extrato de Soja",
+      "peso_original": "",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 288,
+      "id": 249,
+      "nome": "Manjerona em Pó",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 289,
+      "id": 250,
+      "nome": "Sucupira Miúda",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 290,
+      "id": 251,
+      "nome": "Erva-do-Bicho",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 291,
+      "id": 252,
+      "nome": "Verbena",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 292,
+      "id": 253,
+      "nome": "Buchinha do Norte",
+      "peso_original": "1 unidade",
+      "unidade_original": "1 unidade",
+      "peso_interpretado": {
+        "quantidade": null,
+        "medida": null,
+        "original": "1 unidade"
+      },
+      "unidade_interpretada": {
+        "quantidade": 1,
+        "tipo": "unidade"
+      }
+    },
+    {
+      "indice": 293,
+      "id": 254,
+      "nome": "Losna",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 294,
+      "id": 255,
+      "nome": "Jambolão",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 295,
+      "id": 256,
+      "nome": "Tanchagem",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 296,
+      "id": 257,
+      "nome": "Drageado de Castanha de Caju 70%",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 297,
+      "id": 258,
+      "nome": "Castanha do Pará 70%",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 298,
+      "id": 259,
+      "nome": "Drageado de Castanha do Pará 70%",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 299,
+      "id": 260,
+      "nome": "Drageado de Amêndoas 70%",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 300,
+      "id": 261,
+      "nome": "Drageado de Banana Passa com Whey 70%",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 301,
+      "id": 262,
+      "nome": "Drageado de Avelã ao Leite",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 302,
+      "id": 263,
+      "nome": "Drageado de Castanha de Caju ao Leite",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 303,
+      "id": 264,
+      "nome": "Drageado de Banana c/ Chocolate 70% Dietético",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 304,
+      "id": 265,
+      "nome": "Castanhinha de Banana c/ Chocolate 70%",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 305,
+      "id": 266,
+      "nome": "Amendoim c/ Chocolate 70%",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 306,
+      "id": 267,
+      "nome": "Gotas Branca 0 Açúcar",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 307,
+      "id": 268,
+      "nome": "Gotas de Chocolate ao Leite 0 Açúcar",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 308,
+      "id": 269,
+      "nome": "Drageado de Uva c/ Chocolate 70%",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 309,
+      "id": 270,
+      "nome": "Drageado de Amendoim c/ Chocolate 70%",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 310,
+      "id": 271,
+      "nome": "Drageado de Cranberry c/ Chocolate 70%",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 311,
+      "id": 272,
+      "nome": "Drageado de Cranberry Zero Açúcar",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 312,
+      "id": 273,
+      "nome": "Only4 Chocolate + Cranberry 70%",
+      "unidade_original": "70 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 70,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 313,
+      "id": 274,
+      "nome": "Bala de Alcaçuz",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 314,
+      "id": 275,
+      "nome": "Damasco c/ Chocolate 70%",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 315,
+      "id": 276,
+      "nome": "Drageado de Limão Siciliano",
+      "unidade_original": "100 g",
+      "peso_interpretado": null,
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 316,
+      "id": 277,
+      "nome": "Castanha do Pará c/ Chocolate ao Leite",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 317,
+      "id": 278,
+      "nome": "Drageado de Amendoim c/ Chocolate ao Leite",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 318,
+      "id": 279,
+      "nome": "Drageado de Uva Passa c/ Chocolate ao Leite",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 319,
+      "id": 280,
+      "nome": "Drageado de Castanha do Pará",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 320,
+      "id": 281,
+      "nome": "Cebola, Alho e Salsa",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 321,
+      "id": 282,
+      "nome": "Cebola Granulada",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 322,
+      "id": 283,
+      "nome": "Tempero Edu Guedes",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 323,
+      "id": 284,
+      "nome": "Chimichurri s/ Pimenta",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 324,
+      "id": 285,
+      "nome": "Orégano",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 325,
+      "id": 286,
+      "nome": "Tempero Gaúcho",
+      "peso_original": "100 g",
+      "unidade_original": "100 g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": 100,
+        "tipo": "g"
+      }
+    },
+    {
+      "indice": 326,
+      "id": 317,
+      "nome": "Castanha do Pará",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 327,
+      "id": 318,
+      "nome": "Drageado de Morango",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 328,
+      "id": 319,
+      "nome": "Drageado de Licor de Morango",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 329,
+      "id": 320,
+      "nome": "Drageado de Licor de Conhaque",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 330,
+      "id": 321,
+      "nome": "Cebola, Alho e Salsa",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 331,
+      "id": 322,
+      "nome": "Cebola Granulada",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 332,
+      "id": 323,
+      "nome": "Tempero Edu Guedes",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 333,
+      "id": 324,
+      "nome": "Chimichurri sem Pimenta",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 334,
+      "id": 325,
+      "nome": "Orégano",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 335,
+      "id": 326,
+      "nome": "Tempero Gaúcho",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 336,
+      "id": 327,
+      "nome": "Páprica Defumada",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 337,
+      "id": 328,
+      "nome": "Páprica Doce",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 338,
+      "id": 329,
+      "nome": "Tempero Baiano com Pimenta",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 339,
+      "id": 330,
+      "nome": "Mix Mexicano Bela",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 340,
+      "id": 331,
+      "nome": "Sal Rosa Fino",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 341,
+      "id": 332,
+      "nome": "Sal Rosa Grosso",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 342,
+      "id": 333,
+      "nome": "Mix Mexicano em Pó",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 343,
+      "id": 334,
+      "nome": "Tempero Baiano sem Pimenta",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 344,
+      "id": 335,
+      "nome": "Louro em Pó",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 345,
+      "id": 336,
+      "nome": "Páprica Picante",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 346,
+      "id": 347,
+      "nome": "Colorau",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 347,
+      "id": 348,
+      "nome": "Tempero Pega Marido",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 348,
+      "id": 349,
+      "nome": "Chimichurri c/ Pimenta",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 349,
+      "id": 350,
+      "nome": "Cebola, Salsa e Tomate",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 350,
+      "id": 351,
+      "nome": "Tempero Ana Maria",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 351,
+      "id": 352,
+      "nome": "Vinagrete",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 352,
+      "id": 353,
+      "nome": "Açafrão Premium",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 353,
+      "id": 354,
+      "nome": "Cebola em Pó",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 354,
+      "id": 355,
+      "nome": "Farinha de Cebola",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 355,
+      "id": 356,
+      "nome": "Cúrcuma Pura",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 356,
+      "id": 357,
+      "nome": "Curry",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 357,
+      "id": 358,
+      "nome": "Caldo de Carne",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 358,
+      "id": 359,
+      "nome": "Lemon Pepper",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 359,
+      "id": 360,
+      "nome": "Fumaça em Pó",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 360,
+      "id": 361,
+      "nome": "Limão com Ervas Finas",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 361,
+      "id": 363,
+      "nome": "Zattar",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 362,
+      "id": 364,
+      "nome": "Pimenta Calabresa",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 363,
+      "id": 365,
+      "nome": "Pimenta Chili",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 364,
+      "id": 366,
+      "nome": "Pimenta Rosa Grãos",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 365,
+      "id": 367,
+      "nome": "Coentro em Grão",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 366,
+      "id": 368,
+      "nome": "Pimenta Jamaica em Grão",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 367,
+      "id": 369,
+      "nome": "Pimenta Jamaica",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 368,
+      "id": 370,
+      "nome": "Pimenta Branca em Grão",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 369,
+      "id": 372,
+      "nome": "Pimenta do Reino em Pó",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 370,
+      "id": 373,
+      "nome": "Pimenta Malagueta",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 371,
+      "id": 374,
+      "nome": "Pimenta Caiena",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 372,
+      "id": 375,
+      "nome": "Pimenta Preta em Grão",
+      "peso_original": "100g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": null
+    },
+    {
+      "indice": 373,
+      "id": 376,
+      "nome": "Funghi Seco",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 374,
+      "id": 377,
+      "nome": "Sal Negro Fino",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 375,
+      "id": 378,
+      "nome": "Mostarda em Grão",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 376,
+      "id": 379,
+      "nome": "Tempero Ana Maria Light",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 377,
+      "id": 380,
+      "nome": "Cominho em Grão",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 378,
+      "id": 381,
+      "nome": "Tomilho",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 379,
+      "id": 382,
+      "nome": "Alho em Pó",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 380,
+      "id": 383,
+      "nome": "Alho em Flocos",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 381,
+      "id": 384,
+      "nome": "Ervas Finas",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 382,
+      "id": 385,
+      "nome": "Alho Granulado",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 383,
+      "id": 387,
+      "nome": "Manjericão",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 384,
+      "id": 388,
+      "nome": "Alecrim Desidratado",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 385,
+      "id": 390,
+      "nome": "Flor de Sal",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 386,
+      "id": 391,
+      "nome": "Trigo Sarraceno",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 387,
+      "id": 392,
+      "nome": "Canela em Pau",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 388,
+      "id": 393,
+      "nome": "Ginkgo Biloba",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 389,
+      "id": 394,
+      "nome": "Guaco",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 390,
+      "id": 395,
+      "nome": "Chá Verde",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 391,
+      "id": 396,
+      "nome": "Alho Frito Granulado",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 392,
+      "id": 397,
+      "nome": "Hortelã",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 393,
+      "id": 398,
+      "nome": "Erva Doce",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 394,
+      "id": 399,
+      "nome": "Hibisco",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 395,
+      "id": 400,
+      "nome": "Capim Limão",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 396,
+      "id": 401,
+      "nome": "Camomila Flor",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 397,
+      "id": 402,
+      "nome": "Folha de Maracujá",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 398,
+      "id": 403,
+      "nome": "Melissa",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 399,
+      "id": 404,
+      "nome": "Chá Sene",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 400,
+      "id": 405,
+      "nome": "Espinheira Santa",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 401,
+      "id": 406,
+      "nome": "Ervilha Verde Partida",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 402,
+      "id": 407,
+      "nome": "Lentilha Canadense",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 403,
+      "id": 408,
+      "nome": "Grão de Bico",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 404,
+      "id": 409,
+      "nome": "Proteína de Soja Clara",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 405,
+      "id": 410,
+      "nome": "Proteína de Soja Escura",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 406,
+      "id": 411,
+      "nome": "Bacon de Soja",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 407,
+      "id": 412,
+      "nome": "Feijão Preto",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 408,
+      "id": 413,
+      "nome": "Feijão Branco",
+      "peso_original": 100,
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": null
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 409,
+      "id": 414,
+      "nome": "Feijão Fradinho",
+      "peso_original": "100g",
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 410,
+      "id": 415,
+      "nome": "Milho Mostarda e Mel",
+      "peso_original": "100g",
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 411,
+      "id": 416,
+      "nome": "Ervilha c/ Wasabi",
+      "peso_original": "100g",
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 412,
+      "id": 417,
+      "nome": "Amendoim com Sal e com Pele",
+      "peso_original": "100g",
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 413,
+      "id": 418,
+      "nome": "Amendoim Cru c/ Pele",
+      "peso_original": "100g",
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 414,
+      "id": 419,
+      "nome": "Amendoim com Sal",
+      "peso_original": "100g",
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 415,
+      "id": 420,
+      "nome": "Amendoim Sem Sal",
+      "peso_original": "100g",
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 416,
+      "id": 421,
+      "nome": "Amêndoa Defumada",
+      "peso_original": "100g",
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 417,
+      "id": 422,
+      "nome": "Amêndoa Torrada c/ Sal",
+      "peso_original": "100g",
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    },
+    {
+      "indice": 418,
+      "id": 423,
+      "nome": "Amêndoa Torrada s/ Sal",
+      "peso_original": "100g",
+      "unidade_original": "g",
+      "peso_interpretado": {
+        "quantidade": 100,
+        "medida": "g"
+      },
+      "unidade_interpretada": {
+        "quantidade": null,
+        "tipo": null,
+        "original": "g"
+      }
+    }
+  ]
+}

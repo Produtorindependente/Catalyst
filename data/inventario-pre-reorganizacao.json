@@ -1,0 +1,741 @@
+{
+  "dataAuditoria": "2026-08-22T19:47:54.670Z",
+  "totalRegistros": 419,
+  "idsNumericosValidos": 379,
+  "idsSemValorValido": 40,
+  "idsDuplicados": 0,
+  "nomesAusentes": 0,
+  "categoriasAusentes": 0,
+  "precosAusentes": 1,
+  "imagensAusentes": 24,
+  "categorias": {
+    "Pães": 13,
+    "Muffins": 5,
+    "Tortas": 2,
+    "Wraps e Massas": 2,
+    "Snacks": 15,
+    "Cookies e Doces": 1,
+    "Proteicos": 12,
+    "Proteínas": 6,
+    "Doces": 8,
+    "Bebidas": 1,
+    "Mel e Própolis": 6,
+    "Suplementos": 22,
+    "Funcionais": 1,
+    "Gummies": 4,
+    "Naturais": 1,
+    "Biscoitos e Snacks": 18,
+    "Barras de Proteína": 1,
+    "Frutas Desidratadas": 27,
+    "Chips e Snacks": 5,
+    "Oleaginosas": 29,
+    "Ingredientes Naturais": 8,
+    "Adoçantes": 2,
+    "Temperos": 1,
+    "Farinhas": 21,
+    "Cereais": 5,
+    "Açúcares Naturais": 3,
+    "Cafés": 2,
+    "Conservas": 1,
+    "Pastas e Patês": 4,
+    "Geleias": 4,
+    "Óleos": 7,
+    "Sementes": 2,
+    "Molhos": 4,
+    "Sais": 4,
+    "Granel": 8,
+    "Farinhas e Pós": 4,
+    "Cosméticos Naturais": 2,
+    "Chás": 53,
+    "Temperos Naturais": 65,
+    "Grãos e Cereais": 3,
+    "Grãos e Sementes": 1,
+    "Chocolates": 3,
+    "Guloseimas": 1,
+    "Drageados e Chocolates": 4,
+    "Temperos e Especiarias": 6,
+    "Drageados": 3,
+    "Grãos": 1,
+    "Grãos e Leguminosas": 5,
+    "Proteínas Vegetais": 3,
+    "Grãos e Oleaginosas": 10
+  },
+  "produtosSemId": [
+    {
+      "indice": 188,
+      "nome": "Black Maca Peruana Premium",
+      "categoria": "Suplementos",
+      "produto": {
+        "nome": "Black Maca Peruana Premium",
+        "marca": "Inka Qhatu",
+        "categoria": "Suplementos",
+        "preco": 68,
+        "peso": "150 g",
+        "imagem": "https://www.inkaqhatu.com/cdn/shop/files/A741088-2_1800x.jpg?v=1769114303"
+      }
+    },
+    {
+      "indice": 189,
+      "nome": "Beterraba em Pó",
+      "categoria": "Granel",
+      "produto": {
+        "nome": "Beterraba em Pó",
+        "marca": "SEM MARCA",
+        "categoria": "Granel",
+        "preco": 8.9,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Beetroot_powder.jpg"
+      }
+    },
+    {
+      "indice": 190,
+      "nome": "Feno Grego em Pó",
+      "categoria": "Granel",
+      "produto": {
+        "nome": "Feno Grego em Pó",
+        "marca": "SEM MARCA",
+        "categoria": "Granel",
+        "preco": 5.9,
+        "peso": "100 g",
+        "imagem": "https://moroccanspicysecrets.com/cdn/shop/files/1731402777.png?v=1727991863"
+      }
+    },
+    {
+      "indice": 191,
+      "nome": "Energético em Pó (Tribulus)",
+      "categoria": "Suplementos",
+      "produto": {
+        "nome": "Energético em Pó (Tribulus)",
+        "marca": "SEM MARCA",
+        "categoria": "Suplementos",
+        "preco": 11.9,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tribulus_terrestris_powder.jpg"
+      }
+    },
+    {
+      "indice": 192,
+      "nome": "Farinha de Berinjela",
+      "categoria": "Granel",
+      "produto": {
+        "nome": "Farinha de Berinjela",
+        "marca": "SEM MARCA",
+        "categoria": "Granel",
+        "preco": 8.9,
+        "peso": "100 g",
+        "imagem": "https://cdn.awsli.com.br/2096/2096226/produto/131217110/71b61fbfdf.jpg"
+      }
+    },
+    {
+      "indice": 193,
+      "nome": "Farinha de Inhame",
+      "categoria": "Granel",
+      "produto": {
+        "nome": "Farinha de Inhame",
+        "marca": "SEM MARCA",
+        "categoria": "Granel",
+        "preco": 10,
+        "peso": "100 g",
+        "imagem": "https://cdn.shopify.com/s/files/1/0664/7034/6966/files/81L-t-6hlBL._SL1500_2048x2048.png?v=1661731860"
+      }
+    },
+    {
+      "indice": 194,
+      "nome": "Goma Xantana",
+      "categoria": "Granel",
+      "produto": {
+        "nome": "Goma Xantana",
+        "marca": "SEM MARCA",
+        "categoria": "Granel",
+        "preco": 8.9,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Xanthan_gum_powder.jpg"
+      }
+    },
+    {
+      "indice": 195,
+      "nome": "Semolina",
+      "categoria": "Granel",
+      "produto": {
+        "nome": "Semolina",
+        "marca": "SEM MARCA",
+        "categoria": "Granel",
+        "preco": 2.2,
+        "peso": "100 g",
+        "imagem": "https://bowlvegetal.com/cdn/shop/files/semolina-semola-de-trigo-fina.jpg?v=1766457759&width=533"
+      }
+    },
+    {
+      "indice": 196,
+      "nome": "Farinha de Centeio",
+      "categoria": "Granel",
+      "produto": {
+        "nome": "Farinha de Centeio",
+        "marca": "SEM MARCA",
+        "categoria": "Granel",
+        "preco": 2.5,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rye_flour.jpg"
+      }
+    },
+    {
+      "indice": 197,
+      "nome": "Farinha de Maracujá",
+      "categoria": "Granel",
+      "produto": {
+        "nome": "Farinha de Maracujá",
+        "marca": "SEM MARCA",
+        "categoria": "Granel",
+        "preco": 3.5,
+        "peso": "100 g",
+        "imagem": "https://cdn.awsli.com.br/800x800/1988/1988690/produto/178721759/farinhamaracuj--ywcm7zuotv.png"
+      }
+    },
+    {
+      "indice": 198,
+      "nome": "Ágar-Ágar em Pó",
+      "categoria": "Farinhas e Pós",
+      "produto": {
+        "nome": "Ágar-Ágar em Pó",
+        "marca": "",
+        "categoria": "Farinhas e Pós",
+        "preco": 20,
+        "peso": "100 g",
+        "imagem": "https://images.tcdn.com.br/img/img_prod/997686/180_agar_agar_em_po_100g_moedense_5101_1_8c0e080b6f0a88f3e32f78cda9446af9.jpg"
+      }
+    },
+    {
+      "indice": 199,
+      "nome": "Dolomita",
+      "categoria": "Suplementos",
+      "produto": {
+        "nome": "Dolomita",
+        "marca": "",
+        "categoria": "Suplementos",
+        "preco": 1.6,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dolomite.jpg"
+      }
+    },
+    {
+      "indice": 200,
+      "nome": "Argila Branca",
+      "categoria": "Cosméticos Naturais",
+      "produto": {
+        "nome": "Argila Branca",
+        "marca": "",
+        "categoria": "Cosméticos Naturais",
+        "preco": 2.5,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kaolinite.jpg"
+      }
+    },
+    {
+      "indice": 201,
+      "nome": "Argila Verde",
+      "categoria": "Cosméticos Naturais",
+      "produto": {
+        "nome": "Argila Verde",
+        "marca": "",
+        "categoria": "Cosméticos Naturais",
+        "preco": 2.9,
+        "peso": "100 g",
+        "imagem": "https://images.tcdn.com.br/img/img_prod/1017481/argila_verde_100g_labotrat_cosmeticos_26851_1_0abb427e560ad9432075452f310a8ec3.jpg"
+      }
+    },
+    {
+      "indice": 202,
+      "nome": "Alcachofra",
+      "categoria": "Chás",
+      "produto": {
+        "nome": "Alcachofra",
+        "marca": "",
+        "categoria": "Chás",
+        "preco": 9.5,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dried_Artichoke_-_Flickr_-_glukupikron.jpg"
+      }
+    },
+    {
+      "indice": 203,
+      "nome": "Amora Branca",
+      "categoria": "Chás",
+      "produto": {
+        "nome": "Amora Branca",
+        "marca": "",
+        "categoria": "Chás",
+        "preco": 9.5,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dried_mulberry_leaves.jpg"
+      }
+    },
+    {
+      "indice": 204,
+      "nome": "Funcho",
+      "categoria": "Chás",
+      "produto": {
+        "nome": "Funcho",
+        "marca": "",
+        "categoria": "Chás",
+        "preco": 9.5,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fennel-seeds.jpg"
+      }
+    },
+    {
+      "indice": 205,
+      "nome": "Alfazema Azul",
+      "categoria": "Chás",
+      "produto": {
+        "nome": "Alfazema Azul",
+        "marca": "",
+        "categoria": "Chás",
+        "preco": 25,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lavender_flowers_lavandula.jpg"
+      }
+    },
+    {
+      "indice": 206,
+      "nome": "Oliveira - Folha",
+      "categoria": "Chás",
+      "produto": {
+        "nome": "Oliveira - Folha",
+        "marca": "",
+        "categoria": "Chás",
+        "preco": 9.5,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Olive_leaves.jpg"
+      }
+    },
+    {
+      "indice": 207,
+      "nome": "Macela - Flor",
+      "categoria": "Chás",
+      "produto": {
+        "nome": "Macela - Flor",
+        "marca": "",
+        "categoria": "Chás",
+        "preco": 12.5,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Macela.JPG"
+      }
+    },
+    {
+      "indice": 208,
+      "nome": "Maçã para Chá",
+      "categoria": "Chás",
+      "produto": {
+        "nome": "Maçã para Chá",
+        "marca": "",
+        "categoria": "Chás",
+        "preco": 14,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dried_apple_slices.jpg"
+      }
+    },
+    {
+      "indice": 209,
+      "nome": "Limão Desidratado",
+      "categoria": "Frutas Desidratadas",
+      "produto": {
+        "nome": "Limão Desidratado",
+        "marca": "",
+        "categoria": "Frutas Desidratadas",
+        "preco": 9.5,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dried_lemon_slices.jpg"
+      }
+    },
+    {
+      "indice": 210,
+      "nome": "Laranja para Chá",
+      "categoria": "Chás",
+      "produto": {
+        "nome": "Laranja para Chá",
+        "marca": "",
+        "categoria": "Chás",
+        "preco": 14.9,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Zhejiang_Jiaxing_dried_orange_slices.jpg"
+      }
+    },
+    {
+      "indice": 211,
+      "nome": "Cravo da Índia",
+      "categoria": "Temperos Naturais",
+      "produto": {
+        "nome": "Cravo da Índia",
+        "marca": "",
+        "categoria": "Temperos Naturais",
+        "preco": 15.9,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Clove_spices.jpg"
+      }
+    },
+    {
+      "indice": 212,
+      "nome": "Anis Estrelado",
+      "categoria": "Temperos Naturais",
+      "produto": {
+        "nome": "Anis Estrelado",
+        "marca": "",
+        "categoria": "Temperos Naturais",
+        "preco": 14.9,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Star_Anise.jpg"
+      }
+    },
+    {
+      "indice": 213,
+      "nome": "Glucomannan",
+      "categoria": "Suplementos",
+      "produto": {
+        "nome": "Glucomannan",
+        "marca": "",
+        "categoria": "Suplementos",
+        "preco": 29.9,
+        "peso": "100 g",
+        "imagem": "https://acdn-us.mitiendanube.com/stores/005/938/453/products/glu2-ss-9a695dee6faf68e07917724625205886-1024-1024.webp"
+      }
+    },
+    {
+      "indice": 214,
+      "nome": "Amaranto em Flocos",
+      "categoria": "Cereais",
+      "produto": {
+        "nome": "Amaranto em Flocos",
+        "marca": "",
+        "categoria": "Cereais",
+        "preco": 7.9,
+        "peso": "100 g",
+        "imagem": "https://cdn.awsli.com.br/800x800/2600/2600061/produto/307779769/1kg--4--cdemnattb2.png"
+      }
+    },
+    {
+      "indice": 215,
+      "nome": "Açaí em Pó",
+      "categoria": "Suplementos",
+      "produto": {
+        "nome": "Açaí em Pó",
+        "marca": "",
+        "categoria": "Suplementos",
+        "preco": 15,
+        "peso": "100 g",
+        "imagem": "https://www.armazemsantafilomena.com.br/media/catalog/product/cache/a36d91cf602f5056eec13cb46a66de5e/p/o/polpa_de_acai.webp"
+      }
+    },
+    {
+      "indice": 216,
+      "nome": "Levedura de Cerveja em Pó",
+      "categoria": "Suplementos",
+      "produto": {
+        "nome": "Levedura de Cerveja em Pó",
+        "marca": "",
+        "categoria": "Suplementos",
+        "preco": 5.3,
+        "peso": "100 g",
+        "imagem": "https://cdn.awsli.com.br/426/426927/produto/17695884/a9efcb2a62.jpg"
+      }
+    },
+    {
+      "indice": 217,
+      "nome": "Mucuna Nutricional",
+      "categoria": "Suplementos",
+      "produto": {
+        "nome": "Mucuna Nutricional",
+        "marca": "",
+        "categoria": "Suplementos",
+        "preco": 19.9,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mucuna-pruriens-seeds.jpg"
+      }
+    },
+    {
+      "indice": 218,
+      "nome": "Quirera de Milho",
+      "categoria": "Cereais",
+      "produto": {
+        "nome": "Quirera de Milho",
+        "marca": "",
+        "categoria": "Cereais",
+        "preco": 1.5,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Corn_grits.jpg"
+      }
+    },
+    {
+      "indice": 219,
+      "nome": "Farinha de Milho",
+      "categoria": "Cereais",
+      "produto": {
+        "nome": "Farinha de Milho",
+        "marca": "",
+        "categoria": "Cereais",
+        "preco": 2.99,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Corn_flour_%2820240709%29.jpg"
+      }
+    },
+    {
+      "indice": 220,
+      "nome": "Farinha de Mandioca Fina",
+      "categoria": "Farinhas",
+      "produto": {
+        "nome": "Farinha de Mandioca Fina",
+        "marca": "",
+        "categoria": "Farinhas",
+        "preco": 7.9,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Farinha_de_mandioca.jpg"
+      }
+    },
+    {
+      "indice": 221,
+      "nome": "Tapioca Granulada",
+      "categoria": "Farinhas",
+      "produto": {
+        "nome": "Tapioca Granulada",
+        "marca": "",
+        "categoria": "Farinhas",
+        "preco": 2.6,
+        "peso": "100 g",
+        "imagem": "https://chinezinho.com.br/wp-content/uploads/2024/08/tapioca-granulada-400g.png"
+      }
+    },
+    {
+      "indice": 222,
+      "nome": "Maca Peruana",
+      "categoria": "Suplementos",
+      "produto": {
+        "nome": "Maca Peruana",
+        "marca": "",
+        "categoria": "Suplementos",
+        "preco": 10,
+        "peso": "100 g",
+        "imagem": "https://www.soflor.com.br/wp-content/uploads/2017/05/maca-peruana-em-po-para-consumo-2.jpg"
+      }
+    },
+    {
+      "indice": 223,
+      "nome": "Farinha de Linhaça Marrom",
+      "categoria": "Farinhas",
+      "produto": {
+        "nome": "Farinha de Linhaça Marrom",
+        "marca": "",
+        "categoria": "Farinhas",
+        "preco": 4.5,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Brown_Flax_Seeds.jpg"
+      }
+    },
+    {
+      "indice": 224,
+      "nome": "Farinha de Linhaça",
+      "categoria": "Farinhas",
+      "produto": {
+        "nome": "Farinha de Linhaça",
+        "marca": "",
+        "categoria": "Farinhas",
+        "preco": 2.99,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ground_flax_seeds_in_a_glass_jar_illuminated_by_window_light_%2851173270515%29.jpg"
+      }
+    },
+    {
+      "indice": 225,
+      "nome": "Gengibre em Pó",
+      "categoria": "Temperos Naturais",
+      "produto": {
+        "nome": "Gengibre em Pó",
+        "marca": "",
+        "categoria": "Temperos Naturais",
+        "preco": 7.9,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ginger_powder_%281%29.jpg"
+      }
+    },
+    {
+      "indice": 226,
+      "nome": "Chia Premium",
+      "categoria": "Sementes",
+      "produto": {
+        "nome": "Chia Premium",
+        "marca": "",
+        "categoria": "Sementes",
+        "preco": 4.99,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chia_seeds.jpg"
+      }
+    },
+    {
+      "indice": 227,
+      "nome": "Farinha de Chia",
+      "categoria": "Farinhas",
+      "produto": {
+        "nome": "Farinha de Chia",
+        "marca": "",
+        "categoria": "Farinhas",
+        "preco": 5.5,
+        "peso": "100 g",
+        "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/RECALLED_%E2%80%93_Sprouted_Chia_Seed_Powder_Products_%2814176356119%29.jpg"
+      }
+    }
+  ],
+  "produtosSemNome": [],
+  "produtosSemCategoria": [],
+  "produtosSemPreco": [
+    {
+      "indice": 4,
+      "id": 5,
+      "nome": "Pão de Linhaça com Chia"
+    }
+  ],
+  "produtosSemImagem": [
+    {
+      "indice": 75,
+      "id": 76,
+      "nome": "Bisco Light Coco Branco com Pistache",
+      "categoria": "Biscoitos e Snacks"
+    },
+    {
+      "indice": 76,
+      "id": 77,
+      "nome": "Bisco Light Churros",
+      "categoria": "Biscoitos e Snacks"
+    },
+    {
+      "indice": 160,
+      "id": 161,
+      "nome": "Café Bossa Nova",
+      "categoria": "Cafés"
+    },
+    {
+      "indice": 266,
+      "id": 227,
+      "nome": "Urtiga Folha — Embalagem 100 g",
+      "categoria": "Chás"
+    },
+    {
+      "indice": 288,
+      "id": 249,
+      "nome": "Manjerona em Pó",
+      "categoria": "Temperos Naturais"
+    },
+    {
+      "indice": 290,
+      "id": 251,
+      "nome": "Erva-do-Bicho",
+      "categoria": "Chás"
+    },
+    {
+      "indice": 292,
+      "id": 253,
+      "nome": "Buchinha do Norte",
+      "categoria": "Chás"
+    },
+    {
+      "indice": 293,
+      "id": 254,
+      "nome": "Losna",
+      "categoria": "Chás"
+    },
+    {
+      "indice": 295,
+      "id": 256,
+      "nome": "Tanchagem",
+      "categoria": "Chás"
+    },
+    {
+      "indice": 300,
+      "id": 261,
+      "nome": "Drageado de Banana Passa com Whey 70%",
+      "categoria": "Frutas Desidratadas"
+    },
+    {
+      "indice": 302,
+      "id": 263,
+      "nome": "Drageado de Castanha de Caju ao Leite",
+      "categoria": "Oleaginosas"
+    },
+    {
+      "indice": 322,
+      "id": 283,
+      "nome": "Tempero Edu Guedes",
+      "categoria": "Temperos e Especiarias"
+    },
+    {
+      "indice": 374,
+      "id": 377,
+      "nome": "Sal Negro Fino",
+      "categoria": "Temperos Naturais"
+    },
+    {
+      "indice": 389,
+      "id": 394,
+      "nome": "Guaco",
+      "categoria": "Chás"
+    },
+    {
+      "indice": 409,
+      "id": 414,
+      "nome": "Feijão Fradinho",
+      "categoria": "Grãos e Oleaginosas"
+    },
+    {
+      "indice": 410,
+      "id": 415,
+      "nome": "Milho Mostarda e Mel",
+      "categoria": "Grãos e Oleaginosas"
+    },
+    {
+      "indice": 411,
+      "id": 416,
+      "nome": "Ervilha c/ Wasabi",
+      "categoria": "Grãos e Oleaginosas"
+    },
+    {
+      "indice": 412,
+      "id": 417,
+      "nome": "Amendoim com Sal e com Pele",
+      "categoria": "Grãos e Oleaginosas"
+    },
+    {
+      "indice": 413,
+      "id": 418,
+      "nome": "Amendoim Cru c/ Pele",
+      "categoria": "Grãos e Oleaginosas"
+    },
+    {
+      "indice": 414,
+      "id": 419,
+      "nome": "Amendoim com Sal",
+      "categoria": "Grãos e Oleaginosas"
+    },
+    {
+      "indice": 415,
+      "id": 420,
+      "nome": "Amendoim Sem Sal",
+      "categoria": "Grãos e Oleaginosas"
+    },
+    {
+      "indice": 416,
+      "id": 421,
+      "nome": "Amêndoa Defumada",
+      "categoria": "Grãos e Oleaginosas"
+    },
+    {
+      "indice": 417,
+      "id": 422,
+      "nome": "Amêndoa Torrada c/ Sal",
+      "categoria": "Grãos e Oleaginosas"
+    },
+    {
+      "indice": 418,
+      "id": 423,
+      "nome": "Amêndoa Torrada s/ Sal",
+      "categoria": "Grãos e Oleaginosas"
+    }
+  ],
+  "idsDuplicadosDetalhes": []
+}
