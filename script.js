@@ -381,40 +381,40 @@ function mostrarCategorias() {
     container.appendChild(botaoTodos);
 
 
-    // ========================================
-    // BOTÃO FAVORITOS
-    // ========================================
+   // ========================================
+// BOTÃO FAVORITOS
+// ========================================
 
-    const botaoFavoritos =
-        document.createElement("button");
+const botaoFavoritos =
+    document.createElement("button");
 
-    botaoFavoritos.className = "categoria";
+botaoFavoritos.className = "categoria";
 
-    botaoFavoritos.textContent = "⭐ Favoritos";
+botaoFavoritos.textContent = "⭐ Favoritos";
 
-    botaoFavoritos.addEventListener(
-        "click",
-        () => {
+botaoFavoritos.addEventListener(
+    "click",
+    () => {
 
-            const favoritos =
-                produtos.filter(
-                    produto => produto.favorito === true
-                );
+        const favoritos =
+            produtos.filter(
+                produto => produto.destaque === true
+            );
 
-            mostrarProdutos(favoritos);
+        mostrarProdutos(favoritos);
 
-            document
-                .querySelectorAll(".categoria")
-                .forEach(botao =>
-                    botao.classList.remove("ativo")
-                );
+        document
+            .querySelectorAll(".categoria")
+            .forEach(botao =>
+                botao.classList.remove("ativo")
+            );
 
-            botaoFavoritos.classList.add("ativo");
+        botaoFavoritos.classList.add("ativo");
 
-        }
-    );
+    }
+);
 
-    container.appendChild(botaoFavoritos);
+container.appendChild(botaoFavoritos);
 
 
     // ========================================
