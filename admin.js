@@ -528,6 +528,10 @@ window.excluir = async id => {
    SALVAR PRODUTO
 ======================================== */
 
+/* ========================================
+   SALVAR PRODUTO
+======================================== */
+
 $("form").onsubmit =
     async evento => {
 
@@ -537,6 +541,99 @@ $("form").onsubmit =
         const id =
             $("id").value;
 
+
+        /* ====================================
+           NORMALIZAÇÃO DA CATEGORIA
+        ==================================== */
+
+        const categoriaDigitada =
+            $("categoria")
+                .value
+                .trim();
+
+
+        const normalizarCategoria =
+            valor => {
+
+                return String(valor ?? "")
+                    .normalize("NFD")
+                    .replace(
+                        /[\u0300-\u036f]/g,
+                        ""
+                    )
+                    .replace(
+                        /\s+/g,
+                        " "
+                    )
+                    .trim()
+                    .toLowerCase();
+
+            };
+
+
+        const categoriaNormalizada =
+            normalizarCategoria(
+                categoriaDigitada
+            );
+
+
+        /*
+         * Procura uma categoria já existente
+         * usando comparação sem diferença de:
+         * - maiúsculas/minúsculas
+         * - acentos
+         * - espaços extras
+         */
+
+        const categoriaExistente =
+            produtos.find(produto => {
+
+                if (
+                    id &&
+                    Number(produto.id) ===
+                    Number(id)
+                ) {
+
+                    return false;
+
+                }
+
+
+                return (
+                    normalizarCategoria(
+                        produto.categoria
+                    ) ===
+                    categoriaNormalizada
+                );
+
+            });
+
+
+        /*
+         * Se já existe, usa o nome original
+         * da categoria.
+         *
+         * Exemplo:
+         *
+         * Frutas
+         * frutas
+         * FRUTAS
+         * frutas
+         *
+         * Tudo passa a usar:
+         *
+         * Frutas
+         */
+
+        const categoriaFinal =
+            categoriaExistente
+                ? categoriaExistente.categoria
+                : categoriaDigitada;
+
+
+        /* ====================================
+           DADOS DO PRODUTO
+        ==================================== */
 
         const dados = {
 
@@ -584,9 +681,7 @@ $("form").onsubmit =
 
 
             categoria:
-                $("categoria")
-                    .value
-                    .trim(),
+                categoriaFinal,
 
 
             peso:
@@ -623,6 +718,7 @@ $("form").onsubmit =
 
             destaque:
                 $("destaque").checked
+
         };
 
 
@@ -643,6 +739,7 @@ $("form").onsubmit =
                 await db
                     .from("produtos")
                     .insert(dados);
+
         }
 
 
@@ -660,8 +757,8 @@ $("form").onsubmit =
 
 
         await carregar();
-    };
 
+    };
 
 /* ========================================
    MODAL
