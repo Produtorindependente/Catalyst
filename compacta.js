@@ -878,7 +878,7 @@ el("btnFavoritos").addEventListener("click", () => {
   el("btnFavoritos").classList.add("ativo");
 
   estado.filtrados = estado.produtos.filter(
-    produto => produto.favorito === true
+    produto => produto.destaque === true
   );
 
   renderizar();
