@@ -719,7 +719,7 @@ $("form").onsubmit =
                 : categoriaDigitada;
 
 
-       /* ====================================
+/* ====================================
    PREPARAR IMAGEM
 ==================================== */
 
@@ -752,26 +752,35 @@ const arquivo =
 
 if (arquivo) {
 
-    /*
-     * Verifica se é imagem.
-     * Alguns iPhones podem não informar
-     * corretamente o arquivo.type, então
-     * também verificamos a extensão.
-     */
-
     const nomeArquivo =
-        arquivo.name
+        String(
+            arquivo.name || ""
+        )
             .toLowerCase();
+
 
     const tipoArquivo =
-        (arquivo.type || "")
+        String(
+            arquivo.type || ""
+        )
             .toLowerCase();
+
+
+    /*
+     * Detecta HEIC/HEIF pelo tipo
+     * ou pela extensão.
+     */
 
     const ehHeic =
         tipoArquivo === "image/heic" ||
         tipoArquivo === "image/heif" ||
-        /\.heic$/i.test(nomeArquivo) ||
-        /\.heif$/i.test(nomeArquivo);
+        nomeArquivo.endsWith(".heic") ||
+        nomeArquivo.endsWith(".heif");
+
+
+    /*
+     * Aceita imagens normais e HEIC/HEIF.
+     */
 
     const ehImagem =
         tipoArquivo.startsWith("image/") ||
@@ -790,19 +799,21 @@ if (arquivo) {
 
 
     /*
-     * Limite de 5 MB para o arquivo original.
+     * Fotos de iPhone podem ser grandes.
+     * Permitimos até 15 MB no original.
      */
 
-    const limite =
-        5 * 1024 * 1024;
+    const limiteOriginal =
+        15 * 1024 * 1024;
 
 
     if (
-        arquivo.size > limite
+        arquivo.size >
+        limiteOriginal
     ) {
 
         alert(
-            "A imagem deve ter no máximo 5 MB."
+            "A imagem deve ter no máximo 15 MB."
         );
 
         return;
@@ -811,37 +822,51 @@ if (arquivo) {
 
 
     /* ====================================
-       CONVERTER HEIC / HEIF PARA JPEG
+       ARQUIVO QUE SERÁ ENVIADO
     ==================================== */
 
     let arquivoParaUpload =
         arquivo;
 
+
     let extensao =
-        arquivo.name
+        nomeArquivo
             .split(".")
             .pop()
-            .toLowerCase()
             .replace(
                 /[^a-z0-9]/g,
                 ""
             )
             || "jpg";
 
+
     let tipoParaUpload =
-        arquivo.type ||
+        tipoArquivo ||
         "image/jpeg";
 
 
+    /* ====================================
+       CONVERTER HEIC / HEIF PARA JPEG
+    ==================================== */
+
     if (ehHeic) {
 
+        console.log(
+            "HEIC/HEIF detectado. Iniciando conversão..."
+        );
+
+
         if (
-            typeof heic2any !==
+            typeof window.heic2any !==
             "function"
         ) {
 
             alert(
-                "O conversor de fotos do iPhone não foi carregado. Atualize a página e tente novamente."
+                "O conversor de fotos do iPhone não foi carregado. Recarregue a página e tente novamente."
+            );
+
+            console.error(
+                "heic2any não está disponível."
             );
 
             return;
@@ -851,25 +876,61 @@ if (arquivo) {
 
         try {
 
-            /*
-             * Converte HEIC/HEIF para JPEG
-             * diretamente no navegador.
-             */
-
             const convertido =
-                await heic2any({
+                await window.heic2any({
                     blob: arquivo,
                     toType: "image/jpeg",
                     quality: 0.85
                 });
 
 
-            arquivoParaUpload =
-                Array.isArray(
-                    convertido
-                )
+            /*
+             * O heic2any pode retornar um Blob
+             * ou um array de Blobs.
+             */
+
+            const blobConvertido =
+                Array.isArray(convertido)
                     ? convertido[0]
                     : convertido;
+
+
+            if (
+                !blobConvertido ||
+                !(blobConvertido instanceof Blob)
+            ) {
+
+                throw new Error(
+                    "A conversão não retornou uma imagem válida."
+                );
+
+            }
+
+
+            /*
+             * Cria um arquivo JPEG real.
+             */
+
+            arquivoParaUpload =
+                new File(
+                    [
+                        blobConvertido
+                    ],
+                    (
+                        arquivo.name
+                            .replace(
+                                /\.[^/.]+$/,
+                                ""
+                            )
+                        + ".jpg"
+                    ),
+                    {
+                        type:
+                            "image/jpeg",
+                        lastModified:
+                            Date.now()
+                    }
+                );
 
 
             extensao =
@@ -880,10 +941,16 @@ if (arquivo) {
                 "image/jpeg";
 
 
+            console.log(
+                "HEIC convertido para JPEG:",
+                arquivoParaUpload
+            );
+
+
         } catch (erro) {
 
             console.error(
-                "Erro ao converter HEIC:",
+                "Erro ao converter HEIC/HEIF:",
                 erro
             );
 
@@ -899,18 +966,21 @@ if (arquivo) {
     }
 
 
-    /*
-     * Verifica também o tamanho final
-     * depois da conversão.
-     */
+    /* ====================================
+       LIMITE DO ARQUIVO FINAL
+    ==================================== */
+
+    const limiteFinal =
+        10 * 1024 * 1024;
+
 
     if (
         arquivoParaUpload.size >
-        limite
+        limiteFinal
     ) {
 
         alert(
-            "A imagem convertida ficou maior que 5 MB."
+            "A imagem final ficou maior que 10 MB."
         );
 
         return;
@@ -953,6 +1023,13 @@ if (arquivo) {
        ENVIAR PARA SUPABASE STORAGE
     ==================================== */
 
+    console.log(
+        "Enviando imagem:",
+        novoArquivoPath,
+        tipoParaUpload
+    );
+
+
     const upload =
         await db.storage
             .from("produtos")
@@ -969,6 +1046,12 @@ if (arquivo) {
 
 
     if (upload.error) {
+
+        console.error(
+            "Erro no upload:",
+            upload.error
+        );
+
 
         alert(
             "Erro ao enviar imagem: " +
