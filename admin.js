@@ -719,170 +719,285 @@ $("form").onsubmit =
                 : categoriaDigitada;
 
 
-        /* ====================================
-           PREPARAR IMAGEM
-        ==================================== */
+       /* ====================================
+   PREPARAR IMAGEM
+==================================== */
 
-        const campoImagem =
-            $("imagem");
-
-
-        const campoArquivo =
-            $("imagemArquivo");
+const campoImagem =
+    $("imagem");
 
 
-        let imagemFinal =
-            campoImagem
-                .value
-                .trim()
-                || null;
+const campoArquivo =
+    $("imagemArquivo");
 
 
-        let novoArquivoPath =
-            null;
+let imagemFinal =
+    campoImagem
+        .value
+        .trim()
+        || null;
 
 
-        const arquivo =
-            campoArquivo?.files?.[0];
+let novoArquivoPath =
+    null;
 
 
-        /* ====================================
-           UPLOAD DE NOVA IMAGEM
-        ==================================== */
-
-        if (arquivo) {
-
-            /*
-             * Verifica se realmente é uma imagem.
-             */
-
-            if (
-                !arquivo.type.startsWith("image/")
-            ) {
-
-                alert(
-                    "Escolha um arquivo de imagem válido."
-                );
-
-                return;
-
-            }
+const arquivo =
+    campoArquivo?.files?.[0];
 
 
-            /*
-             * Limite de 5 MB.
-             */
+/* ====================================
+   UPLOAD DE NOVA IMAGEM
+==================================== */
 
-            const limite =
-                5 * 1024 * 1024;
+if (arquivo) {
 
+    /*
+     * Verifica se é imagem.
+     * Alguns iPhones podem não informar
+     * corretamente o arquivo.type, então
+     * também verificamos a extensão.
+     */
 
-            if (
-                arquivo.size > limite
-            ) {
+    const nomeArquivo =
+        arquivo.name
+            .toLowerCase();
 
-                alert(
-                    "A imagem deve ter no máximo 5 MB."
-                );
+    const tipoArquivo =
+        (arquivo.type || "")
+            .toLowerCase();
 
-                return;
+    const ehHeic =
+        tipoArquivo === "image/heic" ||
+        tipoArquivo === "image/heif" ||
+        /\.heic$/i.test(nomeArquivo) ||
+        /\.heif$/i.test(nomeArquivo);
 
-            }
-
-
-            /* ====================================
-               CRIAR NOME SEGURO
-            ==================================== */
-
-            const extensao =
-                arquivo.name
-                    .split(".")
-                    .pop()
-                    .toLowerCase()
-                    .replace(
-                        /[^a-z0-9]/g,
-                        ""
-                    )
-                    || "jpg";
+    const ehImagem =
+        tipoArquivo.startsWith("image/") ||
+        ehHeic;
 
 
-            const nomeBase =
-                arquivo.name
-                    .replace(
-                        /\.[^/.]+$/,
-                        ""
-                    )
-                    .normalize("NFD")
-                    .replace(
-                        /[\u0300-\u036f]/g,
-                        ""
-                    )
-                    .replace(
-                        /[^a-zA-Z0-9]+/g,
-                        "-"
-                    )
-                    .replace(
-                        /^-+|-+$/g,
-                        ""
-                    )
-                    .toLowerCase()
-                    || "produto";
+    if (!ehImagem) {
+
+        alert(
+            "Escolha um arquivo de imagem válido."
+        );
+
+        return;
+
+    }
 
 
-            novoArquivoPath =
-                `${nomeBase}-${Date.now()}.${extensao}`;
+    /*
+     * Limite de 5 MB para o arquivo original.
+     */
+
+    const limite =
+        5 * 1024 * 1024;
 
 
-            /* ====================================
-               ENVIAR PARA SUPABASE STORAGE
-            ==================================== */
+    if (
+        arquivo.size > limite
+    ) {
 
-            const upload =
-                await db.storage
-                    .from("produtos")
-                    .upload(
-                        novoArquivoPath,
-                        arquivo,
-                        {
-                            cacheControl: "3600",
-                            upsert: false,
-                            contentType:
-                                arquivo.type
-                        }
-                    );
+        alert(
+            "A imagem deve ter no máximo 5 MB."
+        );
+
+        return;
+
+    }
 
 
-            if (upload.error) {
+    /* ====================================
+       CONVERTER HEIC / HEIF PARA JPEG
+    ==================================== */
 
-                alert(
-                    "Erro ao enviar imagem: " +
-                    upload.error.message
-                );
+    let arquivoParaUpload =
+        arquivo;
 
-                return;
+    let extensao =
+        arquivo.name
+            .split(".")
+            .pop()
+            .toLowerCase()
+            .replace(
+                /[^a-z0-9]/g,
+                ""
+            )
+            || "jpg";
 
-            }
-
-
-            /* ====================================
-               PEGAR URL PÚBLICA
-            ==================================== */
-
-            const imagemPublica =
-                db.storage
-                    .from("produtos")
-                    .getPublicUrl(
-                        novoArquivoPath
-                    );
+    let tipoParaUpload =
+        arquivo.type ||
+        "image/jpeg";
 
 
-            imagemFinal =
-                imagemPublica
-                    .data
-                    .publicUrl;
+    if (ehHeic) {
+
+        if (
+            typeof heic2any !==
+            "function"
+        ) {
+
+            alert(
+                "O conversor de fotos do iPhone não foi carregado. Atualize a página e tente novamente."
+            );
+
+            return;
 
         }
 
+
+        try {
+
+            /*
+             * Converte HEIC/HEIF para JPEG
+             * diretamente no navegador.
+             */
+
+            const convertido =
+                await heic2any({
+                    blob: arquivo,
+                    toType: "image/jpeg",
+                    quality: 0.85
+                });
+
+
+            arquivoParaUpload =
+                Array.isArray(
+                    convertido
+                )
+                    ? convertido[0]
+                    : convertido;
+
+
+            extensao =
+                "jpg";
+
+
+            tipoParaUpload =
+                "image/jpeg";
+
+
+        } catch (erro) {
+
+            console.error(
+                "Erro ao converter HEIC:",
+                erro
+            );
+
+
+            alert(
+                "Não foi possível converter a foto do iPhone. Tente novamente."
+            );
+
+            return;
+
+        }
+
+    }
+
+
+    /*
+     * Verifica também o tamanho final
+     * depois da conversão.
+     */
+
+    if (
+        arquivoParaUpload.size >
+        limite
+    ) {
+
+        alert(
+            "A imagem convertida ficou maior que 5 MB."
+        );
+
+        return;
+
+    }
+
+
+    /* ====================================
+       CRIAR NOME SEGURO
+    ==================================== */
+
+    const nomeBase =
+        arquivo.name
+            .replace(
+                /\.[^/.]+$/,
+                ""
+            )
+            .normalize("NFD")
+            .replace(
+                /[\u0300-\u036f]/g,
+                ""
+            )
+            .replace(
+                /[^a-zA-Z0-9]+/g,
+                "-"
+            )
+            .replace(
+                /^-+|-+$/g,
+                ""
+            )
+            .toLowerCase()
+            || "produto";
+
+
+    novoArquivoPath =
+        `${nomeBase}-${Date.now()}.${extensao}`;
+
+
+    /* ====================================
+       ENVIAR PARA SUPABASE STORAGE
+    ==================================== */
+
+    const upload =
+        await db.storage
+            .from("produtos")
+            .upload(
+                novoArquivoPath,
+                arquivoParaUpload,
+                {
+                    cacheControl: "3600",
+                    upsert: false,
+                    contentType:
+                        tipoParaUpload
+                }
+            );
+
+
+    if (upload.error) {
+
+        alert(
+            "Erro ao enviar imagem: " +
+            upload.error.message
+        );
+
+        return;
+
+    }
+
+
+    /* ====================================
+       PEGAR URL PÚBLICA
+    ==================================== */
+
+    const imagemPublica =
+        db.storage
+            .from("produtos")
+            .getPublicUrl(
+                novoArquivoPath
+            );
+
+
+    imagemFinal =
+        imagemPublica
+            .data
+            .publicUrl;
+
+}
 
         /* ====================================
            DADOS DO PRODUTO
