@@ -528,10 +528,6 @@ window.excluir = async id => {
    SALVAR PRODUTO
 ======================================== */
 
-/* ========================================
-   SALVAR PRODUTO
-======================================== */
-
 $("form").onsubmit =
     async evento => {
 
@@ -577,32 +573,22 @@ $("form").onsubmit =
             );
 
 
-        /*
-         * Procura uma categoria já existente
-         * usando comparação sem diferença de:
-         * - maiúsculas/minúsculas
-         * - acentos
-         * - espaços extras
-         */
+        /* ====================================
+           LOCALIZAR CATEGORIA EXISTENTE
+        ==================================== */
 
         const categoriaExistente =
             produtos.find(produto => {
 
-                if (
-                    id &&
-                    Number(produto.id) ===
-                    Number(id)
-                ) {
-
-                    return false;
-
-                }
+                const categoriaProduto =
+                    normalizarCategoria(
+                        produto.categoria
+                    );
 
 
                 return (
-                    normalizarCategoria(
-                        produto.categoria
-                    ) ===
+                    categoriaProduto !== "" &&
+                    categoriaProduto ===
                     categoriaNormalizada
                 );
 
@@ -610,19 +596,22 @@ $("form").onsubmit =
 
 
         /*
-         * Se já existe, usa o nome original
-         * da categoria.
+         * Se a categoria já existe,
+         * mantém exatamente a escrita
+         * usada no banco.
          *
-         * Exemplo:
+         * Exemplos:
          *
-         * Frutas
-         * frutas
-         * FRUTAS
-         * frutas
+         * bebidas
+         * BEBIDAS
+         * Bebidas
          *
-         * Tudo passa a usar:
+         * tudo salva como:
          *
-         * Frutas
+         * Bebidas
+         *
+         * O mesmo vale para todas
+         * as outras categorias.
          */
 
         const categoriaFinal =
