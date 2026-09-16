@@ -528,10 +528,6 @@ window.excluir = async id => {
    SALVAR PRODUTO
 ======================================== */
 
-/* ========================================
-   SALVAR PRODUTO
-======================================== */
-
 $("form").onsubmit =
     async evento => {
 
@@ -597,19 +593,16 @@ $("form").onsubmit =
         const tornarSingular =
             categoria => {
 
-                let resultado =
-                    String(categoria);
-
-
                 const partes =
-                    resultado.split(" ");
+                    String(categoria)
+                        .split(" ");
 
 
                 if (
                     partes.length === 0
                 ) {
 
-                    return resultado;
+                    return "";
 
                 }
 
@@ -620,26 +613,15 @@ $("form").onsubmit =
                     ];
 
 
-                /*
-                 * Plurais irregulares
-                 */
-
-                const irregulares = {
-
-                    paes: "pao",
-
-                    maes: "mao",
-
-                    cafés: "cafe"
-
-                };
-
-
                 const ultimaNormalizada =
                     normalizarCategoria(
                         ultima
                     );
 
+
+                /*
+                 * Pão / Pães
+                 */
 
                 if (
                     ultimaNormalizada ===
@@ -738,6 +720,171 @@ $("form").onsubmit =
 
 
         /* ====================================
+           PREPARAR IMAGEM
+        ==================================== */
+
+        const campoImagem =
+            $("imagem");
+
+
+        const campoArquivo =
+            $("imagemArquivo");
+
+
+        let imagemFinal =
+            campoImagem
+                .value
+                .trim()
+                || null;
+
+
+        let novoArquivoPath =
+            null;
+
+
+        const arquivo =
+            campoArquivo?.files?.[0];
+
+
+        /* ====================================
+           UPLOAD DE NOVA IMAGEM
+        ==================================== */
+
+        if (arquivo) {
+
+            /*
+             * Verifica se realmente é uma imagem.
+             */
+
+            if (
+                !arquivo.type.startsWith("image/")
+            ) {
+
+                alert(
+                    "Escolha um arquivo de imagem válido."
+                );
+
+                return;
+
+            }
+
+
+            /*
+             * Limite de 5 MB.
+             */
+
+            const limite =
+                5 * 1024 * 1024;
+
+
+            if (
+                arquivo.size > limite
+            ) {
+
+                alert(
+                    "A imagem deve ter no máximo 5 MB."
+                );
+
+                return;
+
+            }
+
+
+            /* ====================================
+               CRIAR NOME SEGURO
+            ==================================== */
+
+            const extensao =
+                arquivo.name
+                    .split(".")
+                    .pop()
+                    .toLowerCase()
+                    .replace(
+                        /[^a-z0-9]/g,
+                        ""
+                    )
+                    || "jpg";
+
+
+            const nomeBase =
+                arquivo.name
+                    .replace(
+                        /\.[^/.]+$/,
+                        ""
+                    )
+                    .normalize("NFD")
+                    .replace(
+                        /[\u0300-\u036f]/g,
+                        ""
+                    )
+                    .replace(
+                        /[^a-zA-Z0-9]+/g,
+                        "-"
+                    )
+                    .replace(
+                        /^-+|-+$/g,
+                        ""
+                    )
+                    .toLowerCase()
+                    || "produto";
+
+
+            novoArquivoPath =
+                `${nomeBase}-${Date.now()}.${extensao}`;
+
+
+            /* ====================================
+               ENVIAR PARA SUPABASE STORAGE
+            ==================================== */
+
+            const upload =
+                await db.storage
+                    .from("produtos")
+                    .upload(
+                        novoArquivoPath,
+                        arquivo,
+                        {
+                            cacheControl: "3600",
+                            upsert: false,
+                            contentType:
+                                arquivo.type
+                        }
+                    );
+
+
+            if (upload.error) {
+
+                alert(
+                    "Erro ao enviar imagem: " +
+                    upload.error.message
+                );
+
+                return;
+
+            }
+
+
+            /* ====================================
+               PEGAR URL PÚBLICA
+            ==================================== */
+
+            const imagemPublica =
+                db.storage
+                    .from("produtos")
+                    .getPublicUrl(
+                        novoArquivoPath
+                    );
+
+
+            imagemFinal =
+                imagemPublica
+                    .data
+                    .publicUrl;
+
+        }
+
+
+        /* ====================================
            DADOS DO PRODUTO
         ==================================== */
 
@@ -812,10 +959,7 @@ $("form").onsubmit =
 
 
             imagem:
-                $("imagem")
-                    .value
-                    .trim()
-                    || null,
+                imagemFinal,
 
 
             ativo:
@@ -827,6 +971,10 @@ $("form").onsubmit =
 
         };
 
+
+        /* ====================================
+           SALVAR NO BANCO
+        ==================================== */
 
         let resultado;
 
@@ -849,13 +997,106 @@ $("form").onsubmit =
         }
 
 
+        /* ====================================
+           ERRO AO SALVAR PRODUTO
+        ==================================== */
+
         if (resultado.error) {
+
+            /*
+             * Se o upload foi feito mas o produto
+             * não conseguiu ser salvo, remove
+             * o arquivo novo para não deixar
+             * arquivo abandonado no Storage.
+             */
+
+            if (novoArquivoPath) {
+
+                await db.storage
+                    .from("produtos")
+                    .remove([
+                        novoArquivoPath
+                    ]);
+
+            }
+
 
             alert(
                 resultado.error.message
             );
 
             return;
+
+        }
+
+
+        /* ====================================
+           REMOVER IMAGEM ANTIGA DO STORAGE
+           SOMENTE QUANDO HOUVER SUBSTITUIÇÃO
+        ==================================== */
+
+        if (
+            id &&
+            novoArquivoPath
+        ) {
+
+            const produtoAnterior =
+                produtos.find(
+                    produto =>
+                        Number(produto.id) ===
+                        Number(id)
+                );
+
+
+            const imagemAnterior =
+                produtoAnterior?.imagem;
+
+
+            /*
+             * Só remove a imagem antiga se ela
+             * pertence ao nosso próprio bucket.
+             *
+             * URLs externas nunca são removidas.
+             */
+
+            if (
+                imagemAnterior &&
+                imagemAnterior.includes(
+                    "/storage/v1/object/public/produtos/"
+                )
+            ) {
+
+                try {
+
+                    const parte =
+                        imagemAnterior.split(
+                            "/storage/v1/object/public/produtos/"
+                        )[1];
+
+
+                    if (parte) {
+
+                        await db.storage
+                            .from("produtos")
+                            .remove([
+                                decodeURIComponent(
+                                    parte
+                                )
+                            ]);
+
+                    }
+
+                } catch (erro) {
+
+                    console.warn(
+                        "Não foi possível remover a imagem antiga:",
+                        erro
+                    );
+
+                }
+
+            }
+
         }
 
 
