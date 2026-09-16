@@ -528,6 +528,10 @@ window.excluir = async id => {
    SALVAR PRODUTO
 ======================================== */
 
+/* ========================================
+   SALVAR PRODUTO
+======================================== */
+
 $("form").onsubmit =
     async evento => {
 
@@ -541,12 +545,6 @@ $("form").onsubmit =
         /* ====================================
            NORMALIZAÇÃO DA CATEGORIA
         ==================================== */
-
-        const categoriaDigitada =
-            $("categoria")
-                .value
-                .trim();
-
 
         const normalizarCategoria =
             valor => {
@@ -567,6 +565,12 @@ $("form").onsubmit =
             };
 
 
+        const categoriaDigitada =
+            $("categoria")
+                .value
+                .trim();
+
+
         const categoriaNormalizada =
             normalizarCategoria(
                 categoriaDigitada
@@ -574,49 +578,162 @@ $("form").onsubmit =
 
 
         /* ====================================
-           LOCALIZAR CATEGORIA EXISTENTE
+           ENCONTRAR CATEGORIA EXISTENTE
         ==================================== */
 
-        const categoriaExistente =
-            produtos.find(produto => {
+        const categoriasExistentes =
+            [
+                ...new Set(
+                    produtos
+                        .map(
+                            produto =>
+                                produto.categoria
+                        )
+                        .filter(Boolean)
+                )
+            ];
 
-                const categoriaProduto =
+
+        const tornarSingular =
+            categoria => {
+
+                let resultado =
+                    String(categoria);
+
+
+                const partes =
+                    resultado.split(" ");
+
+
+                if (
+                    partes.length === 0
+                ) {
+
+                    return resultado;
+
+                }
+
+
+                const ultima =
+                    partes[
+                        partes.length - 1
+                    ];
+
+
+                /*
+                 * Plurais irregulares
+                 */
+
+                const irregulares = {
+
+                    paes: "pao",
+
+                    maes: "mao",
+
+                    cafés: "cafe"
+
+                };
+
+
+                const ultimaNormalizada =
                     normalizarCategoria(
-                        produto.categoria
+                        ultima
                     );
 
 
-                return (
-                    categoriaProduto !== "" &&
-                    categoriaProduto ===
-                    categoriaNormalizada
-                );
+                if (
+                    ultimaNormalizada ===
+                    "paes"
+                ) {
 
-            });
+                    partes[
+                        partes.length - 1
+                    ] = "pao";
+
+                    return partes.join(" ");
+
+                }
+
+
+                /*
+                 * Plural terminado em "s"
+                 */
+
+                if (
+                    ultimaNormalizada.endsWith("s") &&
+                    ultimaNormalizada.length > 3
+                ) {
+
+                    partes[
+                        partes.length - 1
+                    ] =
+                        ultimaNormalizada.slice(
+                            0,
+                            -1
+                        );
+
+                }
+
+
+                return partes.join(" ");
+
+            };
+
+
+        const categoriaExistente =
+            categoriasExistentes.find(
+                categoria => {
+
+                    const categoriaAtual =
+                        normalizarCategoria(
+                            categoria
+                        );
+
+
+                    const categoriaSingular =
+                        tornarSingular(
+                            categoria
+                        );
+
+
+                    const digitadaSingular =
+                        tornarSingular(
+                            categoriaDigitada
+                        );
+
+
+                    return (
+
+                        categoriaAtual ===
+                        categoriaNormalizada
+
+                        ||
+
+                        categoriaSingular ===
+                        categoriaNormalizada
+
+                        ||
+
+                        categoriaSingular ===
+                        digitadaSingular
+
+                    );
+
+                }
+            );
 
 
         /*
-         * Se a categoria já existe,
-         * mantém exatamente a escrita
-         * usada no banco.
+         * Se encontrou uma categoria existente,
+         * mantém exatamente a escrita oficial
+         * que já existe no banco.
          *
-         * Exemplos:
-         *
-         * bebidas
-         * BEBIDAS
-         * Bebidas
-         *
-         * tudo salva como:
-         *
-         * Bebidas
-         *
-         * O mesmo vale para todas
-         * as outras categorias.
+         * Se não encontrou, cria uma nova.
          */
 
         const categoriaFinal =
             categoriaExistente
-                ? categoriaExistente.categoria
+                ? categoriaExistente
                 : categoriaDigitada;
 
 
