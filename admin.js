@@ -846,125 +846,114 @@ if (arquivo) {
 
 
     /* ====================================
-       CONVERTER HEIC / HEIF PARA JPEG
-    ==================================== */
+   CONVERTER HEIC / HEIF PARA JPEG
+==================================== */
 
-    if (ehHeic) {
+if (ehHeic) {
 
-        console.log(
-            "HEIC/HEIF detectado. Iniciando conversão..."
+    console.log(
+        "HEIC/HEIF detectado. Iniciando conversão..."
+    );
+
+
+    if (
+        typeof window.HeicTo !==
+        "function"
+    ) {
+
+        alert(
+            "O conversor de fotos do iPhone não foi carregado. Recarregue a página e tente novamente."
         );
+
+        console.error(
+            "HeicTo não está disponível."
+        );
+
+        return;
+    }
+
+
+    try {
+
+        /*
+         * Converte HEIC/HEIF
+         * diretamente no navegador
+         * para JPEG.
+         */
+
+        const convertido =
+            await window.HeicTo({
+                blob: arquivo,
+                type: "image/jpeg",
+                quality: 0.85
+            });
 
 
         if (
-            typeof window.heic2any !==
-            "function"
+            !convertido ||
+            !(convertido instanceof Blob)
         ) {
 
-            alert(
-                "O conversor de fotos do iPhone não foi carregado. Recarregue a página e tente novamente."
+            throw new Error(
+                "A conversão não retornou uma imagem válida."
             );
-
-            console.error(
-                "heic2any não está disponível."
-            );
-
-            return;
-
         }
 
 
-        try {
+        /*
+         * Cria um arquivo JPEG real
+         * para enviar ao Supabase.
+         */
 
-            const convertido =
-                await window.heic2any({
-                    blob: arquivo,
-                    toType: "image/jpeg",
-                    quality: 0.85
-                });
-
-
-            /*
-             * O heic2any pode retornar um Blob
-             * ou um array de Blobs.
-             */
-
-            const blobConvertido =
-                Array.isArray(convertido)
-                    ? convertido[0]
-                    : convertido;
-
-
-            if (
-                !blobConvertido ||
-                !(blobConvertido instanceof Blob)
-            ) {
-
-                throw new Error(
-                    "A conversão não retornou uma imagem válida."
-                );
-
-            }
-
-
-            /*
-             * Cria um arquivo JPEG real.
-             */
-
-            arquivoParaUpload =
-                new File(
-                    [
-                        blobConvertido
-                    ],
-                    (
-                        arquivo.name
-                            .replace(
-                                /\.[^/.]+$/,
-                                ""
-                            )
-                        + ".jpg"
+        arquivoParaUpload =
+            new File(
+                [
+                    convertido
+                ],
+                arquivo.name
+                    .replace(
+                        /\.[^/.]+$/,
+                        ".jpg"
                     ),
-                    {
-                        type:
-                            "image/jpeg",
-                        lastModified:
-                            Date.now()
-                    }
-                );
+                {
+                    type:
+                        "image/jpeg",
 
-
-            extensao =
-                "jpg";
-
-
-            tipoParaUpload =
-                "image/jpeg";
-
-
-            console.log(
-                "HEIC convertido para JPEG:",
-                arquivoParaUpload
+                    lastModified:
+                        Date.now()
+                }
             );
 
 
-        } catch (erro) {
-
-            console.error(
-                "Erro ao converter HEIC/HEIF:",
-                erro
-            );
+        extensao =
+            "jpg";
 
 
-            alert(
-                "Não foi possível converter a foto do iPhone. Tente novamente."
-            );
+        tipoParaUpload =
+            "image/jpeg";
 
-            return;
 
-        }
+        console.log(
+            "HEIC convertido para JPEG:",
+            arquivoParaUpload
+        );
 
+
+    } catch (erro) {
+
+        console.error(
+            "Erro ao converter HEIC/HEIF:",
+            erro
+        );
+
+
+        alert(
+            "Não foi possível converter a foto do iPhone. Tente novamente."
+        );
+
+        return;
     }
-
+}
 
     /* ====================================
        LIMITE DO ARQUIVO FINAL
