@@ -489,10 +489,8 @@ function escapeHTML(valor) {
 
 function adicionarAoCarrinhoCompacto(produto, pesoGramas = null) {
 
-  const ehGranel =
-    produto.categoria === "Granel" &&
-    produto.venda?.tipo === "peso";
-
+ const ehGranel =
+  produto.venda?.tipo === "peso";
   if (ehGranel) {
 
     const peso = Number(pesoGramas);
