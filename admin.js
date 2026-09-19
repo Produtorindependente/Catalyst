@@ -207,6 +207,8 @@ function render() {
     const busca =
         $("busca");
 
+    const filtroCategoria =
+        $("filtroCategoria");
 
     const listaElement =
         $("lista");
@@ -215,14 +217,96 @@ function render() {
     if (!busca || !listaElement) {
 
         return;
+
     }
 
+
+    /* ========================================
+       MONTAR CATEGORIAS DO FILTRO
+    ======================================== */
+
+    if (filtroCategoria) {
+
+        const categoriaAtual =
+            filtroCategoria.value;
+
+
+        const categorias =
+            [
+                ...new Set(
+                    produtos
+                        .map(
+                            produto =>
+                                produto.categoria
+                        )
+                        .filter(Boolean)
+                )
+            ]
+            .sort(
+                (a, b) =>
+                    String(a)
+                        .localeCompare(
+                            String(b),
+                            "pt-BR"
+                        )
+            );
+
+
+        filtroCategoria.innerHTML =
+
+            `
+                <option value="">
+                    Todas as categorias
+                </option>
+            `
+
+            +
+
+            categorias
+                .map(
+                    categoria =>
+                        `
+                            <option value="${esc(categoria)}">
+                                ${esc(categoria)}
+                            </option>
+                        `
+                )
+                .join("");
+
+
+        if (
+            categorias.includes(
+                categoriaAtual
+            )
+        ) {
+
+            filtroCategoria.value =
+                categoriaAtual;
+
+        }
+
+    }
+
+
+    /* ========================================
+       TERMOS DOS FILTROS
+    ======================================== */
 
     const termo =
         busca.value
             .toLowerCase()
             .trim();
 
+
+    const categoriaSelecionada =
+        filtroCategoria
+            ? filtroCategoria.value
+            : "";
+
+
+    /* ========================================
+       FILTRAR PRODUTOS
+    ======================================== */
 
     const lista =
         produtos.filter(p => {
@@ -240,9 +324,33 @@ function render() {
                 .toLowerCase();
 
 
-            return texto.includes(termo);
+            const correspondeBusca =
+                texto.includes(
+                    termo
+                );
+
+
+            const correspondeCategoria =
+                !categoriaSelecionada ||
+                String(
+                    p.categoria || ""
+                ) ===
+                String(
+                    categoriaSelecionada
+                );
+
+
+            return (
+                correspondeBusca &&
+                correspondeCategoria
+            );
+
         });
 
+
+    /* ========================================
+       RENDERIZAR TABELA
+    ======================================== */
 
     listaElement.innerHTML =
 
@@ -344,6 +452,7 @@ function render() {
                 </td>
             </tr>
         `;
+
 }
 
 
@@ -1324,6 +1433,9 @@ $("novo").onclick =
 
 
 $("busca").oninput =
+    render;
+
+$("filtroCategoria").onchange =
     render;
 
 
