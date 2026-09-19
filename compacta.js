@@ -328,8 +328,7 @@ function abrirModal(produto) {
       : "";
 
   const ehGranel =
-    produto.categoria === "Granel" &&
-    produto.venda?.tipo === "peso";
+  produto.venda?.tipo === "peso";
 
   const precoBase = Number(
     produto.venda?.precoBase ?? produto.preco
