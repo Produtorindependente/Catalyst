@@ -436,6 +436,10 @@ function abrir(produto) {
         produto?.destaque === true;
 
 
+    $("vendaPeso").checked =
+        produto?.venda?.tipo === "peso";
+
+
     $("titulo").textContent =
         produto
             ? "Editar produto"
@@ -446,7 +450,6 @@ function abrir(produto) {
         .classList
         .add("aberto");
 }
-
 
 /* ========================================
    EDITAR
