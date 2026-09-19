@@ -1078,88 +1078,90 @@ if (ehHeic) {
            DADOS DO PRODUTO
         ==================================== */
 
-        const dados = {
+        /* ====================================
+   DADOS DO PRODUTO
+==================================== */
 
-            nome:
-                $("nome")
-                    .value
-                    .trim(),
+const dados = {
 
+    nome:
+        $("nome")
+            .value
+            .trim(),
 
-            descricao:
-                $("descricao")
-                    .value
-                    .trim(),
+    descricao:
+        $("descricao")
+            .value
+            .trim(),
 
+    preco:
+        Number(
+            $("preco")
+                .value
+        ),
 
-            preco:
-                Number(
-                    $("preco")
-                        .value
-                ),
-
-
-            preco_anterior:
-
+    preco_anterior:
+        $("preco_anterior")
+            .value
+            ?
+            Number(
                 $("preco_anterior")
                     .value
+            )
+            :
+            null,
 
-                    ?
+    marca:
+        $("marca")
+            .value
+            .trim()
+            || null,
 
+    categoria:
+        categoriaFinal,
+
+    peso:
+        $("peso")
+            .value
+            .trim()
+            || null,
+
+    unidade:
+        $("unidade")
+            .value
+            .trim()
+            || null,
+
+    codigo:
+        $("codigo")
+            .value
+            .trim()
+            || null,
+
+    imagem:
+        imagemFinal,
+
+    ativo:
+        $("ativo").checked,
+
+    destaque:
+        $("destaque").checked,
+
+    venda:
+        $("vendaPeso").checked
+            ?
+            {
+                tipo: "peso",
+                precoBase:
                     Number(
-                        $("preco_anterior")
+                        $("preco")
                             .value
                     )
+            }
+            :
+            null
 
-                    :
-
-                    null,
-
-
-            marca:
-                $("marca")
-                    .value
-                    .trim()
-                    || null,
-
-
-            categoria:
-                categoriaFinal,
-
-
-            peso:
-                $("peso")
-                    .value
-                    .trim()
-                    || null,
-
-
-            unidade:
-                $("unidade")
-                    .value
-                    .trim()
-                    || null,
-
-
-            codigo:
-                $("codigo")
-                    .value
-                    .trim()
-                    || null,
-
-
-            imagem:
-                imagemFinal,
-
-
-            ativo:
-                $("ativo").checked,
-
-
-            destaque:
-                $("destaque").checked
-
-        };
+};
 
 
         /* ====================================
